@@ -112,8 +112,8 @@ function Home({ onLocal, onOnline }: { onLocal: (n: [string, string], s: Setting
       <section className="hero">
         <div className="eyebrow">Two-player NFL trivia</div>
         <h1>Build the chain.<br /><span className="hl">Don't break it.</span></h1>
-        <p>Players and connections alternate: <b>Randy Moss</b> → <span className="chip small">#84</span> → <b>Antonio Brown</b> → <span className="chip small">🎓 Central Michigan</span> → <b>Cooper Rush</b> → <span className="chip small">🏈 Cowboys</span> → …</p>
-        <p className="muted">Connections are only colleges, jersey numbers, and NFL teams. No repeats. First invalid move, timeout, or give-up loses the round.</p>
+        <p>Players and connections take turns. Connections are only colleges, jersey numbers, and NFL teams. No repeats. First invalid move, timeout, or give-up loses the round.</p>
+        <p className="credit">Created by: <b>Arsh Sinha</b></p>
       </section>
 
       <section className="panel setup">

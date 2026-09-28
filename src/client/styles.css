@@ -302,3 +302,6 @@ label.check input { width: 18px; height: 18px; accent-color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   *, .wheel { animation: none !important; transition-duration: 0ms !important; }
 }
+
+.credit { margin-top: 22px; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
+.credit b { color: var(--accent); font-weight: 800; }
