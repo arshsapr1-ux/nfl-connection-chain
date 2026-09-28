@@ -72,10 +72,9 @@ function Typeahead<T>({ rows, query, setQuery, selected, onSelect, placeholder, 
   );
 }
 
-export function playerMeta(data: Dataset, p: Player): string {
-  const years = p.firstYear === p.lastYear ? `${p.firstYear}` : `${p.firstYear}–${p.lastYear}`;
-  const teams = p.teams.length ? p.teams.map((t) => data.teamById.get(t)?.abbreviation ?? t).join(", ") : p.defunctTeams.join(", ");
-  return [p.positions, years, teams].filter(Boolean).join(" · ");
+/** Only the position is shown: teams, years, etc. would hint at valid answers. */
+export function playerMeta(p: Player): string {
+  return p.positions;
 }
 
 export function PlayerPicker({ data, onSubmit, busy }: { data: Dataset; onSubmit: (id: string) => void; busy: boolean }) {
@@ -83,7 +82,7 @@ export function PlayerPicker({ data, onSubmit, busy }: { data: Dataset; onSubmit
   const [selected, setSelected] = useState<Player | null>(null);
   const rows = useMemo<Row<Player>[]>(() => searchPlayers(data, query, 10).map((p) => ({
     key: p.id, item: p,
-    render: <><span className="row-main">{p.name}</span><span className="row-meta">{playerMeta(data, p)}</span></>,
+    render: <><span className="row-main">{p.name}</span><span className="row-meta">{playerMeta(p)}</span></>,
   })), [data, query]);
 
   const submit = () => {
@@ -98,7 +97,7 @@ export function PlayerPicker({ data, onSubmit, busy }: { data: Dataset; onSubmit
         placeholder="Start typing a player's name…"
         onSelect={(r) => { setSelected(r?.item ?? null); if (r) setQuery(r.item.name); }}
       />
-      {selected && <div className="selected-meta">{playerMeta(data, selected)}</div>}
+      {selected && <div className="selected-meta">{playerMeta(selected)}</div>}
       <button className="btn primary big" disabled={!selected || busy} onClick={submit}>Submit turn</button>
     </div>
   );

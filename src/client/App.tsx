@@ -110,7 +110,8 @@ function Home({ onLocal, onOnline }: { onLocal: (n: [string, string], s: Setting
   return (
     <div className="home">
       <section className="hero">
-        <h1>Build the chain.<br />Don't break it.</h1>
+        <div className="eyebrow">Two-player NFL trivia</div>
+        <h1>Build the chain.<br /><span className="hl">Don't break it.</span></h1>
         <p>Players and connections alternate: <b>Randy Moss</b> → <span className="chip small">#84</span> → <b>Antonio Brown</b> → <span className="chip small">🎓 Central Michigan</span> → <b>Cooper Rush</b> → <span className="chip small">🏈 Cowboys</span> → …</p>
         <p className="muted">Connections are only colleges, jersey numbers, and NFL teams. No repeats. First invalid move, timeout, or give-up loses the round.</p>
       </section>
@@ -144,8 +145,26 @@ function Home({ onLocal, onOnline }: { onLocal: (n: [string, string], s: Setting
   );
 }
 
-function Loading({ text = "Loading player data…" }: { text?: string }) {
-  return <div className="loading"><div className="spinner" />{text}</div>;
+const LOADING_TIPS = [
+  "Connections are only colleges, jersey numbers, and NFL teams.",
+  "Relocated teams count: a Houston Oilers player counts for the Titans.",
+  "Every value can be used once per round, including the wheel's team.",
+  "Players who attended more than one college can connect through any of them.",
+];
+
+function Loading({ text = "Warming up the roster" }: { text?: string }) {
+  const [tip] = useState(() => LOADING_TIPS[Math.floor(Math.random() * LOADING_TIPS.length)]);
+  return (
+    <div className="loading" role="status">
+      <div className="loading-field" aria-hidden>
+        <span className="yard" /><span className="yard" /><span className="yard" /><span className="yard" /><span className="yard" />
+        <span className="loading-ball">🏈</span>
+      </div>
+      <div className="loading-text">{text}<span className="dots" /></div>
+      <div className="loading-bar"><span /></div>
+      <p className="loading-tip">{tip}</p>
+    </div>
+  );
 }
 
 // ---------- pass & play ----------
