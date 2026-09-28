@@ -1,0 +1,6556 @@
+[
+ {
+  "id": "abilene-christian",
+  "name": "Abilene Christian",
+  "aliases": [
+   "Abilene Christian"
+  ]
+ },
+ {
+  "id": "acadia-university-canada",
+  "name": "Acadia University, Canada",
+  "aliases": [
+   "Acadia University, Canada"
+  ]
+ },
+ {
+  "id": "adams-state-college",
+  "name": "Adams State College",
+  "aliases": [
+   "Adams State College"
+  ]
+ },
+ {
+  "id": "air-force",
+  "name": "Air Force",
+  "aliases": [
+   "Air Force"
+  ]
+ },
+ {
+  "id": "akron",
+  "name": "Akron",
+  "aliases": [
+   "Akron"
+  ]
+ },
+ {
+  "id": "alabama",
+  "name": "Alabama",
+  "aliases": [
+   "Alabama"
+  ]
+ },
+ {
+  "id": "alabama-aandm",
+  "name": "Alabama A&M",
+  "aliases": [
+   "Alabama A&M"
+  ]
+ },
+ {
+  "id": "alabama-state",
+  "name": "Alabama State",
+  "aliases": [
+   "Alabama State"
+  ]
+ },
+ {
+  "id": "albany",
+  "name": "Albany",
+  "aliases": [
+   "Albany"
+  ]
+ },
+ {
+  "id": "albany-state-ga",
+  "name": "Albany State (GA)",
+  "aliases": [
+   "Albany State (GA)"
+  ]
+ },
+ {
+  "id": "alberta-canada",
+  "name": "Alberta (Canada)",
+  "aliases": [
+   "Alberta (Canada)"
+  ]
+ },
+ {
+  "id": "albion-college",
+  "name": "Albion College",
+  "aliases": [
+   "Albion College"
+  ]
+ },
+ {
+  "id": "alcorn-state",
+  "name": "Alcorn State",
+  "aliases": [
+   "Alcorn State"
+  ]
+ },
+ {
+  "id": "alderson-broaddus",
+  "name": "Alderson Broaddus",
+  "aliases": [
+   "Alderson Broaddus"
+  ]
+ },
+ {
+  "id": "alfred-university",
+  "name": "Alfred University",
+  "aliases": [
+   "Alfred University"
+  ]
+ },
+ {
+  "id": "allan-hancock-college",
+  "name": "Allan Hancock College",
+  "aliases": [
+   "Allan Hancock College"
+  ]
+ },
+ {
+  "id": "allegany-community-college",
+  "name": "Allegany Community College",
+  "aliases": [
+   "Allegany Community College"
+  ]
+ },
+ {
+  "id": "allegheny-college",
+  "name": "Allegheny College",
+  "aliases": [
+   "Allegheny College"
+  ]
+ },
+ {
+  "id": "allen-university",
+  "name": "Allen University",
+  "aliases": [
+   "Allen University"
+  ]
+ },
+ {
+  "id": "allentown-college-of-st-francis-de-sales",
+  "name": "Allentown College of St Francis de Sales",
+  "aliases": [
+   "Allentown College of St Francis de Sales"
+  ]
+ },
+ {
+  "id": "alliant-international-university",
+  "name": "Alliant International University",
+  "aliases": [
+   "Alliant International University"
+  ]
+ },
+ {
+  "id": "alma-college",
+  "name": "Alma College",
+  "aliases": [
+   "Alma College"
+  ]
+ },
+ {
+  "id": "alvin-community-college",
+  "name": "Alvin Community College",
+  "aliases": [
+   "Alvin Community College"
+  ]
+ },
+ {
+  "id": "amarillo-college",
+  "name": "Amarillo College",
+  "aliases": [
+   "Amarillo College"
+  ]
+ },
+ {
+  "id": "american-international-college",
+  "name": "American International College",
+  "aliases": [
+   "American International College"
+  ]
+ },
+ {
+  "id": "american-river",
+  "name": "American River",
+  "aliases": [
+   "American River"
+  ]
+ },
+ {
+  "id": "amherst-college",
+  "name": "Amherst College",
+  "aliases": [
+   "Amherst College"
+  ]
+ },
+ {
+  "id": "anahuac-college-mexico",
+  "name": "Anahuac College (Mexico)",
+  "aliases": [
+   "Anahuac College (Mexico)"
+  ]
+ },
+ {
+  "id": "anderson-university-in",
+  "name": "Anderson University, In",
+  "aliases": [
+   "Anderson University, In"
+  ]
+ },
+ {
+  "id": "angelina-college",
+  "name": "Angelina College",
+  "aliases": [
+   "Angelina College"
+  ]
+ },
+ {
+  "id": "angelo-state-university",
+  "name": "Angelo State University",
+  "aliases": [
+   "Angelo State University"
+  ]
+ },
+ {
+  "id": "antelope-valley-junior-college",
+  "name": "Antelope Valley Junior College",
+  "aliases": [
+   "Antelope Valley Junior College"
+  ]
+ },
+ {
+  "id": "appalachian-state",
+  "name": "Appalachian State",
+  "aliases": [
+   "App State",
+   "Appalachian State"
+  ]
+ },
+ {
+  "id": "arizona",
+  "name": "Arizona",
+  "aliases": [
+   "Arizona"
+  ]
+ },
+ {
+  "id": "arizona-state",
+  "name": "Arizona State",
+  "aliases": [
+   "Arizona State"
+  ]
+ },
+ {
+  "id": "arizona-western",
+  "name": "Arizona Western",
+  "aliases": [
+   "Arizona Western"
+  ]
+ },
+ {
+  "id": "arkansas",
+  "name": "Arkansas",
+  "aliases": [
+   "Arkansas"
+  ]
+ },
+ {
+  "id": "arkansas-state",
+  "name": "Arkansas State",
+  "aliases": [
+   "Arkansas State"
+  ]
+ },
+ {
+  "id": "arkansas-tech-university",
+  "name": "Arkansas Tech University",
+  "aliases": [
+   "Arkansas Tech University"
+  ]
+ },
+ {
+  "id": "army",
+  "name": "Army",
+  "aliases": [
+   "Army",
+   "West Point"
+  ]
+ },
+ {
+  "id": "asa-college-ny",
+  "name": "ASA College (NY)",
+  "aliases": [
+   "ASA College (NY)"
+  ]
+ },
+ {
+  "id": "ashland",
+  "name": "Ashland",
+  "aliases": [
+   "Ashland"
+  ]
+ },
+ {
+  "id": "assumption",
+  "name": "Assumption",
+  "aliases": [
+   "Assumption"
+  ]
+ },
+ {
+  "id": "auburn",
+  "name": "Auburn",
+  "aliases": [
+   "Auburn"
+  ]
+ },
+ {
+  "id": "augsburg-college",
+  "name": "Augsburg College",
+  "aliases": [
+   "Augsburg College"
+  ]
+ },
+ {
+  "id": "augusta-state",
+  "name": "Augusta State",
+  "aliases": [
+   "Augusta State"
+  ]
+ },
+ {
+  "id": "augustana-sd",
+  "name": "Augustana (SD)",
+  "aliases": [
+   "Augustana (SD)"
+  ]
+ },
+ {
+  "id": "augustana-college-ill",
+  "name": "Augustana College (Ill.)",
+  "aliases": [
+   "Augustana College (Ill.)"
+  ]
+ },
+ {
+  "id": "aurora-university",
+  "name": "Aurora University",
+  "aliases": [
+   "Aurora University"
+  ]
+ },
+ {
+  "id": "austin-college",
+  "name": "Austin College",
+  "aliases": [
+   "Austin College"
+  ]
+ },
+ {
+  "id": "austin-community-college",
+  "name": "Austin Community College",
+  "aliases": [
+   "Austin Community College"
+  ]
+ },
+ {
+  "id": "austin-peay",
+  "name": "Austin Peay",
+  "aliases": [
+   "Austin Peay"
+  ]
+ },
+ {
+  "id": "austria-technical-school",
+  "name": "Austria Technical School",
+  "aliases": [
+   "Austria Technical School"
+  ]
+ },
+ {
+  "id": "azusa-pacific",
+  "name": "Azusa Pacific",
+  "aliases": [
+   "Azusa Pacific"
+  ]
+ },
+ {
+  "id": "baker-university",
+  "name": "Baker University",
+  "aliases": [
+   "Baker University"
+  ]
+ },
+ {
+  "id": "bakersfield-college",
+  "name": "Bakersfield College",
+  "aliases": [
+   "Bakersfield College"
+  ]
+ },
+ {
+  "id": "baldwin-wallace-college",
+  "name": "Baldwin Wallace College",
+  "aliases": [
+   "Baldwin Wallace College"
+  ]
+ },
+ {
+  "id": "ball-state",
+  "name": "Ball State",
+  "aliases": [
+   "Ball State"
+  ]
+ },
+ {
+  "id": "baltimore-community-college",
+  "name": "Baltimore Community College",
+  "aliases": [
+   "Baltimore Community College"
+  ]
+ },
+ {
+  "id": "barstow-college",
+  "name": "Barstow College",
+  "aliases": [
+   "Barstow College"
+  ]
+ },
+ {
+  "id": "barton-college",
+  "name": "Barton College",
+  "aliases": [
+   "Barton College"
+  ]
+ },
+ {
+  "id": "barton-county-community-coll",
+  "name": "Barton County Community Coll.",
+  "aliases": [
+   "Barton County Community Coll."
+  ]
+ },
+ {
+  "id": "bates-college",
+  "name": "Bates College",
+  "aliases": [
+   "Bates College"
+  ]
+ },
+ {
+  "id": "baylor",
+  "name": "Baylor",
+  "aliases": [
+   "Baylor"
+  ]
+ },
+ {
+  "id": "belhaven-college",
+  "name": "Belhaven College",
+  "aliases": [
+   "Belhaven College"
+  ]
+ },
+ {
+  "id": "beloit-college",
+  "name": "Beloit College",
+  "aliases": [
+   "Beloit College"
+  ]
+ },
+ {
+  "id": "bemidji-state-university",
+  "name": "Bemidji State University",
+  "aliases": [
+   "Bemidji State University"
+  ]
+ },
+ {
+  "id": "benedict-college",
+  "name": "Benedict College",
+  "aliases": [
+   "Benedict College"
+  ]
+ },
+ {
+  "id": "benedictine-college",
+  "name": "Benedictine College",
+  "aliases": [
+   "Benedictine College"
+  ]
+ },
+ {
+  "id": "bentley-college",
+  "name": "Bentley College",
+  "aliases": [
+   "Bentley College"
+  ]
+ },
+ {
+  "id": "bergen-community-college",
+  "name": "Bergen Community College",
+  "aliases": [
+   "Bergen Community College"
+  ]
+ },
+ {
+  "id": "berry-college",
+  "name": "Berry College",
+  "aliases": [
+   "Berry College"
+  ]
+ },
+ {
+  "id": "bethany-west",
+  "name": "Bethany West",
+  "aliases": [
+   "Bethany West"
+  ]
+ },
+ {
+  "id": "bethel-college-tenn",
+  "name": "Bethel College (Tenn.)",
+  "aliases": [
+   "Bethel College (Tenn.)"
+  ]
+ },
+ {
+  "id": "bethune-cookman-college",
+  "name": "Bethune-Cookman College",
+  "aliases": [
+   "Bethune-Cookman College"
+  ]
+ },
+ {
+  "id": "bishop",
+  "name": "Bishop",
+  "aliases": [
+   "Bishop"
+  ]
+ },
+ {
+  "id": "black-hills-state-university",
+  "name": "Black Hills State University",
+  "aliases": [
+   "Black Hills State University"
+  ]
+ },
+ {
+  "id": "blinn-college",
+  "name": "Blinn College",
+  "aliases": [
+   "Blinn College"
+  ]
+ },
+ {
+  "id": "bloomsburg",
+  "name": "Bloomsburg",
+  "aliases": [
+   "Bloomsburg"
+  ]
+ },
+ {
+  "id": "boise-state",
+  "name": "Boise State",
+  "aliases": [
+   "Boise State"
+  ]
+ },
+ {
+  "id": "booneville-jc-ms",
+  "name": "Booneville JC (MS)",
+  "aliases": [
+   "Booneville JC (MS)"
+  ]
+ },
+ {
+  "id": "boston-college",
+  "name": "Boston College",
+  "aliases": [
+   "Boston College"
+  ]
+ },
+ {
+  "id": "boston-university",
+  "name": "Boston University",
+  "aliases": [
+   "Boston University"
+  ]
+ },
+ {
+  "id": "bowdoin-college",
+  "name": "Bowdoin College",
+  "aliases": [
+   "Bowdoin College"
+  ]
+ },
+ {
+  "id": "bowie-state",
+  "name": "Bowie State",
+  "aliases": [
+   "Bowie State"
+  ]
+ },
+ {
+  "id": "bowling-green",
+  "name": "Bowling Green",
+  "aliases": [
+   "Bowling Green",
+   "Bowling Green State"
+  ]
+ },
+ {
+  "id": "bradley-university",
+  "name": "Bradley University",
+  "aliases": [
+   "Bradley University"
+  ]
+ },
+ {
+  "id": "brockport-state",
+  "name": "Brockport State",
+  "aliases": [
+   "Brockport State"
+  ]
+ },
+ {
+  "id": "brown",
+  "name": "Brown",
+  "aliases": [
+   "Brown"
+  ]
+ },
+ {
+  "id": "bryant",
+  "name": "Bryant",
+  "aliases": [
+   "Bryant"
+  ]
+ },
+ {
+  "id": "bucknell",
+  "name": "Bucknell",
+  "aliases": [
+   "Bucknell"
+  ]
+ },
+ {
+  "id": "buffalo",
+  "name": "Buffalo",
+  "aliases": [
+   "Buffalo"
+  ]
+ },
+ {
+  "id": "butler-county-cc",
+  "name": "Butler County CC",
+  "aliases": [
+   "Butler County CC"
+  ]
+ },
+ {
+  "id": "butler-county-jc",
+  "name": "Butler County JC",
+  "aliases": [
+   "Butler County JC"
+  ]
+ },
+ {
+  "id": "butler-university",
+  "name": "Butler University",
+  "aliases": [
+   "Butler University"
+  ]
+ },
+ {
+  "id": "butte-college",
+  "name": "Butte College",
+  "aliases": [
+   "Butte College"
+  ]
+ },
+ {
+  "id": "byu",
+  "name": "BYU",
+  "aliases": [
+   "BYU",
+   "Brigham Young"
+  ]
+ },
+ {
+  "id": "c-w-post-center",
+  "name": "C.W. Post Center",
+  "aliases": [
+   "C.W. Post Center"
+  ]
+ },
+ {
+  "id": "cabrillo-college",
+  "name": "Cabrillo College",
+  "aliases": [
+   "Cabrillo College"
+  ]
+ },
+ {
+  "id": "cal-poly",
+  "name": "Cal Poly",
+  "aliases": [
+   "Cal Poly",
+   "Cal Poly (San Luis Obispo)",
+   "Cal Poly-S.L.O."
+  ]
+ },
+ {
+  "id": "cal-state-bakersfield",
+  "name": "Cal State-Bakersfield",
+  "aliases": [
+   "Cal State-Bakersfield"
+  ]
+ },
+ {
+  "id": "calgary-canada",
+  "name": "Calgary, Canada",
+  "aliases": [
+   "Calgary, Canada"
+  ]
+ },
+ {
+  "id": "calhoun-community-college",
+  "name": "Calhoun Community College",
+  "aliases": [
+   "Calhoun Community College"
+  ]
+ },
+ {
+  "id": "california",
+  "name": "California",
+  "aliases": [
+   "Berkeley",
+   "Cal",
+   "California",
+   "UC Berkeley"
+  ]
+ },
+ {
+  "id": "california-pa",
+  "name": "California (PA)",
+  "aliases": [
+   "California (PA)"
+  ]
+ },
+ {
+  "id": "california-lutheran-university",
+  "name": "California Lutheran University",
+  "aliases": [
+   "California Lutheran University"
+  ]
+ },
+ {
+  "id": "california-riverside-univ",
+  "name": "California Riverside, Univ",
+  "aliases": [
+   "California Riverside, Univ"
+  ]
+ },
+ {
+  "id": "california-state-chico",
+  "name": "California State - Chico",
+  "aliases": [
+   "California State - Chico"
+  ]
+ },
+ {
+  "id": "california-state-long-beach",
+  "name": "California State - Long Beach",
+  "aliases": [
+   "California State - Long Beach"
+  ]
+ },
+ {
+  "id": "california-state-los-angeles",
+  "name": "California State - Los Angeles",
+  "aliases": [
+   "California State - Los Angeles"
+  ]
+ },
+ {
+  "id": "california-state-east-bay",
+  "name": "California State-East Bay",
+  "aliases": [
+   "California State-East Bay"
+  ]
+ },
+ {
+  "id": "california-state-fullerton",
+  "name": "California State-Fullerton",
+  "aliases": [
+   "California State-Fullerton"
+  ]
+ },
+ {
+  "id": "california-state-northridge",
+  "name": "California State-Northridge",
+  "aliases": [
+   "California State-Northridge"
+  ]
+ },
+ {
+  "id": "california-state-san-francisco",
+  "name": "California State-San Francisco",
+  "aliases": [
+   "California State-San Francisco"
+  ]
+ },
+ {
+  "id": "cameron-university",
+  "name": "Cameron University",
+  "aliases": [
+   "Cameron University"
+  ]
+ },
+ {
+  "id": "campbell-university",
+  "name": "Campbell University",
+  "aliases": [
+   "Campbell",
+   "Campbell University"
+  ]
+ },
+ {
+  "id": "canisius-college",
+  "name": "Canisius College",
+  "aliases": [
+   "Canisius College"
+  ]
+ },
+ {
+  "id": "carroll-college",
+  "name": "Carroll College",
+  "aliases": [
+   "Carroll College"
+  ]
+ },
+ {
+  "id": "carson-newman",
+  "name": "Carson Newman",
+  "aliases": [
+   "Carson Newman"
+  ]
+ },
+ {
+  "id": "carthage-college",
+  "name": "Carthage College",
+  "aliases": [
+   "Carthage College"
+  ]
+ },
+ {
+  "id": "catawba-college",
+  "name": "Catawba College",
+  "aliases": [
+   "Catawba College"
+  ]
+ },
+ {
+  "id": "ccsu",
+  "name": "CCSU",
+  "aliases": [
+   "CCSU"
+  ]
+ },
+ {
+  "id": "center-at-buffalo-amherst",
+  "name": "Center at Buffalo/Amherst",
+  "aliases": [
+   "Center at Buffalo/Amherst"
+  ]
+ },
+ {
+  "id": "central-arkansas",
+  "name": "Central Arkansas",
+  "aliases": [
+   "Central Arkansas"
+  ]
+ },
+ {
+  "id": "central-florida-cc",
+  "name": "Central Florida CC",
+  "aliases": [
+   "Central Florida CC"
+  ]
+ },
+ {
+  "id": "central-michigan",
+  "name": "Central Michigan",
+  "aliases": [
+   "Central Michigan"
+  ]
+ },
+ {
+  "id": "central-missouri",
+  "name": "Central Missouri",
+  "aliases": [
+   "Central Missouri"
+  ]
+ },
+ {
+  "id": "central-oklahoma",
+  "name": "Central Oklahoma",
+  "aliases": [
+   "Central Oklahoma"
+  ]
+ },
+ {
+  "id": "central-state-university-oh",
+  "name": "Central State University, Oh",
+  "aliases": [
+   "Central State University, Oh"
+  ]
+ },
+ {
+  "id": "central-washington-university",
+  "name": "Central Washington University",
+  "aliases": [
+   "Central Washington University"
+  ]
+ },
+ {
+  "id": "centre-college",
+  "name": "Centre College",
+  "aliases": [
+   "Centre College"
+  ]
+ },
+ {
+  "id": "cerritos-college",
+  "name": "Cerritos College",
+  "aliases": [
+   "Cerritos College"
+  ]
+ },
+ {
+  "id": "chabot-college",
+  "name": "Chabot College",
+  "aliases": [
+   "Chabot College"
+  ]
+ },
+ {
+  "id": "chadron-state",
+  "name": "Chadron State",
+  "aliases": [
+   "Chadron State"
+  ]
+ },
+ {
+  "id": "chaffey-college",
+  "name": "Chaffey College",
+  "aliases": [
+   "Chaffey College"
+  ]
+ },
+ {
+  "id": "chapman-college",
+  "name": "Chapman College",
+  "aliases": [
+   "Chapman College"
+  ]
+ },
+ {
+  "id": "charles-stewart-mott-cc",
+  "name": "Charles Stewart Mott CC",
+  "aliases": [
+   "Charles Stewart Mott CC"
+  ]
+ },
+ {
+  "id": "charleston",
+  "name": "Charleston",
+  "aliases": [
+   "Charleston"
+  ]
+ },
+ {
+  "id": "charleston-southern-university",
+  "name": "Charleston Southern University",
+  "aliases": [
+   "Charleston Southern University"
+  ]
+ },
+ {
+  "id": "charlotte",
+  "name": "Charlotte",
+  "aliases": [
+   "Charlotte"
+  ]
+ },
+ {
+  "id": "chemeketa-community-college",
+  "name": "Chemeketa Community College",
+  "aliases": [
+   "Chemeketa Community College"
+  ]
+ },
+ {
+  "id": "chowan-college",
+  "name": "Chowan College",
+  "aliases": [
+   "Chowan College"
+  ]
+ },
+ {
+  "id": "cincinnati",
+  "name": "Cincinnati",
+  "aliases": [
+   "Cincinnati"
+  ]
+ },
+ {
+  "id": "cisco-junior-college",
+  "name": "Cisco Junior College",
+  "aliases": [
+   "Cisco Junior College"
+  ]
+ },
+ {
+  "id": "citrus-college",
+  "name": "Citrus College",
+  "aliases": [
+   "Citrus College"
+  ]
+ },
+ {
+  "id": "city-college-sf",
+  "name": "City College (SF)",
+  "aliases": [
+   "City College (SF)"
+  ]
+ },
+ {
+  "id": "clark-atlanta-university",
+  "name": "Clark Atlanta University",
+  "aliases": [
+   "Clark Atlanta University"
+  ]
+ },
+ {
+  "id": "clemson",
+  "name": "Clemson",
+  "aliases": [
+   "Clemson"
+  ]
+ },
+ {
+  "id": "cleveland-state-community-coll",
+  "name": "Cleveland State Community Coll",
+  "aliases": [
+   "Cleveland State Community Coll"
+  ]
+ },
+ {
+  "id": "clinch-valley",
+  "name": "Clinch Valley",
+  "aliases": [
+   "Clinch Valley"
+  ]
+ },
+ {
+  "id": "cloud-county-community-college",
+  "name": "Cloud County Community College",
+  "aliases": [
+   "Cloud County Community College"
+  ]
+ },
+ {
+  "id": "coahoma-jc",
+  "name": "Coahoma JC",
+  "aliases": [
+   "Coahoma JC"
+  ]
+ },
+ {
+  "id": "coastal-carolina",
+  "name": "Coastal Carolina",
+  "aliases": [
+   "Coastal Carolina"
+  ]
+ },
+ {
+  "id": "coe-college",
+  "name": "Coe College",
+  "aliases": [
+   "Coe College"
+  ]
+ },
+ {
+  "id": "coffeyville-cc",
+  "name": "Coffeyville CC",
+  "aliases": [
+   "Coffeyville CC"
+  ]
+ },
+ {
+  "id": "colgate",
+  "name": "Colgate",
+  "aliases": [
+   "Colgate"
+  ]
+ },
+ {
+  "id": "college-of-dupage",
+  "name": "College of DuPage",
+  "aliases": [
+   "College of DuPage"
+  ]
+ },
+ {
+  "id": "college-of-eastern-utah",
+  "name": "College of Eastern Utah",
+  "aliases": [
+   "College of Eastern Utah"
+  ]
+ },
+ {
+  "id": "college-of-lake-county",
+  "name": "College of Lake County",
+  "aliases": [
+   "College of Lake County"
+  ]
+ },
+ {
+  "id": "college-of-marin",
+  "name": "College of Marin",
+  "aliases": [
+   "College of Marin"
+  ]
+ },
+ {
+  "id": "college-of-the-canyons",
+  "name": "College of the Canyons",
+  "aliases": [
+   "College of the Canyons"
+  ]
+ },
+ {
+  "id": "college-of-the-desert-ca-j-c",
+  "name": "College of the Desert CA (J.C.)",
+  "aliases": [
+   "College of the Desert CA (J.C.)"
+  ]
+ },
+ {
+  "id": "college-of-the-redwoods",
+  "name": "College Of The Redwoods",
+  "aliases": [
+   "College Of The Redwoods"
+  ]
+ },
+ {
+  "id": "college-of-the-sequoias",
+  "name": "College of the Sequoias",
+  "aliases": [
+   "College of the Sequoias"
+  ]
+ },
+ {
+  "id": "college-of-the-siskiyous",
+  "name": "College of the Siskiyous",
+  "aliases": [
+   "College of the Siskiyous"
+  ]
+ },
+ {
+  "id": "colorado",
+  "name": "Colorado",
+  "aliases": [
+   "Colorado"
+  ]
+ },
+ {
+  "id": "colorado-college",
+  "name": "Colorado College",
+  "aliases": [
+   "Colorado College"
+  ]
+ },
+ {
+  "id": "colorado-state",
+  "name": "Colorado State",
+  "aliases": [
+   "Colorado State"
+  ]
+ },
+ {
+  "id": "colorado-state-pueblo",
+  "name": "Colorado State-Pueblo",
+  "aliases": [
+   "Colorado State (Pueblo)",
+   "Colorado State-Pueblo"
+  ]
+ },
+ {
+  "id": "columbia",
+  "name": "Columbia",
+  "aliases": [
+   "Columbia"
+  ]
+ },
+ {
+  "id": "columbia-basin-college",
+  "name": "Columbia Basin College",
+  "aliases": [
+   "Columbia Basin College"
+  ]
+ },
+ {
+  "id": "columbus-state-community-college",
+  "name": "Columbus State Community College",
+  "aliases": [
+   "Columbus State Community College"
+  ]
+ },
+ {
+  "id": "compton-community-college",
+  "name": "Compton Community College",
+  "aliases": [
+   "Compton Community College"
+  ]
+ },
+ {
+  "id": "concordia-college",
+  "name": "Concordia College",
+  "aliases": [
+   "Concordia College"
+  ]
+ },
+ {
+  "id": "concordia-college-st-paul",
+  "name": "Concordia College St. Paul",
+  "aliases": [
+   "Concordia College St. Paul"
+  ]
+ },
+ {
+  "id": "concordia-university",
+  "name": "Concordia University",
+  "aliases": [
+   "Concordia University"
+  ]
+ },
+ {
+  "id": "concordia-university-wis",
+  "name": "Concordia University (Wis.)",
+  "aliases": [
+   "Concordia University (Wis.)"
+  ]
+ },
+ {
+  "id": "concordia-university-quebec",
+  "name": "Concordia University, Quebec",
+  "aliases": [
+   "Concordia University, Quebec"
+  ]
+ },
+ {
+  "id": "contra-costa",
+  "name": "Contra Costa",
+  "aliases": [
+   "Contra Costa"
+  ]
+ },
+ {
+  "id": "copiah-lincoln-junior-college",
+  "name": "Copiah-Lincoln Junior College",
+  "aliases": [
+   "Copiah-Lincoln Junior College"
+  ]
+ },
+ {
+  "id": "cornell",
+  "name": "Cornell",
+  "aliases": [
+   "Cornell"
+  ]
+ },
+ {
+  "id": "cortland-state-of-new-york",
+  "name": "Cortland State Of New York",
+  "aliases": [
+   "Cortland State Of New York"
+  ]
+ },
+ {
+  "id": "cowley-county-community-coll",
+  "name": "Cowley County Community Coll",
+  "aliases": [
+   "Cowley County Community Coll"
+  ]
+ },
+ {
+  "id": "crowder-college",
+  "name": "Crowder College",
+  "aliases": [
+   "Crowder College"
+  ]
+ },
+ {
+  "id": "culver-stockton-college",
+  "name": "Culver-Stockton College",
+  "aliases": [
+   "Culver-Stockton College"
+  ]
+ },
+ {
+  "id": "cumberland-college",
+  "name": "Cumberland College",
+  "aliases": [
+   "Cumberland College"
+  ]
+ },
+ {
+  "id": "cypress-college",
+  "name": "Cypress College",
+  "aliases": [
+   "Cypress College"
+  ]
+ },
+ {
+  "id": "dallas-county-community-coll",
+  "name": "Dallas County Community Coll",
+  "aliases": [
+   "Dallas County Community Coll"
+  ]
+ },
+ {
+  "id": "dana-college",
+  "name": "Dana College",
+  "aliases": [
+   "Dana College"
+  ]
+ },
+ {
+  "id": "dartmouth",
+  "name": "Dartmouth",
+  "aliases": [
+   "Dartmouth"
+  ]
+ },
+ {
+  "id": "darton-college",
+  "name": "Darton College",
+  "aliases": [
+   "Darton College"
+  ]
+ },
+ {
+  "id": "davidson",
+  "name": "Davidson",
+  "aliases": [
+   "Davidson"
+  ]
+ },
+ {
+  "id": "davis-elkins",
+  "name": "Davis Elkins",
+  "aliases": [
+   "Davis Elkins"
+  ]
+ },
+ {
+  "id": "dayton",
+  "name": "Dayton",
+  "aliases": [
+   "Dayton"
+  ]
+ },
+ {
+  "id": "de-anza-college",
+  "name": "De Anza College",
+  "aliases": [
+   "De Anza College"
+  ]
+ },
+ {
+  "id": "deakin-college-australia",
+  "name": "Deakin College (Australia)",
+  "aliases": [
+   "Deakin College (Australia)"
+  ]
+ },
+ {
+  "id": "dean-jc",
+  "name": "Dean JC",
+  "aliases": [
+   "Dean JC"
+  ]
+ },
+ {
+  "id": "defiance",
+  "name": "Defiance",
+  "aliases": [
+   "Defiance"
+  ]
+ },
+ {
+  "id": "delaware",
+  "name": "Delaware",
+  "aliases": [
+   "Delaware"
+  ]
+ },
+ {
+  "id": "delaware-state",
+  "name": "Delaware State",
+  "aliases": [
+   "Delaware State"
+  ]
+ },
+ {
+  "id": "delaware-valley-college",
+  "name": "Delaware Valley College",
+  "aliases": [
+   "Delaware Valley College"
+  ]
+ },
+ {
+  "id": "delgado-community-college",
+  "name": "Delgado Community College",
+  "aliases": [
+   "Delgado Community College"
+  ]
+ },
+ {
+  "id": "delta-state-university",
+  "name": "Delta State University",
+  "aliases": [
+   "Delta State University"
+  ]
+ },
+ {
+  "id": "denver",
+  "name": "Denver",
+  "aliases": [
+   "Denver"
+  ]
+ },
+ {
+  "id": "depauw-university",
+  "name": "DePauw University",
+  "aliases": [
+   "DePauw University"
+  ]
+ },
+ {
+  "id": "diablo-valley-college",
+  "name": "Diablo Valley College",
+  "aliases": [
+   "Diablo Valley College"
+  ]
+ },
+ {
+  "id": "dickinson-college",
+  "name": "Dickinson College",
+  "aliases": [
+   "Dickinson College"
+  ]
+ },
+ {
+  "id": "dixie-college-ut",
+  "name": "Dixie College (UT)",
+  "aliases": [
+   "Dixie College (UT)"
+  ]
+ },
+ {
+  "id": "doane",
+  "name": "Doane",
+  "aliases": [
+   "Doane"
+  ]
+ },
+ {
+  "id": "dodge-city-cc",
+  "name": "Dodge City CC",
+  "aliases": [
+   "Dodge City CC"
+  ]
+ },
+ {
+  "id": "drake",
+  "name": "Drake",
+  "aliases": [
+   "Drake"
+  ]
+ },
+ {
+  "id": "dubuque",
+  "name": "Dubuque",
+  "aliases": [
+   "Dubuque"
+  ]
+ },
+ {
+  "id": "duke",
+  "name": "Duke",
+  "aliases": [
+   "Duke"
+  ]
+ },
+ {
+  "id": "duluth-university-of-minnesota",
+  "name": "Duluth/University of Minnesota",
+  "aliases": [
+   "Duluth/University of Minnesota"
+  ]
+ },
+ {
+  "id": "duquesne",
+  "name": "Duquesne",
+  "aliases": [
+   "Duquesne"
+  ]
+ },
+ {
+  "id": "e-florida-state-coll-aka-brevard-cc",
+  "name": "E Florida State Coll (AKA Brevard CC)",
+  "aliases": [
+   "E Florida State Coll (AKA Brevard CC)"
+  ]
+ },
+ {
+  "id": "earlham-college",
+  "name": "Earlham College",
+  "aliases": [
+   "Earlham College"
+  ]
+ },
+ {
+  "id": "east-carolina",
+  "name": "East Carolina",
+  "aliases": [
+   "East Carolina"
+  ]
+ },
+ {
+  "id": "east-central",
+  "name": "East Central",
+  "aliases": [
+   "East Central"
+  ]
+ },
+ {
+  "id": "east-central-jc",
+  "name": "East Central JC",
+  "aliases": [
+   "East Central JC"
+  ]
+ },
+ {
+  "id": "east-los-angeles-college",
+  "name": "East Los Angeles College",
+  "aliases": [
+   "East Los Angeles College"
+  ]
+ },
+ {
+  "id": "east-mississippi-jc",
+  "name": "East Mississippi JC",
+  "aliases": [
+   "East Mississippi JC"
+  ]
+ },
+ {
+  "id": "east-stroudsburg-state",
+  "name": "East Stroudsburg State",
+  "aliases": [
+   "East Stroudsburg State"
+  ]
+ },
+ {
+  "id": "east-tennessee-state",
+  "name": "East Tennessee State",
+  "aliases": [
+   "East Tennessee State"
+  ]
+ },
+ {
+  "id": "eastern-arizona",
+  "name": "Eastern Arizona",
+  "aliases": [
+   "Eastern Arizona"
+  ]
+ },
+ {
+  "id": "eastern-illinois",
+  "name": "Eastern Illinois",
+  "aliases": [
+   "Eastern Illinois"
+  ]
+ },
+ {
+  "id": "eastern-kentucky",
+  "name": "Eastern Kentucky",
+  "aliases": [
+   "Eastern Kentucky"
+  ]
+ },
+ {
+  "id": "eastern-michigan",
+  "name": "Eastern Michigan",
+  "aliases": [
+   "Eastern Michigan"
+  ]
+ },
+ {
+  "id": "eastern-new-mexico",
+  "name": "Eastern New Mexico",
+  "aliases": [
+   "Eastern New Mexico"
+  ]
+ },
+ {
+  "id": "eastern-oregon-state-univ",
+  "name": "Eastern Oregon State Univ.",
+  "aliases": [
+   "Eastern Oregon State Univ."
+  ]
+ },
+ {
+  "id": "eastern-washington",
+  "name": "Eastern Washington",
+  "aliases": [
+   "Eastern Washington"
+  ]
+ },
+ {
+  "id": "edmonds-community-college",
+  "name": "Edmonds Community College",
+  "aliases": [
+   "Edmonds Community College"
+  ]
+ },
+ {
+  "id": "el-camino",
+  "name": "El Camino",
+  "aliases": [
+   "El Camino"
+  ]
+ },
+ {
+  "id": "elizabeth-city-state-univ",
+  "name": "Elizabeth City State Univ",
+  "aliases": [
+   "Elizabeth City State Univ"
+  ]
+ },
+ {
+  "id": "ellsworth-cc",
+  "name": "Ellsworth CC",
+  "aliases": [
+   "Ellsworth CC"
+  ]
+ },
+ {
+  "id": "elmhurst-college",
+  "name": "Elmhurst College",
+  "aliases": [
+   "Elmhurst College"
+  ]
+ },
+ {
+  "id": "elon",
+  "name": "Elon",
+  "aliases": [
+   "Elon"
+  ]
+ },
+ {
+  "id": "emporia-state-university",
+  "name": "Emporia State University",
+  "aliases": [
+   "Emporia State University"
+  ]
+ },
+ {
+  "id": "erie-cc",
+  "name": "Erie CC",
+  "aliases": [
+   "Erie CC"
+  ]
+ },
+ {
+  "id": "evangel-college",
+  "name": "Evangel College",
+  "aliases": [
+   "Evangel College"
+  ]
+ },
+ {
+  "id": "everett-community-college",
+  "name": "Everett Community College",
+  "aliases": [
+   "Everett Community College"
+  ]
+ },
+ {
+  "id": "fairmont-state",
+  "name": "Fairmont State",
+  "aliases": [
+   "Fairmont State"
+  ]
+ },
+ {
+  "id": "faulkner",
+  "name": "Faulkner",
+  "aliases": [
+   "Faulkner"
+  ]
+ },
+ {
+  "id": "fayetteville-state-university",
+  "name": "Fayetteville State University",
+  "aliases": [
+   "Fayetteville State University"
+  ]
+ },
+ {
+  "id": "ferris-state",
+  "name": "Ferris State",
+  "aliases": [
+   "Ferris State"
+  ]
+ },
+ {
+  "id": "ferrum-college",
+  "name": "Ferrum College",
+  "aliases": [
+   "Ferrum College"
+  ]
+ },
+ {
+  "id": "findlay",
+  "name": "Findlay",
+  "aliases": [
+   "Findlay"
+  ]
+ },
+ {
+  "id": "fisk-university",
+  "name": "Fisk University",
+  "aliases": [
+   "Fisk University"
+  ]
+ },
+ {
+  "id": "flagler-college",
+  "name": "Flagler College",
+  "aliases": [
+   "Flagler College"
+  ]
+ },
+ {
+  "id": "florida",
+  "name": "Florida",
+  "aliases": [
+   "Florida"
+  ]
+ },
+ {
+  "id": "florida-aandm",
+  "name": "Florida A&M",
+  "aliases": [
+   "Florida A&M"
+  ]
+ },
+ {
+  "id": "florida-atlantic",
+  "name": "Florida Atlantic",
+  "aliases": [
+   "FAU",
+   "Florida Atlantic"
+  ]
+ },
+ {
+  "id": "florida-cc-at-jacksonville",
+  "name": "Florida CC at Jacksonville",
+  "aliases": [
+   "Florida CC at Jacksonville"
+  ]
+ },
+ {
+  "id": "florida-international",
+  "name": "Florida International",
+  "aliases": [
+   "FIU",
+   "Florida International"
+  ]
+ },
+ {
+  "id": "florida-state",
+  "name": "Florida State",
+  "aliases": [
+   "Florida State"
+  ]
+ },
+ {
+  "id": "florida-tech",
+  "name": "Florida Tech",
+  "aliases": [
+   "Florida Tech"
+  ]
+ },
+ {
+  "id": "foothill-college",
+  "name": "Foothill College",
+  "aliases": [
+   "Foothill College"
+  ]
+ },
+ {
+  "id": "fordham",
+  "name": "Fordham",
+  "aliases": [
+   "Fordham"
+  ]
+ },
+ {
+  "id": "fort-hays",
+  "name": "Fort Hays",
+  "aliases": [
+   "Fort Hays"
+  ]
+ },
+ {
+  "id": "fort-lewis-college",
+  "name": "Fort Lewis College",
+  "aliases": [
+   "Fort Lewis College"
+  ]
+ },
+ {
+  "id": "fort-scott-cc",
+  "name": "Fort Scott CC",
+  "aliases": [
+   "Fort Scott CC"
+  ]
+ },
+ {
+  "id": "fort-valley-state-college",
+  "name": "Fort Valley State College",
+  "aliases": [
+   "Fort Valley State College"
+  ]
+ },
+ {
+  "id": "framingham-state-college",
+  "name": "Framingham State College",
+  "aliases": [
+   "Framingham State College"
+  ]
+ },
+ {
+  "id": "franklin-and-marshall-college",
+  "name": "Franklin and Marshall College",
+  "aliases": [
+   "Franklin and Marshall College"
+  ]
+ },
+ {
+  "id": "fresno-city-college",
+  "name": "Fresno City College",
+  "aliases": [
+   "Fresno City College"
+  ]
+ },
+ {
+  "id": "fresno-state",
+  "name": "Fresno State",
+  "aliases": [
+   "Fresno State"
+  ]
+ },
+ {
+  "id": "friends-u",
+  "name": "Friends U.",
+  "aliases": [
+   "Friends U."
+  ]
+ },
+ {
+  "id": "front-range-cc-co",
+  "name": "Front Range CC CO",
+  "aliases": [
+   "Front Range CC CO"
+  ]
+ },
+ {
+  "id": "frostburg-state",
+  "name": "Frostburg State",
+  "aliases": [
+   "Frostburg State"
+  ]
+ },
+ {
+  "id": "fullerton",
+  "name": "Fullerton",
+  "aliases": [
+   "Fullerton"
+  ]
+ },
+ {
+  "id": "furman",
+  "name": "Furman",
+  "aliases": [
+   "Furman"
+  ]
+ },
+ {
+  "id": "garden-city-cc",
+  "name": "Garden City CC",
+  "aliases": [
+   "Garden City CC"
+  ]
+ },
+ {
+  "id": "gardner-webb",
+  "name": "Gardner-Webb",
+  "aliases": [
+   "Gardner-Webb"
+  ]
+ },
+ {
+  "id": "gavilan-college",
+  "name": "Gavilan College",
+  "aliases": [
+   "Gavilan College"
+  ]
+ },
+ {
+  "id": "geneva",
+  "name": "Geneva",
+  "aliases": [
+   "Geneva"
+  ]
+ },
+ {
+  "id": "george-fox-university",
+  "name": "George Fox University",
+  "aliases": [
+   "George Fox University"
+  ]
+ },
+ {
+  "id": "george-washington-university",
+  "name": "George Washington University",
+  "aliases": [
+   "George Washington University"
+  ]
+ },
+ {
+  "id": "georgetown",
+  "name": "Georgetown",
+  "aliases": [
+   "Georgetown"
+  ]
+ },
+ {
+  "id": "georgetown-college-ky",
+  "name": "Georgetown College (KY)",
+  "aliases": [
+   "Georgetown College (KY)"
+  ]
+ },
+ {
+  "id": "georgia",
+  "name": "Georgia",
+  "aliases": [
+   "Georgia"
+  ]
+ },
+ {
+  "id": "georgia-military",
+  "name": "Georgia Military",
+  "aliases": [
+   "Georgia Military"
+  ]
+ },
+ {
+  "id": "georgia-southern",
+  "name": "Georgia Southern",
+  "aliases": [
+   "Georgia Southern"
+  ]
+ },
+ {
+  "id": "georgia-state",
+  "name": "Georgia State",
+  "aliases": [
+   "Georgia State"
+  ]
+ },
+ {
+  "id": "georgia-tech",
+  "name": "Georgia Tech",
+  "aliases": [
+   "GT",
+   "Georgia Tech"
+  ]
+ },
+ {
+  "id": "glendale-community-college",
+  "name": "Glendale Community College",
+  "aliases": [
+   "Glendale Community College"
+  ]
+ },
+ {
+  "id": "glenville-state",
+  "name": "Glenville State",
+  "aliases": [
+   "Glenville State"
+  ]
+ },
+ {
+  "id": "globe-institute",
+  "name": "Globe Institute",
+  "aliases": [
+   "Globe Institute"
+  ]
+ },
+ {
+  "id": "golden-valley-lutheran-college",
+  "name": "Golden Valley Lutheran College",
+  "aliases": [
+   "Golden Valley Lutheran College"
+  ]
+ },
+ {
+  "id": "golden-west",
+  "name": "Golden West",
+  "aliases": [
+   "Golden West"
+  ]
+ },
+ {
+  "id": "gonzaga-university",
+  "name": "Gonzaga University",
+  "aliases": [
+   "Gonzaga University"
+  ]
+ },
+ {
+  "id": "graceland-college",
+  "name": "Graceland College",
+  "aliases": [
+   "Graceland College"
+  ]
+ },
+ {
+  "id": "grambling-state",
+  "name": "Grambling State",
+  "aliases": [
+   "Grambling State"
+  ]
+ },
+ {
+  "id": "grand-rapids-cc",
+  "name": "Grand Rapids CC",
+  "aliases": [
+   "Grand Rapids CC"
+  ]
+ },
+ {
+  "id": "grand-valley",
+  "name": "Grand Valley",
+  "aliases": [
+   "Grand Valley"
+  ]
+ },
+ {
+  "id": "grays-harbor-college",
+  "name": "Grays Harbor College",
+  "aliases": [
+   "Grays Harbor College"
+  ]
+ },
+ {
+  "id": "greenville",
+  "name": "Greenville",
+  "aliases": [
+   "Greenville"
+  ]
+ },
+ {
+  "id": "grossmont",
+  "name": "Grossmont",
+  "aliases": [
+   "Grossmont"
+  ]
+ },
+ {
+  "id": "grove-city-college",
+  "name": "Grove City College",
+  "aliases": [
+   "Grove City College"
+  ]
+ },
+ {
+  "id": "gulf-coast-cc",
+  "name": "Gulf Coast CC",
+  "aliases": [
+   "Gulf Coast CC"
+  ]
+ },
+ {
+  "id": "gustavus-adolphus-college",
+  "name": "Gustavus Adolphus College",
+  "aliases": [
+   "Gustavus Adolphus College"
+  ]
+ },
+ {
+  "id": "hagerstown-junior-college",
+  "name": "Hagerstown Junior College",
+  "aliases": [
+   "Hagerstown Junior College"
+  ]
+ },
+ {
+  "id": "hamline-university",
+  "name": "Hamline University",
+  "aliases": [
+   "Hamline University"
+  ]
+ },
+ {
+  "id": "hampton",
+  "name": "Hampton",
+  "aliases": [
+   "Hampton"
+  ]
+ },
+ {
+  "id": "harding-university",
+  "name": "Harding University",
+  "aliases": [
+   "Harding University"
+  ]
+ },
+ {
+  "id": "harford-community-college",
+  "name": "Harford Community College",
+  "aliases": [
+   "Harford Community College"
+  ]
+ },
+ {
+  "id": "harold-washington-college",
+  "name": "Harold Washington College",
+  "aliases": [
+   "Harold Washington College"
+  ]
+ },
+ {
+  "id": "hartnell-college",
+  "name": "Hartnell College",
+  "aliases": [
+   "Hartnell College"
+  ]
+ },
+ {
+  "id": "harvard",
+  "name": "Harvard",
+  "aliases": [
+   "Harvard"
+  ]
+ },
+ {
+  "id": "hastings",
+  "name": "Hastings",
+  "aliases": [
+   "Hastings"
+  ]
+ },
+ {
+  "id": "hawaii",
+  "name": "Hawaii",
+  "aliases": [
+   "Hawaii"
+  ]
+ },
+ {
+  "id": "heidelberg-college",
+  "name": "Heidelberg College",
+  "aliases": [
+   "Heidelberg College"
+  ]
+ },
+ {
+  "id": "henderson-state-university",
+  "name": "Henderson State University",
+  "aliases": [
+   "Henderson State University"
+  ]
+ },
+ {
+  "id": "highland-cc",
+  "name": "Highland CC",
+  "aliases": [
+   "Highland CC"
+  ]
+ },
+ {
+  "id": "hillsdale",
+  "name": "Hillsdale",
+  "aliases": [
+   "Hillsdale"
+  ]
+ },
+ {
+  "id": "hinds-cc",
+  "name": "Hinds CC",
+  "aliases": [
+   "Hinds CC"
+  ]
+ },
+ {
+  "id": "hiram-college",
+  "name": "Hiram College",
+  "aliases": [
+   "Hiram College"
+  ]
+ },
+ {
+  "id": "hobart",
+  "name": "Hobart",
+  "aliases": [
+   "Hobart"
+  ]
+ },
+ {
+  "id": "hofstra",
+  "name": "Hofstra",
+  "aliases": [
+   "Hofstra"
+  ]
+ },
+ {
+  "id": "holmes-county-jc",
+  "name": "Holmes County JC",
+  "aliases": [
+   "Holmes County JC"
+  ]
+ },
+ {
+  "id": "holy-cross",
+  "name": "Holy Cross",
+  "aliases": [
+   "Holy Cross"
+  ]
+ },
+ {
+  "id": "holy-cross-college",
+  "name": "Holy Cross College",
+  "aliases": [
+   "Holy Cross College"
+  ]
+ },
+ {
+  "id": "houston",
+  "name": "Houston",
+  "aliases": [
+   "Houston"
+  ]
+ },
+ {
+  "id": "houston-christian",
+  "name": "Houston Christian",
+  "aliases": [
+   "Houston Baptist",
+   "Houston Baptist University",
+   "Houston Christian",
+   "Houston Christian University"
+  ]
+ },
+ {
+  "id": "howard",
+  "name": "Howard",
+  "aliases": [
+   "Howard"
+  ]
+ },
+ {
+  "id": "howard-payne-university",
+  "name": "Howard Payne University",
+  "aliases": [
+   "Howard Payne University"
+  ]
+ },
+ {
+  "id": "hudson-valley-community-coll",
+  "name": "Hudson Valley Community Coll",
+  "aliases": [
+   "Hudson Valley Community Coll"
+  ]
+ },
+ {
+  "id": "humboldt-state",
+  "name": "Humboldt State",
+  "aliases": [
+   "Humboldt State"
+  ]
+ },
+ {
+  "id": "husson-college",
+  "name": "Husson College",
+  "aliases": [
+   "Husson College"
+  ]
+ },
+ {
+  "id": "hutchinson-cc",
+  "name": "Hutchinson CC",
+  "aliases": [
+   "Hutchinson CC"
+  ]
+ },
+ {
+  "id": "idaho",
+  "name": "Idaho",
+  "aliases": [
+   "Idaho"
+  ]
+ },
+ {
+  "id": "idaho-state",
+  "name": "Idaho State",
+  "aliases": [
+   "Idaho State"
+  ]
+ },
+ {
+  "id": "illinois",
+  "name": "Illinois",
+  "aliases": [
+   "Illinois"
+  ]
+ },
+ {
+  "id": "illinois-benedictine-college",
+  "name": "Illinois Benedictine College",
+  "aliases": [
+   "Illinois Benedictine College"
+  ]
+ },
+ {
+  "id": "illinois-college",
+  "name": "Illinois College",
+  "aliases": [
+   "Illinois College"
+  ]
+ },
+ {
+  "id": "illinois-state",
+  "name": "Illinois State",
+  "aliases": [
+   "Illinois State"
+  ]
+ },
+ {
+  "id": "imperial-valley-cc",
+  "name": "Imperial Valley CC",
+  "aliases": [
+   "Imperial Valley CC"
+  ]
+ },
+ {
+  "id": "incarnate-word",
+  "name": "Incarnate Word",
+  "aliases": [
+   "Incarnate Word"
+  ]
+ },
+ {
+  "id": "independence-comm-college",
+  "name": "Independence Comm. College",
+  "aliases": [
+   "Independence Comm. College"
+  ]
+ },
+ {
+  "id": "indian-hills-cc-at-centerville",
+  "name": "Indian Hills CC at Centerville",
+  "aliases": [
+   "Indian Hills CC at Centerville"
+  ]
+ },
+ {
+  "id": "indiana",
+  "name": "Indiana",
+  "aliases": [
+   "Indiana"
+  ]
+ },
+ {
+  "id": "indiana-pa",
+  "name": "Indiana (PA)",
+  "aliases": [
+   "IUP",
+   "Indiana (PA)",
+   "Indiana PA,  University of",
+   "Indiana, Pa."
+  ]
+ },
+ {
+  "id": "indiana-state",
+  "name": "Indiana State",
+  "aliases": [
+   "Indiana State"
+  ]
+ },
+ {
+  "id": "indianapolis",
+  "name": "Indianapolis",
+  "aliases": [
+   "Indianapolis",
+   "University of Indianapolis"
+  ]
+ },
+ {
+  "id": "iona-college",
+  "name": "Iona College",
+  "aliases": [
+   "Iona College"
+  ]
+ },
+ {
+  "id": "iowa",
+  "name": "Iowa",
+  "aliases": [
+   "Iowa"
+  ]
+ },
+ {
+  "id": "iowa-central-cc-eagle-grove",
+  "name": "Iowa Central CC-Eagle Grove",
+  "aliases": [
+   "Iowa Central CC-Eagle Grove"
+  ]
+ },
+ {
+  "id": "iowa-state",
+  "name": "Iowa State",
+  "aliases": [
+   "Iowa State"
+  ]
+ },
+ {
+  "id": "iowa-western-cc",
+  "name": "Iowa Western CC",
+  "aliases": [
+   "Iowa Western CC"
+  ]
+ },
+ {
+  "id": "iowa-central-university-of",
+  "name": "Iowa, Central University of",
+  "aliases": [
+   "Iowa, Central University of"
+  ]
+ },
+ {
+  "id": "isothermal-community-college",
+  "name": "Isothermal Community College",
+  "aliases": [
+   "Isothermal Community College"
+  ]
+ },
+ {
+  "id": "itawamba-jc",
+  "name": "Itawamba JC",
+  "aliases": [
+   "Itawamba JC"
+  ]
+ },
+ {
+  "id": "jackson-state-university",
+  "name": "Jackson State University",
+  "aliases": [
+   "Jackson State University"
+  ]
+ },
+ {
+  "id": "jacksonville",
+  "name": "Jacksonville",
+  "aliases": [
+   "Jacksonville"
+  ]
+ },
+ {
+  "id": "jacksonville-state",
+  "name": "Jacksonville State",
+  "aliases": [
+   "Jacksonville State"
+  ]
+ },
+ {
+  "id": "james-madison",
+  "name": "James Madison",
+  "aliases": [
+   "James Madison"
+  ]
+ },
+ {
+  "id": "jamestown-college-nd",
+  "name": "Jamestown College (ND)",
+  "aliases": [
+   "Jamestown College (ND)"
+  ]
+ },
+ {
+  "id": "john-carroll-university",
+  "name": "John Carroll University",
+  "aliases": [
+   "John Carroll University"
+  ]
+ },
+ {
+  "id": "johns-hopkins-university",
+  "name": "Johns Hopkins University",
+  "aliases": [
+   "Johns Hopkins University"
+  ]
+ },
+ {
+  "id": "johnson-c-smith-university",
+  "name": "Johnson C. Smith University",
+  "aliases": [
+   "Johnson C. Smith University"
+  ]
+ },
+ {
+  "id": "johnson-county-cc",
+  "name": "Johnson County CC",
+  "aliases": [
+   "Johnson County CC"
+  ]
+ },
+ {
+  "id": "joliet-junior-college",
+  "name": "Joliet Junior College",
+  "aliases": [
+   "Joliet Junior College"
+  ]
+ },
+ {
+  "id": "jones-county-jc",
+  "name": "Jones County JC",
+  "aliases": [
+   "Jones County JC"
+  ]
+ },
+ {
+  "id": "kansas",
+  "name": "Kansas",
+  "aliases": [
+   "Kansas"
+  ]
+ },
+ {
+  "id": "kansas-city-junior-college",
+  "name": "Kansas City Junior College",
+  "aliases": [
+   "Kansas City Junior College"
+  ]
+ },
+ {
+  "id": "kansas-state",
+  "name": "Kansas State",
+  "aliases": [
+   "Kansas State"
+  ]
+ },
+ {
+  "id": "kearney-state",
+  "name": "Kearney State",
+  "aliases": [
+   "Kearney State"
+  ]
+ },
+ {
+  "id": "kemper-military-junior-college",
+  "name": "Kemper Military Junior College",
+  "aliases": [
+   "Kemper Military Junior College"
+  ]
+ },
+ {
+  "id": "kennedy-king-college",
+  "name": "Kennedy-King College",
+  "aliases": [
+   "Kennedy-King College"
+  ]
+ },
+ {
+  "id": "kennesaw-state",
+  "name": "Kennesaw State",
+  "aliases": [
+   "Kennesaw State"
+  ]
+ },
+ {
+  "id": "kent-state",
+  "name": "Kent State",
+  "aliases": [
+   "Kent State"
+  ]
+ },
+ {
+  "id": "kentucky",
+  "name": "Kentucky",
+  "aliases": [
+   "Kentucky"
+  ]
+ },
+ {
+  "id": "kentucky-state-university",
+  "name": "Kentucky State University",
+  "aliases": [
+   "Kentucky State University"
+  ]
+ },
+ {
+  "id": "kentucky-wesleyan",
+  "name": "Kentucky Wesleyan",
+  "aliases": [
+   "Kentucky Wesleyan"
+  ]
+ },
+ {
+  "id": "kilgore",
+  "name": "Kilgore",
+  "aliases": [
+   "Kilgore"
+  ]
+ },
+ {
+  "id": "king-alfred-s",
+  "name": "King Alfred's",
+  "aliases": [
+   "King Alfred's"
+  ]
+ },
+ {
+  "id": "kirkwood-community-college",
+  "name": "Kirkwood Community College",
+  "aliases": [
+   "Kirkwood Community College"
+  ]
+ },
+ {
+  "id": "knox-college",
+  "name": "Knox College",
+  "aliases": [
+   "Knox College"
+  ]
+ },
+ {
+  "id": "knoxville-college",
+  "name": "Knoxville College",
+  "aliases": [
+   "Knoxville College"
+  ]
+ },
+ {
+  "id": "kutztown",
+  "name": "Kutztown",
+  "aliases": [
+   "Kutztown"
+  ]
+ },
+ {
+  "id": "lackawanna-jc",
+  "name": "Lackawanna JC",
+  "aliases": [
+   "Lackawanna JC"
+  ]
+ },
+ {
+  "id": "lafayette-college",
+  "name": "Lafayette College",
+  "aliases": [
+   "Lafayette College"
+  ]
+ },
+ {
+  "id": "lahc",
+  "name": "LAHC",
+  "aliases": [
+   "LAHC"
+  ]
+ },
+ {
+  "id": "lake-city-coummunity-college",
+  "name": "Lake City Coummunity College",
+  "aliases": [
+   "Lake City Coummunity College"
+  ]
+ },
+ {
+  "id": "lakeland-college",
+  "name": "Lakeland College",
+  "aliases": [
+   "Lakeland College"
+  ]
+ },
+ {
+  "id": "lakewood-community-college",
+  "name": "Lakewood Community College",
+  "aliases": [
+   "Lakewood Community College"
+  ]
+ },
+ {
+  "id": "lamar",
+  "name": "Lamar",
+  "aliases": [
+   "Lamar"
+  ]
+ },
+ {
+  "id": "lamar-community-college",
+  "name": "Lamar Community College",
+  "aliases": [
+   "Lamar Community College"
+  ]
+ },
+ {
+  "id": "lambuth",
+  "name": "Lambuth",
+  "aliases": [
+   "Lambuth"
+  ]
+ },
+ {
+  "id": "lane-college",
+  "name": "Lane College",
+  "aliases": [
+   "Lane College"
+  ]
+ },
+ {
+  "id": "laney-college",
+  "name": "Laney College",
+  "aliases": [
+   "Laney College"
+  ]
+ },
+ {
+  "id": "langston-university",
+  "name": "Langston University",
+  "aliases": [
+   "Langston University"
+  ]
+ },
+ {
+  "id": "laval",
+  "name": "Laval",
+  "aliases": [
+   "Laval"
+  ]
+ },
+ {
+  "id": "lees-mcrae-college",
+  "name": "Lees-McRae College",
+  "aliases": [
+   "Lees-McRae College"
+  ]
+ },
+ {
+  "id": "lehigh-university",
+  "name": "Lehigh University",
+  "aliases": [
+   "Lehigh University"
+  ]
+ },
+ {
+  "id": "lenoir-rhyne",
+  "name": "Lenoir Rhyne",
+  "aliases": [
+   "Lenoir Rhyne"
+  ]
+ },
+ {
+  "id": "lewis-and-clark-il-j-c",
+  "name": "Lewis & Clark IL (J.C.)",
+  "aliases": [
+   "Lewis & Clark IL (J.C.)"
+  ]
+ },
+ {
+  "id": "liberty",
+  "name": "Liberty",
+  "aliases": [
+   "Liberty"
+  ]
+ },
+ {
+  "id": "limestone",
+  "name": "Limestone",
+  "aliases": [
+   "Limestone"
+  ]
+ },
+ {
+  "id": "lincoln-university-mo",
+  "name": "Lincoln University (MO)",
+  "aliases": [
+   "Lincoln University (MO)"
+  ]
+ },
+ {
+  "id": "lindenwood",
+  "name": "Lindenwood",
+  "aliases": [
+   "Lindenwood"
+  ]
+ },
+ {
+  "id": "linfield-college",
+  "name": "Linfield College",
+  "aliases": [
+   "Linfield College"
+  ]
+ },
+ {
+  "id": "livingstone-college",
+  "name": "Livingstone College",
+  "aliases": [
+   "Livingstone College"
+  ]
+ },
+ {
+  "id": "long-beach-city-college",
+  "name": "Long Beach City College",
+  "aliases": [
+   "Long Beach City College"
+  ]
+ },
+ {
+  "id": "long-island-coll-brooklyn",
+  "name": "Long Island Coll.-Brooklyn",
+  "aliases": [
+   "Long Island Coll.-Brooklyn"
+  ]
+ },
+ {
+  "id": "los-angeles-city-college",
+  "name": "Los Angeles City College",
+  "aliases": [
+   "Los Angeles City College"
+  ]
+ },
+ {
+  "id": "los-angeles-southwest-college",
+  "name": "Los Angeles Southwest College",
+  "aliases": [
+   "Los Angeles Southwest College"
+  ]
+ },
+ {
+  "id": "los-angeles-valley-college",
+  "name": "Los Angeles Valley College",
+  "aliases": [
+   "Los Angeles Valley College"
+  ]
+ },
+ {
+  "id": "los-medanos-college",
+  "name": "Los Medanos College",
+  "aliases": [
+   "Los Medanos College"
+  ]
+ },
+ {
+  "id": "louisburg",
+  "name": "Louisburg",
+  "aliases": [
+   "Louisburg"
+  ]
+ },
+ {
+  "id": "louisiana",
+  "name": "Louisiana",
+  "aliases": [
+   "Louisiana",
+   "Louisiana-Lafayette",
+   "Southwestern Louisiana",
+   "UL Lafayette"
+  ]
+ },
+ {
+  "id": "louisiana-tech",
+  "name": "Louisiana Tech",
+  "aliases": [
+   "Louisiana Tech"
+  ]
+ },
+ {
+  "id": "louisiana-monroe",
+  "name": "Louisiana-Monroe",
+  "aliases": [
+   "Louisiana-Monroe",
+   "Northeast Louisiana",
+   "ULM"
+  ]
+ },
+ {
+  "id": "louisville",
+  "name": "Louisville",
+  "aliases": [
+   "Louisville"
+  ]
+ },
+ {
+  "id": "loyola-university",
+  "name": "Loyola University",
+  "aliases": [
+   "Loyola University"
+  ]
+ },
+ {
+  "id": "lsu",
+  "name": "LSU",
+  "aliases": [
+   "LSU",
+   "Louisiana State",
+   "Louisiana State University"
+  ]
+ },
+ {
+  "id": "lsu-shreveport",
+  "name": "LSU (Shreveport)",
+  "aliases": [
+   "LSU (Shreveport)"
+  ]
+ },
+ {
+  "id": "luzerne-co-cc-pa",
+  "name": "Luzerne Co. CC PA",
+  "aliases": [
+   "Luzerne Co. CC PA"
+  ]
+ },
+ {
+  "id": "macalester-college",
+  "name": "Macalester College",
+  "aliases": [
+   "Macalester College"
+  ]
+ },
+ {
+  "id": "macmurray-college",
+  "name": "MacMurray College",
+  "aliases": [
+   "MacMurray College"
+  ]
+ },
+ {
+  "id": "madison-area-technical-college",
+  "name": "Madison Area Technical College",
+  "aliases": [
+   "Madison Area Technical College"
+  ]
+ },
+ {
+  "id": "maine",
+  "name": "Maine",
+  "aliases": [
+   "Maine"
+  ]
+ },
+ {
+  "id": "malone",
+  "name": "Malone",
+  "aliases": [
+   "Malone"
+  ]
+ },
+ {
+  "id": "manhattan-christian-coll-ks-j-c",
+  "name": "Manhattan Christian Coll. KS (J.C.)",
+  "aliases": [
+   "Manhattan Christian Coll. KS (J.C.)"
+  ]
+ },
+ {
+  "id": "manitoba-canada",
+  "name": "Manitoba (Canada)",
+  "aliases": [
+   "Manitoba (Canada)"
+  ]
+ },
+ {
+  "id": "marian",
+  "name": "Marian",
+  "aliases": [
+   "Marian"
+  ]
+ },
+ {
+  "id": "marion-military-institute",
+  "name": "Marion Military Institute",
+  "aliases": [
+   "Marion Military Institute"
+  ]
+ },
+ {
+  "id": "marist",
+  "name": "Marist",
+  "aliases": [
+   "Marist"
+  ]
+ },
+ {
+  "id": "mars-hill",
+  "name": "Mars Hill",
+  "aliases": [
+   "Mars Hill"
+  ]
+ },
+ {
+  "id": "marshall",
+  "name": "Marshall",
+  "aliases": [
+   "Marshall"
+  ]
+ },
+ {
+  "id": "marshalltown-community-college",
+  "name": "Marshalltown Community College",
+  "aliases": [
+   "Marshalltown Community College"
+  ]
+ },
+ {
+  "id": "mary-hardin-baylor",
+  "name": "Mary Hardin-Baylor",
+  "aliases": [
+   "Mary Hardin-Baylor"
+  ]
+ },
+ {
+  "id": "maryland",
+  "name": "Maryland",
+  "aliases": [
+   "Maryland"
+  ]
+ },
+ {
+  "id": "maryland-eastern-shore",
+  "name": "Maryland-Eastern Shore",
+  "aliases": [
+   "Maryland Univ. (Eastern Shore)",
+   "Maryland-Eastern Shore"
+  ]
+ },
+ {
+  "id": "mccook-community-college",
+  "name": "McCook Community College",
+  "aliases": [
+   "McCook Community College"
+  ]
+ },
+ {
+  "id": "mcgill",
+  "name": "McGill",
+  "aliases": [
+   "McGill"
+  ]
+ },
+ {
+  "id": "mckendree",
+  "name": "McKendree",
+  "aliases": [
+   "McKendree"
+  ]
+ },
+ {
+  "id": "mclennan-cc",
+  "name": "McLennan CC",
+  "aliases": [
+   "McLennan CC"
+  ]
+ },
+ {
+  "id": "mcneese-state",
+  "name": "McNeese State",
+  "aliases": [
+   "McNeese State"
+  ]
+ },
+ {
+  "id": "memphis",
+  "name": "Memphis",
+  "aliases": [
+   "Memphis"
+  ]
+ },
+ {
+  "id": "menlo-college",
+  "name": "Menlo College",
+  "aliases": [
+   "Menlo College"
+  ]
+ },
+ {
+  "id": "merced-college",
+  "name": "Merced College",
+  "aliases": [
+   "Merced College"
+  ]
+ },
+ {
+  "id": "mercer-university-atlanta",
+  "name": "Mercer University, Atlanta",
+  "aliases": [
+   "Mercer University, Atlanta"
+  ]
+ },
+ {
+  "id": "merchant-marine-academy",
+  "name": "Merchant Marine Academy",
+  "aliases": [
+   "Merchant Marine Academy"
+  ]
+ },
+ {
+  "id": "mercyhurst-college",
+  "name": "Mercyhurst College",
+  "aliases": [
+   "Mercyhurst College"
+  ]
+ },
+ {
+  "id": "merritt-college",
+  "name": "Merritt College",
+  "aliases": [
+   "Merritt College"
+  ]
+ },
+ {
+  "id": "mesa-cc",
+  "name": "Mesa CC",
+  "aliases": [
+   "Mesa CC"
+  ]
+ },
+ {
+  "id": "mesa-state-college",
+  "name": "Mesa State College",
+  "aliases": [
+   "Mesa State College"
+  ]
+ },
+ {
+  "id": "metropolitan-state-college",
+  "name": "Metropolitan State College",
+  "aliases": [
+   "Metropolitan State College"
+  ]
+ },
+ {
+  "id": "miami-fl",
+  "name": "Miami (FL)",
+  "aliases": [
+   "Miami",
+   "Miami (FL)",
+   "Miami (Fla.)",
+   "Miami Florida",
+   "Miami, Fla.",
+   "The U"
+  ]
+ },
+ {
+  "id": "miami-oh",
+  "name": "Miami (OH)",
+  "aliases": [
+   "Miami (OH)",
+   "Miami (Ohio)",
+   "Miami of Ohio",
+   "Miami, O."
+  ]
+ },
+ {
+  "id": "miami-dade-cc-north-fl",
+  "name": "Miami-Dade CC North FL",
+  "aliases": [
+   "Miami-Dade CC North FL"
+  ]
+ },
+ {
+  "id": "miami-dade-community-college",
+  "name": "Miami-Dade Community College",
+  "aliases": [
+   "Miami-Dade Community College"
+  ]
+ },
+ {
+  "id": "michigan",
+  "name": "Michigan",
+  "aliases": [
+   "Michigan"
+  ]
+ },
+ {
+  "id": "michigan-state",
+  "name": "Michigan State",
+  "aliases": [
+   "Michigan State"
+  ]
+ },
+ {
+  "id": "michigan-tech-university",
+  "name": "Michigan Tech University",
+  "aliases": [
+   "Michigan Tech University"
+  ]
+ },
+ {
+  "id": "mid-america-nazarene-college",
+  "name": "Mid-America Nazarene College",
+  "aliases": [
+   "Mid-America Nazarene College"
+  ]
+ },
+ {
+  "id": "mid-state-technical-college-j-c",
+  "name": "Mid-State Technical College (J.C.)",
+  "aliases": [
+   "Mid-State Technical College (J.C.)"
+  ]
+ },
+ {
+  "id": "middle-georgia-college",
+  "name": "Middle Georgia College",
+  "aliases": [
+   "Middle Georgia College"
+  ]
+ },
+ {
+  "id": "middle-tennessee",
+  "name": "Middle Tennessee",
+  "aliases": [
+   "MTSU",
+   "Middle Tennessee",
+   "Middle Tennessee State"
+  ]
+ },
+ {
+  "id": "middlebury",
+  "name": "Middlebury",
+  "aliases": [
+   "Middlebury"
+  ]
+ },
+ {
+  "id": "middlesex-county-college",
+  "name": "Middlesex County College",
+  "aliases": [
+   "Middlesex County College"
+  ]
+ },
+ {
+  "id": "midland-college",
+  "name": "Midland College",
+  "aliases": [
+   "Midland College"
+  ]
+ },
+ {
+  "id": "midwestern-state",
+  "name": "Midwestern State",
+  "aliases": [
+   "Midwestern State"
+  ]
+ },
+ {
+  "id": "miles-college",
+  "name": "Miles College",
+  "aliases": [
+   "Miles College"
+  ]
+ },
+ {
+  "id": "millikin-university",
+  "name": "Millikin University",
+  "aliases": [
+   "Millikin University"
+  ]
+ },
+ {
+  "id": "millsaps-college",
+  "name": "Millsaps College",
+  "aliases": [
+   "Millsaps College"
+  ]
+ },
+ {
+  "id": "milton-college",
+  "name": "Milton College",
+  "aliases": [
+   "Milton College"
+  ]
+ },
+ {
+  "id": "mineral-area-cc",
+  "name": "Mineral Area CC",
+  "aliases": [
+   "Mineral Area CC"
+  ]
+ },
+ {
+  "id": "minnesota",
+  "name": "Minnesota",
+  "aliases": [
+   "Minnesota"
+  ]
+ },
+ {
+  "id": "minnesota-state",
+  "name": "Minnesota State",
+  "aliases": [
+   "Mankato State",
+   "Minn. State-Mankato",
+   "Minnesota State",
+   "Minnesota State-Mankato"
+  ]
+ },
+ {
+  "id": "minot-state-university",
+  "name": "Minot State University",
+  "aliases": [
+   "Minot State University"
+  ]
+ },
+ {
+  "id": "mira-costa-college",
+  "name": "Mira Costa College",
+  "aliases": [
+   "Mira Costa College"
+  ]
+ },
+ {
+  "id": "mississippi-college",
+  "name": "Mississippi College",
+  "aliases": [
+   "Mississippi College"
+  ]
+ },
+ {
+  "id": "mississippi-delta-cc",
+  "name": "Mississippi Delta CC",
+  "aliases": [
+   "Mississippi Delta CC"
+  ]
+ },
+ {
+  "id": "mississippi-gulf-coast-cc",
+  "name": "Mississippi Gulf Coast CC",
+  "aliases": [
+   "Mississippi Gulf Coast CC"
+  ]
+ },
+ {
+  "id": "mississippi-state",
+  "name": "Mississippi State",
+  "aliases": [
+   "Mississippi State"
+  ]
+ },
+ {
+  "id": "mississippi-valley-state",
+  "name": "Mississippi Valley State",
+  "aliases": [
+   "Mississippi Valley State",
+   "Mississippi Valley State University"
+  ]
+ },
+ {
+  "id": "missouri",
+  "name": "Missouri",
+  "aliases": [
+   "Missouri"
+  ]
+ },
+ {
+  "id": "missouri-southern",
+  "name": "Missouri Southern",
+  "aliases": [
+   "Missouri Southern"
+  ]
+ },
+ {
+  "id": "missouri-state",
+  "name": "Missouri State",
+  "aliases": [
+   "Missouri State"
+  ]
+ },
+ {
+  "id": "missouri-valley-college",
+  "name": "Missouri Valley College",
+  "aliases": [
+   "Missouri Valley College"
+  ]
+ },
+ {
+  "id": "missouri-western",
+  "name": "Missouri Western",
+  "aliases": [
+   "Missouri Western"
+  ]
+ },
+ {
+  "id": "missouri-rolla",
+  "name": "Missouri-Rolla",
+  "aliases": [
+   "Missouri-Rolla"
+  ]
+ },
+ {
+  "id": "moberly-area-community-college",
+  "name": "Moberly Area Community College",
+  "aliases": [
+   "Moberly Area Community College"
+  ]
+ },
+ {
+  "id": "modesto-junior-college",
+  "name": "Modesto Junior College",
+  "aliases": [
+   "Modesto Junior College"
+  ]
+ },
+ {
+  "id": "monmouth",
+  "name": "Monmouth",
+  "aliases": [
+   "Monmouth"
+  ]
+ },
+ {
+  "id": "monmouth-college",
+  "name": "Monmouth College",
+  "aliases": [
+   "Monmouth College"
+  ]
+ },
+ {
+  "id": "monroe-county-cc",
+  "name": "Monroe County CC",
+  "aliases": [
+   "Monroe County CC"
+  ]
+ },
+ {
+  "id": "montana",
+  "name": "Montana",
+  "aliases": [
+   "Montana"
+  ]
+ },
+ {
+  "id": "montana-college-of-technology",
+  "name": "Montana College of Technology",
+  "aliases": [
+   "Montana College of Technology"
+  ]
+ },
+ {
+  "id": "montana-state",
+  "name": "Montana State",
+  "aliases": [
+   "Montana State"
+  ]
+ },
+ {
+  "id": "montclair-state-college",
+  "name": "Montclair State College",
+  "aliases": [
+   "Montclair State College"
+  ]
+ },
+ {
+  "id": "monterey-peninsula",
+  "name": "Monterey Peninsula",
+  "aliases": [
+   "Monterey Peninsula"
+  ]
+ },
+ {
+  "id": "montgomery-jc-md",
+  "name": "Montgomery JC (MD)",
+  "aliases": [
+   "Montgomery JC (MD)"
+  ]
+ },
+ {
+  "id": "montreal",
+  "name": "Montreal",
+  "aliases": [
+   "Montreal"
+  ]
+ },
+ {
+  "id": "moorpark-college",
+  "name": "Moorpark College",
+  "aliases": [
+   "Moorpark College"
+  ]
+ },
+ {
+  "id": "moraine-valley-community-coll",
+  "name": "Moraine Valley Community Coll.",
+  "aliases": [
+   "Moraine Valley Community Coll."
+  ]
+ },
+ {
+  "id": "morehead-state-university",
+  "name": "Morehead State University",
+  "aliases": [
+   "Morehead State University"
+  ]
+ },
+ {
+  "id": "morehouse-college",
+  "name": "Morehouse College",
+  "aliases": [
+   "Morehouse College"
+  ]
+ },
+ {
+  "id": "morgan-state",
+  "name": "Morgan State",
+  "aliases": [
+   "Morgan State"
+  ]
+ },
+ {
+  "id": "morningside-college",
+  "name": "Morningside College",
+  "aliases": [
+   "Morningside College"
+  ]
+ },
+ {
+  "id": "morris-brown-college",
+  "name": "Morris Brown College",
+  "aliases": [
+   "Morris Brown College"
+  ]
+ },
+ {
+  "id": "mount-hood-community-college",
+  "name": "Mount Hood Community College",
+  "aliases": [
+   "Mount Hood Community College"
+  ]
+ },
+ {
+  "id": "mount-olive-college",
+  "name": "Mount Olive College",
+  "aliases": [
+   "Mount Olive College"
+  ]
+ },
+ {
+  "id": "mount-san-jacinto-college",
+  "name": "Mount San Jacinto College",
+  "aliases": [
+   "Mount San Jacinto College"
+  ]
+ },
+ {
+  "id": "mount-senario-college",
+  "name": "Mount Senario College",
+  "aliases": [
+   "Mount Senario College"
+  ]
+ },
+ {
+  "id": "mount-union-college",
+  "name": "Mount Union College",
+  "aliases": [
+   "Mount Union College"
+  ]
+ },
+ {
+  "id": "mt-san-antonio",
+  "name": "Mt. San Antonio",
+  "aliases": [
+   "Mt. San Antonio"
+  ]
+ },
+ {
+  "id": "murray-state",
+  "name": "Murray State",
+  "aliases": [
+   "Murray State"
+  ]
+ },
+ {
+  "id": "muskingum-college",
+  "name": "Muskingum College",
+  "aliases": [
+   "Muskingum College"
+  ]
+ },
+ {
+  "id": "nassau-cc",
+  "name": "Nassau CC",
+  "aliases": [
+   "Nassau CC"
+  ]
+ },
+ {
+  "id": "navarro",
+  "name": "Navarro",
+  "aliases": [
+   "Navarro"
+  ]
+ },
+ {
+  "id": "navy",
+  "name": "Navy",
+  "aliases": [
+   "Navy"
+  ]
+ },
+ {
+  "id": "nc-state",
+  "name": "NC State",
+  "aliases": [
+   "N.C. State",
+   "NC State",
+   "North Carolina State"
+  ]
+ },
+ {
+  "id": "nebraska",
+  "name": "Nebraska",
+  "aliases": [
+   "Nebraska"
+  ]
+ },
+ {
+  "id": "nebraska-southern-junior-coll",
+  "name": "Nebraska Southern Junior Coll",
+  "aliases": [
+   "Nebraska Southern Junior Coll"
+  ]
+ },
+ {
+  "id": "nebraska-wesleyan-university",
+  "name": "Nebraska Wesleyan University",
+  "aliases": [
+   "Nebraska Wesleyan University"
+  ]
+ },
+ {
+  "id": "nebraska-omaha",
+  "name": "Nebraska-Omaha",
+  "aliases": [
+   "Nebraska-Omaha"
+  ]
+ },
+ {
+  "id": "nevada",
+  "name": "Nevada",
+  "aliases": [
+   "Nevada",
+   "Nevada-Reno"
+  ]
+ },
+ {
+  "id": "new-hampshire",
+  "name": "New Hampshire",
+  "aliases": [
+   "New Hampshire"
+  ]
+ },
+ {
+  "id": "new-mexico",
+  "name": "New Mexico",
+  "aliases": [
+   "New Mexico"
+  ]
+ },
+ {
+  "id": "new-mexico-highlands-univ",
+  "name": "New Mexico Highlands Univ.",
+  "aliases": [
+   "New Mexico Highlands Univ."
+  ]
+ },
+ {
+  "id": "new-mexico-military-institute",
+  "name": "New Mexico Military Institute",
+  "aliases": [
+   "New Mexico Military Institute"
+  ]
+ },
+ {
+  "id": "new-mexico-state",
+  "name": "New Mexico State",
+  "aliases": [
+   "New Mexico State"
+  ]
+ },
+ {
+  "id": "new-york-instit-of-technology",
+  "name": "New York Instit. of Technology",
+  "aliases": [
+   "New York Instit. of Technology"
+  ]
+ },
+ {
+  "id": "newberry",
+  "name": "Newberry",
+  "aliases": [
+   "Newberry"
+  ]
+ },
+ {
+  "id": "nicholls-state",
+  "name": "Nicholls State",
+  "aliases": [
+   "Nicholls State"
+  ]
+ },
+ {
+  "id": "norfolk-state",
+  "name": "Norfolk State",
+  "aliases": [
+   "Norfolk State"
+  ]
+ },
+ {
+  "id": "normandale-community-college",
+  "name": "Normandale Community College",
+  "aliases": [
+   "Normandale Community College"
+  ]
+ },
+ {
+  "id": "north-alabama",
+  "name": "North Alabama",
+  "aliases": [
+   "North Alabama"
+  ]
+ },
+ {
+  "id": "north-carolina",
+  "name": "North Carolina",
+  "aliases": [
+   "North Carolina"
+  ]
+ },
+ {
+  "id": "north-carolina-aandt",
+  "name": "North Carolina A&T",
+  "aliases": [
+   "North Carolina A&T"
+  ]
+ },
+ {
+  "id": "north-carolina-central",
+  "name": "North Carolina Central",
+  "aliases": [
+   "North Carolina Central"
+  ]
+ },
+ {
+  "id": "north-central-state",
+  "name": "North Central State",
+  "aliases": [
+   "North Central State"
+  ]
+ },
+ {
+  "id": "north-central-texas-college",
+  "name": "North Central Texas College",
+  "aliases": [
+   "North Central Texas College"
+  ]
+ },
+ {
+  "id": "north-dakota",
+  "name": "North Dakota",
+  "aliases": [
+   "North Dakota"
+  ]
+ },
+ {
+  "id": "north-dakota-state",
+  "name": "North Dakota State",
+  "aliases": [
+   "North Dakota State"
+  ]
+ },
+ {
+  "id": "north-florida-junior-college",
+  "name": "North Florida Junior College",
+  "aliases": [
+   "North Florida Junior College"
+  ]
+ },
+ {
+  "id": "north-greenville-college",
+  "name": "North Greenville College",
+  "aliases": [
+   "North Greenville College"
+  ]
+ },
+ {
+  "id": "north-hennepin-community-coll",
+  "name": "North Hennepin Community Coll",
+  "aliases": [
+   "North Hennepin Community Coll"
+  ]
+ },
+ {
+  "id": "north-idaho-college",
+  "name": "North Idaho College",
+  "aliases": [
+   "North Idaho College"
+  ]
+ },
+ {
+  "id": "north-iowa-area-community-college",
+  "name": "North Iowa Area Community College",
+  "aliases": [
+   "North Iowa Area Community College"
+  ]
+ },
+ {
+  "id": "north-texas",
+  "name": "North Texas",
+  "aliases": [
+   "North Texas"
+  ]
+ },
+ {
+  "id": "northeast-oklahoma",
+  "name": "Northeast Oklahoma",
+  "aliases": [
+   "Northeast Oklahoma"
+  ]
+ },
+ {
+  "id": "northeastern-illinois-university",
+  "name": "Northeastern Illinois University",
+  "aliases": [
+   "Northeastern Illinois University"
+  ]
+ },
+ {
+  "id": "northeastern-junior-college",
+  "name": "Northeastern Junior College",
+  "aliases": [
+   "Northeastern Junior College"
+  ]
+ },
+ {
+  "id": "northeastern-state-ok",
+  "name": "Northeastern State (Ok)",
+  "aliases": [
+   "Northeastern State (Ok)"
+  ]
+ },
+ {
+  "id": "northeastern-university-mass",
+  "name": "Northeastern University, Mass",
+  "aliases": [
+   "Northeastern University, Mass"
+  ]
+ },
+ {
+  "id": "northern-arizona",
+  "name": "Northern Arizona",
+  "aliases": [
+   "Northern Arizona"
+  ]
+ },
+ {
+  "id": "northern-colorado",
+  "name": "Northern Colorado",
+  "aliases": [
+   "Northern Colorado"
+  ]
+ },
+ {
+  "id": "northern-illinois",
+  "name": "Northern Illinois",
+  "aliases": [
+   "Northern Illinois"
+  ]
+ },
+ {
+  "id": "northern-iowa",
+  "name": "Northern Iowa",
+  "aliases": [
+   "Northern Iowa"
+  ]
+ },
+ {
+  "id": "northern-michigan-university",
+  "name": "Northern Michigan University",
+  "aliases": [
+   "Northern Michigan University"
+  ]
+ },
+ {
+  "id": "northern-montana-state-university",
+  "name": "Northern Montana State University",
+  "aliases": [
+   "Northern Montana State University"
+  ]
+ },
+ {
+  "id": "northern-oklahoma-college",
+  "name": "Northern Oklahoma College",
+  "aliases": [
+   "Northern Oklahoma College"
+  ]
+ },
+ {
+  "id": "northern-state-university",
+  "name": "Northern State University",
+  "aliases": [
+   "Northern State University"
+  ]
+ },
+ {
+  "id": "northern-virginia-cc",
+  "name": "Northern Virginia CC",
+  "aliases": [
+   "Northern Virginia CC"
+  ]
+ },
+ {
+  "id": "northland-college-wi",
+  "name": "Northland College WI",
+  "aliases": [
+   "Northland College WI"
+  ]
+ },
+ {
+  "id": "northwest-mississippi-cc",
+  "name": "Northwest Mississippi CC",
+  "aliases": [
+   "Northwest Mississippi CC"
+  ]
+ },
+ {
+  "id": "northwestern",
+  "name": "Northwestern",
+  "aliases": [
+   "Northwestern"
+  ]
+ },
+ {
+  "id": "northwestern-college-ia",
+  "name": "Northwestern College (Ia)",
+  "aliases": [
+   "Northwestern College (Ia)"
+  ]
+ },
+ {
+  "id": "northwestern-college-mn",
+  "name": "Northwestern College (MN)",
+  "aliases": [
+   "Northwestern College (MN)"
+  ]
+ },
+ {
+  "id": "northwestern-jc-oh",
+  "name": "Northwestern JC (OH)",
+  "aliases": [
+   "Northwestern JC (OH)"
+  ]
+ },
+ {
+  "id": "northwestern-oklahoma-state-university",
+  "name": "Northwestern Oklahoma State University",
+  "aliases": [
+   "Northwestern Oklahoma State University"
+  ]
+ },
+ {
+  "id": "northwestern-state",
+  "name": "Northwestern State",
+  "aliases": [
+   "Northwestern State",
+   "Northwestern State (LA)",
+   "Northwestern State, La.",
+   "Northwestern State-Louisiana"
+  ]
+ },
+ {
+  "id": "northwood",
+  "name": "Northwood",
+  "aliases": [
+   "Northwood"
+  ]
+ },
+ {
+  "id": "northwood-university-florida",
+  "name": "Northwood University: Florida",
+  "aliases": [
+   "Northwood University: Florida"
+  ]
+ },
+ {
+  "id": "norwich-university",
+  "name": "Norwich University",
+  "aliases": [
+   "Norwich University"
+  ]
+ },
+ {
+  "id": "notre-dame",
+  "name": "Notre Dame",
+  "aliases": [
+   "Notre Dame"
+  ]
+ },
+ {
+  "id": "nw-missouri-state-university",
+  "name": "NW Missouri State University",
+  "aliases": [
+   "NW Missouri State University"
+  ]
+ },
+ {
+  "id": "occidental-college",
+  "name": "Occidental College",
+  "aliases": [
+   "Occidental College"
+  ]
+ },
+ {
+  "id": "ohio",
+  "name": "Ohio",
+  "aliases": [
+   "Ohio",
+   "Ohio U.",
+   "Ohio University"
+  ]
+ },
+ {
+  "id": "ohio-northern-university",
+  "name": "Ohio Northern University",
+  "aliases": [
+   "Ohio Northern University"
+  ]
+ },
+ {
+  "id": "ohio-state",
+  "name": "Ohio State",
+  "aliases": [
+   "Ohio State",
+   "tOSU"
+  ]
+ },
+ {
+  "id": "ohio-wesleyan-university",
+  "name": "Ohio Wesleyan University",
+  "aliases": [
+   "Ohio Wesleyan University"
+  ]
+ },
+ {
+  "id": "oklahoma",
+  "name": "Oklahoma",
+  "aliases": [
+   "Oklahoma"
+  ]
+ },
+ {
+  "id": "oklahoma-military-academy-j-c",
+  "name": "Oklahoma Military Academy (J.C.)",
+  "aliases": [
+   "Oklahoma Military Academy (J.C.)"
+  ]
+ },
+ {
+  "id": "oklahoma-state",
+  "name": "Oklahoma State",
+  "aliases": [
+   "Oklahoma State"
+  ]
+ },
+ {
+  "id": "old-dominion",
+  "name": "Old Dominion",
+  "aliases": [
+   "Old Dominion"
+  ]
+ },
+ {
+  "id": "ole-miss",
+  "name": "Ole Miss",
+  "aliases": [
+   "Mississippi",
+   "Ole Miss",
+   "University of Mississippi"
+  ]
+ },
+ {
+  "id": "olivet-college",
+  "name": "Olivet College",
+  "aliases": [
+   "Olivet College"
+  ]
+ },
+ {
+  "id": "olympic-college",
+  "name": "Olympic College",
+  "aliases": [
+   "Olympic College"
+  ]
+ },
+ {
+  "id": "orange-coast-college",
+  "name": "Orange Coast College",
+  "aliases": [
+   "Orange Coast College"
+  ]
+ },
+ {
+  "id": "oregon",
+  "name": "Oregon",
+  "aliases": [
+   "Oregon"
+  ]
+ },
+ {
+  "id": "oregon-institute-of-technology",
+  "name": "Oregon Institute Of Technology",
+  "aliases": [
+   "Oregon Institute Of Technology"
+  ]
+ },
+ {
+  "id": "oregon-state",
+  "name": "Oregon State",
+  "aliases": [
+   "Oregon State"
+  ]
+ },
+ {
+  "id": "otterbein-college",
+  "name": "Otterbein College",
+  "aliases": [
+   "Otterbein College"
+  ]
+ },
+ {
+  "id": "ouachita-baptist-university",
+  "name": "Ouachita Baptist University",
+  "aliases": [
+   "Ouachita Baptist University"
+  ]
+ },
+ {
+  "id": "pacific-lutheran-university",
+  "name": "Pacific Lutheran University",
+  "aliases": [
+   "Pacific Lutheran University"
+  ]
+ },
+ {
+  "id": "pacific-university-or",
+  "name": "Pacific University (Or)",
+  "aliases": [
+   "Pacific University (Or)"
+  ]
+ },
+ {
+  "id": "paducah-community-college",
+  "name": "Paducah Community College",
+  "aliases": [
+   "Paducah Community College"
+  ]
+ },
+ {
+  "id": "palm-beach-cc-fl",
+  "name": "Palm Beach CC FL",
+  "aliases": [
+   "Palm Beach CC FL"
+  ]
+ },
+ {
+  "id": "palo-verde-college",
+  "name": "Palo Verde College",
+  "aliases": [
+   "Palo Verde College"
+  ]
+ },
+ {
+  "id": "palomar-college",
+  "name": "Palomar College",
+  "aliases": [
+   "Palomar College"
+  ]
+ },
+ {
+  "id": "panhandle-state",
+  "name": "Panhandle State",
+  "aliases": [
+   "Panhandle State"
+  ]
+ },
+ {
+  "id": "park-college",
+  "name": "Park College",
+  "aliases": [
+   "Park College"
+  ]
+ },
+ {
+  "id": "parsons-college-ia",
+  "name": "Parsons College (IA)",
+  "aliases": [
+   "Parsons College (IA)"
+  ]
+ },
+ {
+  "id": "pasadena-college",
+  "name": "Pasadena College",
+  "aliases": [
+   "Pasadena College"
+  ]
+ },
+ {
+  "id": "pearl-river",
+  "name": "Pearl River",
+  "aliases": [
+   "Pearl River"
+  ]
+ },
+ {
+  "id": "penn",
+  "name": "Penn",
+  "aliases": [
+   "Penn",
+   "Pennsylvania"
+  ]
+ },
+ {
+  "id": "penn-state",
+  "name": "Penn State",
+  "aliases": [
+   "PSU",
+   "Penn State"
+  ]
+ },
+ {
+  "id": "penn-state-beaver",
+  "name": "Penn State Beaver",
+  "aliases": [
+   "Penn State Beaver"
+  ]
+ },
+ {
+  "id": "pensacola-junior-college",
+  "name": "Pensacola Junior College",
+  "aliases": [
+   "Pensacola Junior College"
+  ]
+ },
+ {
+  "id": "peru-state-college-ne",
+  "name": "Peru State College (Ne)",
+  "aliases": [
+   "Peru State College (Ne)"
+  ]
+ },
+ {
+  "id": "phoenix-college",
+  "name": "Phoenix College",
+  "aliases": [
+   "Phoenix College"
+  ]
+ },
+ {
+  "id": "pierce-college",
+  "name": "Pierce College",
+  "aliases": [
+   "Pierce College"
+  ]
+ },
+ {
+  "id": "pittsburg-state-ks",
+  "name": "Pittsburg State (KS)",
+  "aliases": [
+   "Pittsburg State (KS)"
+  ]
+ },
+ {
+  "id": "pittsburgh",
+  "name": "Pittsburgh",
+  "aliases": [
+   "Pitt",
+   "Pittsburgh"
+  ]
+ },
+ {
+  "id": "pittsburgh-johnstown",
+  "name": "Pittsburgh-Johnstown",
+  "aliases": [
+   "Pittsburgh-Johnstown"
+  ]
+ },
+ {
+  "id": "plymouth-state-college",
+  "name": "Plymouth State College",
+  "aliases": [
+   "Plymouth State College"
+  ]
+ },
+ {
+  "id": "pomona-state",
+  "name": "Pomona State",
+  "aliases": [
+   "Pomona State"
+  ]
+ },
+ {
+  "id": "porterville-college",
+  "name": "Porterville College",
+  "aliases": [
+   "Porterville College"
+  ]
+ },
+ {
+  "id": "portland-community-college",
+  "name": "Portland Community College",
+  "aliases": [
+   "Portland Community College"
+  ]
+ },
+ {
+  "id": "portland-state",
+  "name": "Portland State",
+  "aliases": [
+   "Portland State"
+  ]
+ },
+ {
+  "id": "prairie-view-aandm",
+  "name": "Prairie View A&M",
+  "aliases": [
+   "Prairie View A&M"
+  ]
+ },
+ {
+  "id": "pratt-community-college",
+  "name": "Pratt Community College",
+  "aliases": [
+   "Pratt Community College"
+  ]
+ },
+ {
+  "id": "presbyterian-college",
+  "name": "Presbyterian College",
+  "aliases": [
+   "Presbyterian College"
+  ]
+ },
+ {
+  "id": "princeton",
+  "name": "Princeton",
+  "aliases": [
+   "Princeton"
+  ]
+ },
+ {
+  "id": "principia-college",
+  "name": "Principia College",
+  "aliases": [
+   "Principia College"
+  ]
+ },
+ {
+  "id": "puget-sound-christian-college",
+  "name": "Puget Sound Christian College",
+  "aliases": [
+   "Puget Sound Christian College"
+  ]
+ },
+ {
+  "id": "purdue",
+  "name": "Purdue",
+  "aliases": [
+   "Purdue"
+  ]
+ },
+ {
+  "id": "queens-university-canada",
+  "name": "Queens University (Canada)",
+  "aliases": [
+   "Queens University (Canada)"
+  ]
+ },
+ {
+  "id": "rancho-santiago-community-coll",
+  "name": "Rancho Santiago Community Coll",
+  "aliases": [
+   "Rancho Santiago Community Coll"
+  ]
+ },
+ {
+  "id": "randolph-macon-college",
+  "name": "Randolph Macon College",
+  "aliases": [
+   "Randolph Macon College"
+  ]
+ },
+ {
+  "id": "ranger-junior-college",
+  "name": "Ranger Junior College",
+  "aliases": [
+   "Ranger Junior College"
+  ]
+ },
+ {
+  "id": "redlands",
+  "name": "Redlands",
+  "aliases": [
+   "Redlands"
+  ]
+ },
+ {
+  "id": "reedley",
+  "name": "Reedley",
+  "aliases": [
+   "Reedley"
+  ]
+ },
+ {
+  "id": "regina",
+  "name": "Regina",
+  "aliases": [
+   "Regina"
+  ]
+ },
+ {
+  "id": "rensselear-polytechnic-institute",
+  "name": "Rensselear Polytechnic Institute",
+  "aliases": [
+   "Rensselear Polytechnic Institute"
+  ]
+ },
+ {
+  "id": "rhode-island",
+  "name": "Rhode Island",
+  "aliases": [
+   "Rhode Island"
+  ]
+ },
+ {
+  "id": "rhodes-college-aka-sw-memphis",
+  "name": "Rhodes College aka SW Memphis",
+  "aliases": [
+   "Rhodes College aka SW Memphis"
+  ]
+ },
+ {
+  "id": "rice",
+  "name": "Rice",
+  "aliases": [
+   "Rice"
+  ]
+ },
+ {
+  "id": "richmond",
+  "name": "Richmond",
+  "aliases": [
+   "Richmond"
+  ]
+ },
+ {
+  "id": "richmond-technical-college",
+  "name": "Richmond Technical College",
+  "aliases": [
+   "Richmond Technical College"
+  ]
+ },
+ {
+  "id": "ricks-college",
+  "name": "Ricks College",
+  "aliases": [
+   "Ricks College"
+  ]
+ },
+ {
+  "id": "rio-hondo-college",
+  "name": "Rio Hondo College",
+  "aliases": [
+   "Rio Hondo College"
+  ]
+ },
+ {
+  "id": "riverside-community-college",
+  "name": "Riverside Community College",
+  "aliases": [
+   "Riverside Community College"
+  ]
+ },
+ {
+  "id": "robert-morris",
+  "name": "Robert Morris",
+  "aliases": [
+   "Robert Morris"
+  ]
+ },
+ {
+  "id": "rochester-community-college",
+  "name": "Rochester Community College",
+  "aliases": [
+   "Rochester Community College"
+  ]
+ },
+ {
+  "id": "rocky-mountain-college",
+  "name": "Rocky Mountain College",
+  "aliases": [
+   "Rocky Mountain College"
+  ]
+ },
+ {
+  "id": "rose-state-coll-ok-j-c",
+  "name": "Rose State Coll. OK (J.C.)",
+  "aliases": [
+   "Rose State Coll. OK (J.C.)"
+  ]
+ },
+ {
+  "id": "rowan-college",
+  "name": "Rowan College",
+  "aliases": [
+   "Rowan College"
+  ]
+ },
+ {
+  "id": "rutgers",
+  "name": "Rutgers",
+  "aliases": [
+   "Rutgers"
+  ]
+ },
+ {
+  "id": "rutgers-camden",
+  "name": "Rutgers-Camden",
+  "aliases": [
+   "Rutgers-Camden"
+  ]
+ },
+ {
+  "id": "sacramento-city",
+  "name": "Sacramento City",
+  "aliases": [
+   "Sacramento City"
+  ]
+ },
+ {
+  "id": "sacramento-state",
+  "name": "Sacramento State",
+  "aliases": [
+   "Sacramento State"
+  ]
+ },
+ {
+  "id": "sacred-heart-university",
+  "name": "Sacred Heart University",
+  "aliases": [
+   "Sacred Heart University"
+  ]
+ },
+ {
+  "id": "saddleback-community-college",
+  "name": "Saddleback Community College",
+  "aliases": [
+   "Saddleback Community College"
+  ]
+ },
+ {
+  "id": "saginaw-valley-state",
+  "name": "Saginaw Valley State",
+  "aliases": [
+   "Saginaw Valley State"
+  ]
+ },
+ {
+  "id": "saint-augustine-s-college",
+  "name": "Saint Augustine's College",
+  "aliases": [
+   "Saint Augustine's College"
+  ]
+ },
+ {
+  "id": "saint-lawrence-university",
+  "name": "Saint Lawrence University",
+  "aliases": [
+   "Saint Lawrence University"
+  ]
+ },
+ {
+  "id": "saint-leo-college",
+  "name": "Saint Leo College",
+  "aliases": [
+   "Saint Leo College"
+  ]
+ },
+ {
+  "id": "saint-louis-university",
+  "name": "Saint Louis University",
+  "aliases": [
+   "Saint Louis University"
+  ]
+ },
+ {
+  "id": "saint-xavier",
+  "name": "Saint Xavier",
+  "aliases": [
+   "Saint Xavier"
+  ]
+ },
+ {
+  "id": "salem-international-university",
+  "name": "Salem International University",
+  "aliases": [
+   "Salem International University"
+  ]
+ },
+ {
+  "id": "salem-state-university-ma",
+  "name": "Salem State University (MA)",
+  "aliases": [
+   "Salem State University (MA)"
+  ]
+ },
+ {
+  "id": "salisbury-state-university",
+  "name": "Salisbury State University",
+  "aliases": [
+   "Salisbury State University"
+  ]
+ },
+ {
+  "id": "sam-houston-state",
+  "name": "Sam Houston State",
+  "aliases": [
+   "Sam Houston State"
+  ]
+ },
+ {
+  "id": "samford",
+  "name": "Samford",
+  "aliases": [
+   "Samford"
+  ]
+ },
+ {
+  "id": "san-bernardino-valley",
+  "name": "San Bernardino Valley",
+  "aliases": [
+   "San Bernardino Valley"
+  ]
+ },
+ {
+  "id": "san-diego",
+  "name": "San Diego",
+  "aliases": [
+   "San Diego"
+  ]
+ },
+ {
+  "id": "san-diego-city-college",
+  "name": "San Diego City College",
+  "aliases": [
+   "San Diego City College"
+  ]
+ },
+ {
+  "id": "san-diego-mesa-college",
+  "name": "San Diego Mesa College",
+  "aliases": [
+   "San Diego Mesa College"
+  ]
+ },
+ {
+  "id": "san-diego-state",
+  "name": "San Diego State",
+  "aliases": [
+   "San Diego State"
+  ]
+ },
+ {
+  "id": "san-joaquin-delta-college",
+  "name": "San Joaquin Delta College",
+  "aliases": [
+   "San Joaquin Delta College"
+  ]
+ },
+ {
+  "id": "san-jose-city-college",
+  "name": "San Jose City College",
+  "aliases": [
+   "San Jose City College"
+  ]
+ },
+ {
+  "id": "san-jose-state",
+  "name": "San Jose State",
+  "aliases": [
+   "San Jose State"
+  ]
+ },
+ {
+  "id": "san-mateo",
+  "name": "San Mateo",
+  "aliases": [
+   "San Mateo"
+  ]
+ },
+ {
+  "id": "santa-ana-college",
+  "name": "Santa Ana College",
+  "aliases": [
+   "Santa Ana College"
+  ]
+ },
+ {
+  "id": "santa-barbara",
+  "name": "Santa Barbara",
+  "aliases": [
+   "Santa Barbara"
+  ]
+ },
+ {
+  "id": "santa-clara-university",
+  "name": "Santa Clara University",
+  "aliases": [
+   "Santa Clara University"
+  ]
+ },
+ {
+  "id": "santa-monica",
+  "name": "Santa Monica",
+  "aliases": [
+   "Santa Monica"
+  ]
+ },
+ {
+  "id": "santa-rosa",
+  "name": "Santa Rosa",
+  "aliases": [
+   "Santa Rosa"
+  ]
+ },
+ {
+  "id": "savannah-state-college",
+  "name": "Savannah State College",
+  "aliases": [
+   "Savannah State College"
+  ]
+ },
+ {
+  "id": "schreiner-junior-college",
+  "name": "Schreiner Junior College",
+  "aliases": [
+   "Schreiner Junior College"
+  ]
+ },
+ {
+  "id": "scottsdale-cc",
+  "name": "Scottsdale CC",
+  "aliases": [
+   "Scottsdale CC"
+  ]
+ },
+ {
+  "id": "seattle-university",
+  "name": "Seattle University",
+  "aliases": [
+   "Seattle University"
+  ]
+ },
+ {
+  "id": "seward-county-community-coll",
+  "name": "Seward County Community Coll",
+  "aliases": [
+   "Seward County Community Coll"
+  ]
+ },
+ {
+  "id": "shasta-college",
+  "name": "Shasta College",
+  "aliases": [
+   "Shasta College"
+  ]
+ },
+ {
+  "id": "shaw-university",
+  "name": "Shaw University",
+  "aliases": [
+   "Shaw University"
+  ]
+ },
+ {
+  "id": "shenandoah-university",
+  "name": "Shenandoah University",
+  "aliases": [
+   "Shenandoah University"
+  ]
+ },
+ {
+  "id": "shepherd",
+  "name": "Shepherd",
+  "aliases": [
+   "Shepherd"
+  ]
+ },
+ {
+  "id": "shoreline-cc-wa",
+  "name": "Shoreline CC (WA)",
+  "aliases": [
+   "Shoreline CC (WA)"
+  ]
+ },
+ {
+  "id": "shorter-college",
+  "name": "Shorter College",
+  "aliases": [
+   "Shorter College"
+  ]
+ },
+ {
+  "id": "sierra-jc",
+  "name": "Sierra JC",
+  "aliases": [
+   "Sierra JC"
+  ]
+ },
+ {
+  "id": "simon-fraser",
+  "name": "Simon Fraser",
+  "aliases": [
+   "Simon Fraser"
+  ]
+ },
+ {
+  "id": "sioux-falls",
+  "name": "Sioux Falls",
+  "aliases": [
+   "Sioux Falls"
+  ]
+ },
+ {
+  "id": "slippery-rock",
+  "name": "Slippery Rock",
+  "aliases": [
+   "Slippery Rock"
+  ]
+ },
+ {
+  "id": "smu",
+  "name": "SMU",
+  "aliases": [
+   "SMU",
+   "Southern Methodist"
+  ]
+ },
+ {
+  "id": "snow",
+  "name": "Snow",
+  "aliases": [
+   "Snow"
+  ]
+ },
+ {
+  "id": "solano-community-college",
+  "name": "Solano Community College",
+  "aliases": [
+   "Solano Community College"
+  ]
+ },
+ {
+  "id": "south-alabama",
+  "name": "South Alabama",
+  "aliases": [
+   "South Alabama"
+  ]
+ },
+ {
+  "id": "south-carolina",
+  "name": "South Carolina",
+  "aliases": [
+   "South Carolina"
+  ]
+ },
+ {
+  "id": "south-carolina-state",
+  "name": "South Carolina State",
+  "aliases": [
+   "South Carolina State"
+  ]
+ },
+ {
+  "id": "south-dakota",
+  "name": "South Dakota",
+  "aliases": [
+   "South Dakota"
+  ]
+ },
+ {
+  "id": "south-dakota-state",
+  "name": "South Dakota State",
+  "aliases": [
+   "South Dakota State"
+  ]
+ },
+ {
+  "id": "south-florida",
+  "name": "South Florida",
+  "aliases": [
+   "South Florida",
+   "USF",
+   "University of South Florida"
+  ]
+ },
+ {
+  "id": "south-florida-community-college",
+  "name": "South Florida Community College",
+  "aliases": [
+   "South Florida Community College"
+  ]
+ },
+ {
+  "id": "southampton-england",
+  "name": "Southampton England",
+  "aliases": [
+   "Southampton England"
+  ]
+ },
+ {
+  "id": "southeast-missouri-state",
+  "name": "Southeast Missouri State",
+  "aliases": [
+   "Southeast Missouri State"
+  ]
+ },
+ {
+  "id": "southeastern-illinois",
+  "name": "Southeastern Illinois",
+  "aliases": [
+   "Southeastern Illinois"
+  ]
+ },
+ {
+  "id": "southeastern-louisiana",
+  "name": "Southeastern Louisiana",
+  "aliases": [
+   "Southeastern Louisiana"
+  ]
+ },
+ {
+  "id": "southeastern-oklahoma-state",
+  "name": "Southeastern Oklahoma State",
+  "aliases": [
+   "Southeastern Oklahoma State"
+  ]
+ },
+ {
+  "id": "southern",
+  "name": "Southern",
+  "aliases": [
+   "Southern",
+   "Southern U.",
+   "Southern University"
+  ]
+ },
+ {
+  "id": "southern-arkansas",
+  "name": "Southern Arkansas",
+  "aliases": [
+   "Southern Arkansas"
+  ]
+ },
+ {
+  "id": "southern-connecticut-state",
+  "name": "Southern Connecticut State",
+  "aliases": [
+   "Southern Connecticut State"
+  ]
+ },
+ {
+  "id": "southern-illinois",
+  "name": "Southern Illinois",
+  "aliases": [
+   "Southern Illinois"
+  ]
+ },
+ {
+  "id": "southern-miss",
+  "name": "Southern Miss",
+  "aliases": [
+   "Southern Miss",
+   "Southern Mississippi"
+  ]
+ },
+ {
+  "id": "southern-nazarene-university",
+  "name": "Southern Nazarene University",
+  "aliases": [
+   "Southern Nazarene University"
+  ]
+ },
+ {
+  "id": "southern-oregon",
+  "name": "Southern Oregon",
+  "aliases": [
+   "Southern Oregon"
+  ]
+ },
+ {
+  "id": "southern-utah",
+  "name": "Southern Utah",
+  "aliases": [
+   "Southern Utah",
+   "Southern Utah State"
+  ]
+ },
+ {
+  "id": "southwest-minnesota-state-university",
+  "name": "Southwest Minnesota State University",
+  "aliases": [
+   "Southwest Minnesota State University"
+  ]
+ },
+ {
+  "id": "southwest-mississippi-jc",
+  "name": "Southwest Mississippi JC",
+  "aliases": [
+   "Southwest Mississippi JC"
+  ]
+ },
+ {
+  "id": "southwestern-college-ca",
+  "name": "Southwestern College (CA)",
+  "aliases": [
+   "Southwestern College (CA)"
+  ]
+ },
+ {
+  "id": "southwestern-oklahoma-state-university",
+  "name": "Southwestern Oklahoma State University",
+  "aliases": [
+   "Southwestern Oklahoma State University"
+  ]
+ },
+ {
+  "id": "spokane-community-college",
+  "name": "Spokane Community College",
+  "aliases": [
+   "Spokane Community College"
+  ]
+ },
+ {
+  "id": "springfield-college",
+  "name": "Springfield College",
+  "aliases": [
+   "Springfield College"
+  ]
+ },
+ {
+  "id": "st-norbert-college",
+  "name": "St Norbert College",
+  "aliases": [
+   "St Norbert College"
+  ]
+ },
+ {
+  "id": "st-bernard",
+  "name": "St. Bernard",
+  "aliases": [
+   "St. Bernard"
+  ]
+ },
+ {
+  "id": "st-cloud-state-university",
+  "name": "St. Cloud State University",
+  "aliases": [
+   "St. Cloud State University"
+  ]
+ },
+ {
+  "id": "st-francis-pa",
+  "name": "St. Francis PA",
+  "aliases": [
+   "St. Francis PA"
+  ]
+ },
+ {
+  "id": "st-francis-xavier-university",
+  "name": "St. Francis Xavier University",
+  "aliases": [
+   "St. Francis Xavier University"
+  ]
+ },
+ {
+  "id": "st-john-s-mn",
+  "name": "St. John's (MN)",
+  "aliases": [
+   "St. John's (MN)"
+  ]
+ },
+ {
+  "id": "st-john-s-university",
+  "name": "St. John's University",
+  "aliases": [
+   "St. John's University"
+  ]
+ },
+ {
+  "id": "st-joseph-indiana",
+  "name": "St. Joseph (Indiana)",
+  "aliases": [
+   "St. Joseph (Indiana)"
+  ]
+ },
+ {
+  "id": "st-joseph-s-university-pa",
+  "name": "St. Joseph's University (PA)",
+  "aliases": [
+   "St. Joseph's University (PA)"
+  ]
+ },
+ {
+  "id": "st-mary-s-college-ca",
+  "name": "St. Mary's College (CA)",
+  "aliases": [
+   "St. Mary's College (CA)"
+  ]
+ },
+ {
+  "id": "st-marys-university-canada",
+  "name": "St. Marys University (Canada)",
+  "aliases": [
+   "St. Marys University (Canada)"
+  ]
+ },
+ {
+  "id": "st-paul-s-college",
+  "name": "St. Paul's College",
+  "aliases": [
+   "St. Paul's College"
+  ]
+ },
+ {
+  "id": "stanford",
+  "name": "Stanford",
+  "aliases": [
+   "Stanford"
+  ]
+ },
+ {
+  "id": "state-university-of-ny-coll-morrisville",
+  "name": "State University of NY Coll-Morrisville",
+  "aliases": [
+   "State University of NY Coll-Morrisville"
+  ]
+ },
+ {
+  "id": "stephen-f-austin-state",
+  "name": "Stephen F. Austin State",
+  "aliases": [
+   "Stephen F. Austin State"
+  ]
+ },
+ {
+  "id": "stetson",
+  "name": "Stetson",
+  "aliases": [
+   "Stetson"
+  ]
+ },
+ {
+  "id": "stillman-college",
+  "name": "Stillman College",
+  "aliases": [
+   "Stillman College"
+  ]
+ },
+ {
+  "id": "stony-brook",
+  "name": "Stony Brook",
+  "aliases": [
+   "Stony Brook"
+  ]
+ },
+ {
+  "id": "suffolk-county-cc-brentwood",
+  "name": "Suffolk County CC-Brentwood",
+  "aliases": [
+   "Suffolk County CC-Brentwood"
+  ]
+ },
+ {
+  "id": "syracuse",
+  "name": "Syracuse",
+  "aliases": [
+   "Syracuse"
+  ]
+ },
+ {
+  "id": "tabor-college",
+  "name": "Tabor College",
+  "aliases": [
+   "Tabor College"
+  ]
+ },
+ {
+  "id": "taft-college",
+  "name": "Taft College",
+  "aliases": [
+   "Taft College"
+  ]
+ },
+ {
+  "id": "tallahassee-cc",
+  "name": "Tallahassee CC",
+  "aliases": [
+   "Tallahassee CC"
+  ]
+ },
+ {
+  "id": "tarleton-state",
+  "name": "Tarleton State",
+  "aliases": [
+   "Tarleton State"
+  ]
+ },
+ {
+  "id": "tarrant-county-jc",
+  "name": "Tarrant County JC",
+  "aliases": [
+   "Tarrant County JC"
+  ]
+ },
+ {
+  "id": "taylor-university",
+  "name": "Taylor University",
+  "aliases": [
+   "Taylor University"
+  ]
+ },
+ {
+  "id": "tcu",
+  "name": "TCU",
+  "aliases": [
+   "TCU",
+   "Texas Christian"
+  ]
+ },
+ {
+  "id": "temple",
+  "name": "Temple",
+  "aliases": [
+   "Temple"
+  ]
+ },
+ {
+  "id": "tennessee",
+  "name": "Tennessee",
+  "aliases": [
+   "Tennessee"
+  ]
+ },
+ {
+  "id": "tennessee-military-academy",
+  "name": "Tennessee Military Academy",
+  "aliases": [
+   "Tennessee Military Academy"
+  ]
+ },
+ {
+  "id": "tennessee-state",
+  "name": "Tennessee State",
+  "aliases": [
+   "Tennessee State"
+  ]
+ },
+ {
+  "id": "tennessee-technological-univ",
+  "name": "Tennessee Technological Univ",
+  "aliases": [
+   "Tennessee Technological Univ"
+  ]
+ },
+ {
+  "id": "tennessee-chattanooga",
+  "name": "Tennessee-Chattanooga",
+  "aliases": [
+   "Tennessee-Chattanooga"
+  ]
+ },
+ {
+  "id": "tennessee-martin",
+  "name": "Tennessee-Martin",
+  "aliases": [
+   "Tennessee-Martin"
+  ]
+ },
+ {
+  "id": "texarkana-college",
+  "name": "Texarkana College",
+  "aliases": [
+   "Texarkana College"
+  ]
+ },
+ {
+  "id": "texas",
+  "name": "Texas",
+  "aliases": [
+   "Texas"
+  ]
+ },
+ {
+  "id": "texas-aandm",
+  "name": "Texas A&M",
+  "aliases": [
+   "TAMU",
+   "Texas A&M"
+  ]
+ },
+ {
+  "id": "texas-aandm-commerce",
+  "name": "Texas A&M-Commerce",
+  "aliases": [
+   "East Texas A&M",
+   "East Texas State",
+   "Texas A&M-Commerce"
+  ]
+ },
+ {
+  "id": "texas-aandm-kingsville",
+  "name": "Texas A&M-Kingsville",
+  "aliases": [
+   "Texas A&I",
+   "Texas A&M University-Kingsville",
+   "Texas A&M-Kingsville"
+  ]
+ },
+ {
+  "id": "texas-southern",
+  "name": "Texas Southern",
+  "aliases": [
+   "Texas Southern"
+  ]
+ },
+ {
+  "id": "texas-state-san-marcos",
+  "name": "Texas State-San Marcos",
+  "aliases": [
+   "Texas State-San Marcos"
+  ]
+ },
+ {
+  "id": "texas-tech",
+  "name": "Texas Tech",
+  "aliases": [
+   "Texas Tech"
+  ]
+ },
+ {
+  "id": "the-citadel",
+  "name": "The Citadel",
+  "aliases": [
+   "Citadel",
+   "The Citadel"
+  ]
+ },
+ {
+  "id": "thiel-college",
+  "name": "Thiel College",
+  "aliases": [
+   "Thiel College"
+  ]
+ },
+ {
+  "id": "thornton-community-college",
+  "name": "Thornton Community College",
+  "aliases": [
+   "Thornton Community College"
+  ]
+ },
+ {
+  "id": "tiffin",
+  "name": "Tiffin",
+  "aliases": [
+   "Tiffin"
+  ]
+ },
+ {
+  "id": "toledo",
+  "name": "Toledo",
+  "aliases": [
+   "Toledo"
+  ]
+ },
+ {
+  "id": "towson",
+  "name": "Towson",
+  "aliases": [
+   "Towson",
+   "Towson State"
+  ]
+ },
+ {
+  "id": "trinidad-state-junior-college",
+  "name": "Trinidad State Junior College",
+  "aliases": [
+   "Trinidad State Junior College"
+  ]
+ },
+ {
+  "id": "trinity-christian-college",
+  "name": "Trinity Christian College",
+  "aliases": [
+   "Trinity Christian College"
+  ]
+ },
+ {
+  "id": "trinity-college-conn",
+  "name": "Trinity College Conn.",
+  "aliases": [
+   "Trinity College Conn."
+  ]
+ },
+ {
+  "id": "trinity-college-deerfield",
+  "name": "Trinity College, Deerfield",
+  "aliases": [
+   "Trinity College, Deerfield"
+  ]
+ },
+ {
+  "id": "trinity-university-texas",
+  "name": "Trinity University Texas",
+  "aliases": [
+   "Trinity University Texas"
+  ]
+ },
+ {
+  "id": "trinity-valley-cc",
+  "name": "Trinity Valley CC",
+  "aliases": [
+   "Trinity Valley CC"
+  ]
+ },
+ {
+  "id": "triton-cc-il",
+  "name": "Triton CC IL",
+  "aliases": [
+   "Triton CC IL"
+  ]
+ },
+ {
+  "id": "troy",
+  "name": "Troy",
+  "aliases": [
+   "Troy"
+  ]
+ },
+ {
+  "id": "truckee-meadows-community-coll",
+  "name": "Truckee Meadows Community Coll",
+  "aliases": [
+   "Truckee Meadows Community Coll"
+  ]
+ },
+ {
+  "id": "truman-state-university",
+  "name": "Truman State University",
+  "aliases": [
+   "Truman State University"
+  ]
+ },
+ {
+  "id": "tufts-university",
+  "name": "Tufts University",
+  "aliases": [
+   "Tufts University"
+  ]
+ },
+ {
+  "id": "tulane",
+  "name": "Tulane",
+  "aliases": [
+   "Tulane"
+  ]
+ },
+ {
+  "id": "tulsa",
+  "name": "Tulsa",
+  "aliases": [
+   "Tulsa"
+  ]
+ },
+ {
+  "id": "tusculum-college",
+  "name": "Tusculum College",
+  "aliases": [
+   "Tusculum College"
+  ]
+ },
+ {
+  "id": "tuskegee-university",
+  "name": "Tuskegee University",
+  "aliases": [
+   "Tuskegee University"
+  ]
+ },
+ {
+  "id": "tyler-jc",
+  "name": "Tyler JC",
+  "aliases": [
+   "Tyler JC"
+  ]
+ },
+ {
+  "id": "uab",
+  "name": "UAB",
+  "aliases": [
+   "Alabama-Birmingham",
+   "UAB"
+  ]
+ },
+ {
+  "id": "uc-davis",
+  "name": "UC Davis",
+  "aliases": [
+   "UC Davis"
+  ]
+ },
+ {
+  "id": "uc-irvine",
+  "name": "UC Irvine",
+  "aliases": [
+   "UC Irvine"
+  ]
+ },
+ {
+  "id": "ucf",
+  "name": "UCF",
+  "aliases": [
+   "Central Florida",
+   "UCF"
+  ]
+ },
+ {
+  "id": "ucla",
+  "name": "UCLA",
+  "aliases": [
+   "UCLA"
+  ]
+ },
+ {
+  "id": "uconn",
+  "name": "UConn",
+  "aliases": [
+   "Connecticut",
+   "UConn"
+  ]
+ },
+ {
+  "id": "ulster-county-community-college",
+  "name": "Ulster County Community College",
+  "aliases": [
+   "Ulster County Community College"
+  ]
+ },
+ {
+  "id": "umass-amherst",
+  "name": "UMass Amherst",
+  "aliases": [
+   "UMass Amherst"
+  ]
+ },
+ {
+  "id": "unc-pembroke",
+  "name": "UNC Pembroke",
+  "aliases": [
+   "UNC Pembroke"
+  ]
+ },
+ {
+  "id": "union-college",
+  "name": "Union College",
+  "aliases": [
+   "Union College"
+  ]
+ },
+ {
+  "id": "union-college-ky",
+  "name": "Union College (KY)",
+  "aliases": [
+   "Union College (KY)"
+  ]
+ },
+ {
+  "id": "univ-of-arkansas-at-monticello",
+  "name": "Univ of Arkansas at Monticello",
+  "aliases": [
+   "Univ of Arkansas at Monticello"
+  ]
+ },
+ {
+  "id": "univ-of-california-san-diego",
+  "name": "Univ of California-San Diego",
+  "aliases": [
+   "Univ of California-San Diego"
+  ]
+ },
+ {
+  "id": "university-of-arkansas-at-pine-bluff",
+  "name": "University of Arkansas at Pine Bluff",
+  "aliases": [
+   "University of Arkansas at Pine Bluff"
+  ]
+ },
+ {
+  "id": "university-of-bridgeport",
+  "name": "University of Bridgeport",
+  "aliases": [
+   "University of Bridgeport"
+  ]
+ },
+ {
+  "id": "university-of-british-columbia",
+  "name": "University of British Columbia",
+  "aliases": [
+   "University of British Columbia"
+  ]
+ },
+ {
+  "id": "university-of-california-santa-barbara",
+  "name": "University of California-Santa Barbara",
+  "aliases": [
+   "University of California-Santa Barbara"
+  ]
+ },
+ {
+  "id": "university-of-cheyney",
+  "name": "University of Cheyney",
+  "aliases": [
+   "University of Cheyney"
+  ]
+ },
+ {
+  "id": "university-of-clarion",
+  "name": "University of Clarion",
+  "aliases": [
+   "University of Clarion"
+  ]
+ },
+ {
+  "id": "university-of-detroit-mercy",
+  "name": "University of Detroit Mercy",
+  "aliases": [
+   "University of Detroit Mercy"
+  ]
+ },
+ {
+  "id": "university-of-edinboro",
+  "name": "University of Edinboro",
+  "aliases": [
+   "University of Edinboro"
+  ]
+ },
+ {
+  "id": "university-of-evansville",
+  "name": "University of Evansville",
+  "aliases": [
+   "University of Evansville"
+  ]
+ },
+ {
+  "id": "university-of-la-verne",
+  "name": "University of La Verne",
+  "aliases": [
+   "University of La Verne"
+  ]
+ },
+ {
+  "id": "university-of-lock-haven",
+  "name": "University of Lock Haven",
+  "aliases": [
+   "University of Lock Haven"
+  ]
+ },
+ {
+  "id": "university-of-millersville",
+  "name": "University of Millersville",
+  "aliases": [
+   "University of Millersville"
+  ]
+ },
+ {
+  "id": "university-of-new-haven",
+  "name": "University of New Haven",
+  "aliases": [
+   "University of New Haven"
+  ]
+ },
+ {
+  "id": "university-of-ottawa-kans",
+  "name": "University of Ottawa (Kans.)",
+  "aliases": [
+   "University of Ottawa (Kans.)"
+  ]
+ },
+ {
+  "id": "university-of-rochester",
+  "name": "University of Rochester",
+  "aliases": [
+   "University of Rochester"
+  ]
+ },
+ {
+  "id": "university-of-san-francisco",
+  "name": "University of San Francisco",
+  "aliases": [
+   "University of San Francisco"
+  ]
+ },
+ {
+  "id": "university-of-shippensburg",
+  "name": "University of Shippensburg",
+  "aliases": [
+   "University of Shippensburg"
+  ]
+ },
+ {
+  "id": "university-of-sonoma-state",
+  "name": "University of Sonoma State",
+  "aliases": [
+   "University of Sonoma State"
+  ]
+ },
+ {
+  "id": "university-of-st-thomas",
+  "name": "University of St. Thomas",
+  "aliases": [
+   "University of St. Thomas"
+  ]
+ },
+ {
+  "id": "university-of-tampa",
+  "name": "University of Tampa",
+  "aliases": [
+   "University of Tampa"
+  ]
+ },
+ {
+  "id": "university-of-texas-arlington",
+  "name": "University of Texas-Arlington",
+  "aliases": [
+   "University of Texas-Arlington"
+  ]
+ },
+ {
+  "id": "university-of-toronto-canada",
+  "name": "University of Toronto (Canada)",
+  "aliases": [
+   "University of Toronto (Canada)"
+  ]
+ },
+ {
+  "id": "university-of-u-of-pacific",
+  "name": "University of U. of Pacific",
+  "aliases": [
+   "University of U. of Pacific"
+  ]
+ },
+ {
+  "id": "university-of-west-florida",
+  "name": "University of West Florida",
+  "aliases": [
+   "University of West Florida"
+  ]
+ },
+ {
+  "id": "unlv",
+  "name": "UNLV",
+  "aliases": [
+   "Nevada-Las Vegas",
+   "UNLV"
+  ]
+ },
+ {
+  "id": "upper-iowa-university",
+  "name": "Upper Iowa University",
+  "aliases": [
+   "Upper Iowa University"
+  ]
+ },
+ {
+  "id": "upsala-college",
+  "name": "Upsala College",
+  "aliases": [
+   "Upsala College"
+  ]
+ },
+ {
+  "id": "ursinus-college",
+  "name": "Ursinus College",
+  "aliases": [
+   "Ursinus College"
+  ]
+ },
+ {
+  "id": "usc",
+  "name": "USC",
+  "aliases": [
+   "So. California",
+   "Southern Cal",
+   "Southern Calif.",
+   "Southern California",
+   "Trojans",
+   "USC"
+  ]
+ },
+ {
+  "id": "utah",
+  "name": "Utah",
+  "aliases": [
+   "Utah"
+  ]
+ },
+ {
+  "id": "utah-state",
+  "name": "Utah State",
+  "aliases": [
+   "Utah State"
+  ]
+ },
+ {
+  "id": "utah-valley",
+  "name": "Utah Valley",
+  "aliases": [
+   "Utah Valley"
+  ]
+ },
+ {
+  "id": "utep",
+  "name": "UTEP",
+  "aliases": [
+   "Texas-El Paso",
+   "UTEP"
+  ]
+ },
+ {
+  "id": "utsa",
+  "name": "UTSA",
+  "aliases": [
+   "Texas-San Antonio",
+   "UTSA"
+  ]
+ },
+ {
+  "id": "valdosta-state",
+  "name": "Valdosta State",
+  "aliases": [
+   "Valdosta State"
+  ]
+ },
+ {
+  "id": "valencia-community-college",
+  "name": "Valencia Community College",
+  "aliases": [
+   "Valencia Community College"
+  ]
+ },
+ {
+  "id": "valley-forge-christian-college",
+  "name": "Valley Forge Christian College",
+  "aliases": [
+   "Valley Forge Christian College"
+  ]
+ },
+ {
+  "id": "valparaiso-university",
+  "name": "Valparaiso University",
+  "aliases": [
+   "Valparaiso University"
+  ]
+ },
+ {
+  "id": "vanderbilt",
+  "name": "Vanderbilt",
+  "aliases": [
+   "Vanderbilt"
+  ]
+ },
+ {
+  "id": "ventura",
+  "name": "Ventura",
+  "aliases": [
+   "Ventura"
+  ]
+ },
+ {
+  "id": "vermilion-cc-mn",
+  "name": "Vermilion CC MN",
+  "aliases": [
+   "Vermilion CC MN"
+  ]
+ },
+ {
+  "id": "victor-valley-college-ca",
+  "name": "Victor Valley College (CA)",
+  "aliases": [
+   "Victor Valley College (CA)"
+  ]
+ },
+ {
+  "id": "villanova",
+  "name": "Villanova",
+  "aliases": [
+   "Villanova"
+  ]
+ },
+ {
+  "id": "virginia",
+  "name": "Virginia",
+  "aliases": [
+   "Virginia"
+  ]
+ },
+ {
+  "id": "virginia-commonwealth-univ",
+  "name": "Virginia Commonwealth Univ.",
+  "aliases": [
+   "Virginia Commonwealth Univ."
+  ]
+ },
+ {
+  "id": "virginia-state",
+  "name": "Virginia State",
+  "aliases": [
+   "Virginia State"
+  ]
+ },
+ {
+  "id": "virginia-tech",
+  "name": "Virginia Tech",
+  "aliases": [
+   "VT",
+   "Virginia Tech"
+  ]
+ },
+ {
+  "id": "virginia-union",
+  "name": "Virginia Union",
+  "aliases": [
+   "Virginia Union"
+  ]
+ },
+ {
+  "id": "vmi",
+  "name": "VMI",
+  "aliases": [
+   "VMI",
+   "Virginia Military Inst.",
+   "Virginia Military Institute"
+  ]
+ },
+ {
+  "id": "wabash-college",
+  "name": "Wabash College",
+  "aliases": [
+   "Wabash College"
+  ]
+ },
+ {
+  "id": "wabash-valley-college",
+  "name": "Wabash Valley College",
+  "aliases": [
+   "Wabash Valley College"
+  ]
+ },
+ {
+  "id": "wagner",
+  "name": "Wagner",
+  "aliases": [
+   "Wagner"
+  ]
+ },
+ {
+  "id": "wahpeton-jc-nd",
+  "name": "Wahpeton JC (ND)",
+  "aliases": [
+   "Wahpeton JC (ND)"
+  ]
+ },
+ {
+  "id": "wake-forest",
+  "name": "Wake Forest",
+  "aliases": [
+   "Wake Forest"
+  ]
+ },
+ {
+  "id": "waldorf-college",
+  "name": "Waldorf College",
+  "aliases": [
+   "Waldorf College"
+  ]
+ },
+ {
+  "id": "walla-walla-community-college",
+  "name": "Walla Walla Community College",
+  "aliases": [
+   "Walla Walla Community College"
+  ]
+ },
+ {
+  "id": "wallace-state-cc-al-j-c",
+  "name": "Wallace State CC AL (J.C.)",
+  "aliases": [
+   "Wallace State CC AL (J.C.)"
+  ]
+ },
+ {
+  "id": "walsh",
+  "name": "Walsh",
+  "aliases": [
+   "Walsh"
+  ]
+ },
+ {
+  "id": "washburn",
+  "name": "Washburn",
+  "aliases": [
+   "Washburn"
+  ]
+ },
+ {
+  "id": "washington",
+  "name": "Washington",
+  "aliases": [
+   "Washington"
+  ]
+ },
+ {
+  "id": "washington-missouri",
+  "name": "Washington Missouri",
+  "aliases": [
+   "Washington Missouri"
+  ]
+ },
+ {
+  "id": "washington-state",
+  "name": "Washington State",
+  "aliases": [
+   "Washington State"
+  ]
+ },
+ {
+  "id": "wayne-state",
+  "name": "Wayne State",
+  "aliases": [
+   "Wayne State"
+  ]
+ },
+ {
+  "id": "wayne-state-college",
+  "name": "Wayne State College",
+  "aliases": [
+   "Wayne State College"
+  ]
+ },
+ {
+  "id": "waynesburg-college",
+  "name": "Waynesburg College",
+  "aliases": [
+   "Waynesburg College"
+  ]
+ },
+ {
+  "id": "weber-state",
+  "name": "Weber State",
+  "aliases": [
+   "Weber State"
+  ]
+ },
+ {
+  "id": "wenatchee-valley-college",
+  "name": "Wenatchee Valley College",
+  "aliases": [
+   "Wenatchee Valley College"
+  ]
+ },
+ {
+  "id": "wesley",
+  "name": "Wesley",
+  "aliases": [
+   "Wesley"
+  ]
+ },
+ {
+  "id": "wesleyan-university",
+  "name": "Wesleyan University",
+  "aliases": [
+   "Wesleyan University"
+  ]
+ },
+ {
+  "id": "west-alabama",
+  "name": "West Alabama",
+  "aliases": [
+   "West Alabama"
+  ]
+ },
+ {
+  "id": "west-chester-state-university",
+  "name": "West Chester State University",
+  "aliases": [
+   "West Chester State University"
+  ]
+ },
+ {
+  "id": "west-georgia",
+  "name": "West Georgia",
+  "aliases": [
+   "West Georgia"
+  ]
+ },
+ {
+  "id": "west-hills-community-college",
+  "name": "West Hills Community College",
+  "aliases": [
+   "West Hills Community College"
+  ]
+ },
+ {
+  "id": "west-liberty-state-college",
+  "name": "West Liberty State College",
+  "aliases": [
+   "West Liberty State College"
+  ]
+ },
+ {
+  "id": "west-los-angeles-college",
+  "name": "West Los Angeles College",
+  "aliases": [
+   "West Los Angeles College"
+  ]
+ },
+ {
+  "id": "west-texas-state",
+  "name": "West Texas State",
+  "aliases": [
+   "West Texas State"
+  ]
+ },
+ {
+  "id": "west-valley-college",
+  "name": "West Valley College",
+  "aliases": [
+   "West Valley College"
+  ]
+ },
+ {
+  "id": "west-virginia",
+  "name": "West Virginia",
+  "aliases": [
+   "West Virginia"
+  ]
+ },
+ {
+  "id": "west-virginia-state",
+  "name": "West Virginia State",
+  "aliases": [
+   "West Virginia State"
+  ]
+ },
+ {
+  "id": "west-virginia-tech",
+  "name": "West Virginia Tech",
+  "aliases": [
+   "West Virginia Tech"
+  ]
+ },
+ {
+  "id": "west-virginia-wesleyan-college",
+  "name": "West Virginia Wesleyan College",
+  "aliases": [
+   "West Virginia Wesleyan College"
+  ]
+ },
+ {
+  "id": "westchester-community-college",
+  "name": "Westchester Community College",
+  "aliases": [
+   "Westchester Community College"
+  ]
+ },
+ {
+  "id": "western-carolina",
+  "name": "Western Carolina",
+  "aliases": [
+   "Western Carolina"
+  ]
+ },
+ {
+  "id": "western-illinois",
+  "name": "Western Illinois",
+  "aliases": [
+   "Western Illinois"
+  ]
+ },
+ {
+  "id": "western-kentucky",
+  "name": "Western Kentucky",
+  "aliases": [
+   "Western Kentucky"
+  ]
+ },
+ {
+  "id": "western-michigan",
+  "name": "Western Michigan",
+  "aliases": [
+   "Western Michigan"
+  ]
+ },
+ {
+  "id": "western-montana",
+  "name": "Western Montana",
+  "aliases": [
+   "Western Montana"
+  ]
+ },
+ {
+  "id": "western-new-mexico-university",
+  "name": "Western New Mexico University",
+  "aliases": [
+   "Western New Mexico University"
+  ]
+ },
+ {
+  "id": "western-ontario",
+  "name": "Western Ontario",
+  "aliases": [
+   "Western Ontario"
+  ]
+ },
+ {
+  "id": "western-oregon",
+  "name": "Western Oregon",
+  "aliases": [
+   "Western Oregon"
+  ]
+ },
+ {
+  "id": "western-state",
+  "name": "Western State",
+  "aliases": [
+   "Western State"
+  ]
+ },
+ {
+  "id": "western-washington-university",
+  "name": "Western Washington University",
+  "aliases": [
+   "Western Washington University"
+  ]
+ },
+ {
+  "id": "westminster-college-mo",
+  "name": "Westminster College (MO)",
+  "aliases": [
+   "Westminster College (MO)"
+  ]
+ },
+ {
+  "id": "westminster-college-pa",
+  "name": "Westminster College (PA)",
+  "aliases": [
+   "Westminster College (PA)"
+  ]
+ },
+ {
+  "id": "wharton-county-junior-college",
+  "name": "Wharton County Junior College",
+  "aliases": [
+   "Wharton County Junior College"
+  ]
+ },
+ {
+  "id": "wheaton-college-illinois",
+  "name": "Wheaton College Illinois",
+  "aliases": [
+   "Wheaton College Illinois"
+  ]
+ },
+ {
+  "id": "whitworth-college",
+  "name": "Whitworth College",
+  "aliases": [
+   "Whitworth College"
+  ]
+ },
+ {
+  "id": "wichita-state-university",
+  "name": "Wichita State University",
+  "aliases": [
+   "Wichita State University"
+  ]
+ },
+ {
+  "id": "widener-university",
+  "name": "Widener University",
+  "aliases": [
+   "Widener University"
+  ]
+ },
+ {
+  "id": "wiley-college",
+  "name": "Wiley College",
+  "aliases": [
+   "Wiley College"
+  ]
+ },
+ {
+  "id": "willamette-university",
+  "name": "Willamette University",
+  "aliases": [
+   "Willamette University"
+  ]
+ },
+ {
+  "id": "william-and-mary",
+  "name": "William & Mary",
+  "aliases": [
+   "William & Mary"
+  ]
+ },
+ {
+  "id": "william-jewell-college",
+  "name": "William Jewell College",
+  "aliases": [
+   "William Jewell College"
+  ]
+ },
+ {
+  "id": "william-paterson-coll-of-nj",
+  "name": "William Paterson Coll. of NJ",
+  "aliases": [
+   "William Paterson Coll. of NJ"
+  ]
+ },
+ {
+  "id": "william-penn",
+  "name": "William Penn",
+  "aliases": [
+   "William Penn"
+  ]
+ },
+ {
+  "id": "william-rainey-harper-college",
+  "name": "William Rainey Harper College",
+  "aliases": [
+   "William Rainey Harper College"
+  ]
+ },
+ {
+  "id": "williams-college",
+  "name": "Williams College",
+  "aliases": [
+   "Williams College"
+  ]
+ },
+ {
+  "id": "wingate",
+  "name": "Wingate",
+  "aliases": [
+   "Wingate"
+  ]
+ },
+ {
+  "id": "winona-state-university",
+  "name": "Winona State University",
+  "aliases": [
+   "Winona State University"
+  ]
+ },
+ {
+  "id": "winston-salem-state-university",
+  "name": "Winston Salem State University",
+  "aliases": [
+   "Winston Salem State University"
+  ]
+ },
+ {
+  "id": "wisconsin",
+  "name": "Wisconsin",
+  "aliases": [
+   "Wisconsin"
+  ]
+ },
+ {
+  "id": "wisconsin-eau-claire",
+  "name": "Wisconsin Eau Claire",
+  "aliases": [
+   "Wisconsin Eau Claire"
+  ]
+ },
+ {
+  "id": "wisconsin-la-crosse",
+  "name": "Wisconsin La Crosse",
+  "aliases": [
+   "Wisconsin La Crosse"
+  ]
+ },
+ {
+  "id": "wisconsin-superior",
+  "name": "Wisconsin Superior",
+  "aliases": [
+   "Wisconsin Superior"
+  ]
+ },
+ {
+  "id": "wisconsin-milwaukee",
+  "name": "Wisconsin-Milwaukee",
+  "aliases": [
+   "Wisconsin-Milwaukee"
+  ]
+ },
+ {
+  "id": "wisconsin-platteville",
+  "name": "Wisconsin-Platteville",
+  "aliases": [
+   "Wisconsin-Platteville"
+  ]
+ },
+ {
+  "id": "wisconsin-stevens-point",
+  "name": "Wisconsin-Stevens Point",
+  "aliases": [
+   "Wisconsin-Stevens Point"
+  ]
+ },
+ {
+  "id": "wisconsin-stout-menomonie",
+  "name": "Wisconsin-Stout Menomonie",
+  "aliases": [
+   "Wisconsin-Stout Menomonie"
+  ]
+ },
+ {
+  "id": "wisconsin-whitewater",
+  "name": "Wisconsin-Whitewater",
+  "aliases": [
+   "Wisconsin-Whitewater"
+  ]
+ },
+ {
+  "id": "wittenberg-university",
+  "name": "Wittenberg University",
+  "aliases": [
+   "Wittenberg University"
+  ]
+ },
+ {
+  "id": "wofford",
+  "name": "Wofford",
+  "aliases": [
+   "Wofford"
+  ]
+ },
+ {
+  "id": "wooster-college-of",
+  "name": "Wooster, College Of",
+  "aliases": [
+   "Wooster, College Of"
+  ]
+ },
+ {
+  "id": "wyoming",
+  "name": "Wyoming",
+  "aliases": [
+   "Wyoming"
+  ]
+ },
+ {
+  "id": "xavier-university-ohio",
+  "name": "Xavier University, Ohio",
+  "aliases": [
+   "Xavier University, Ohio"
+  ]
+ },
+ {
+  "id": "yakima-valley-community-coll",
+  "name": "Yakima Valley Community Coll",
+  "aliases": [
+   "Yakima Valley Community Coll"
+  ]
+ },
+ {
+  "id": "yale",
+  "name": "Yale",
+  "aliases": [
+   "Yale"
+  ]
+ },
+ {
+  "id": "yankton-college-sd",
+  "name": "Yankton College (SD)",
+  "aliases": [
+   "Yankton College (SD)"
+  ]
+ },
+ {
+  "id": "york-canada",
+  "name": "York (Canada)",
+  "aliases": [
+   "York (Canada)"
+  ]
+ },
+ {
+  "id": "youngstown-state",
+  "name": "Youngstown State",
+  "aliases": [
+   "Youngstown State"
+  ]
+ },
+ {
+  "id": "yuba-college",
+  "name": "Yuba College",
+  "aliases": [
+   "Yuba College"
+  ]
+ }
+]

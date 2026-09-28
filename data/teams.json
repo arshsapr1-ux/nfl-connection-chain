@@ -1,0 +1,733 @@
+[
+ {
+  "id": "ARI",
+  "city": "Arizona",
+  "nickname": "Cardinals",
+  "abbreviation": "ARI",
+  "colors": {
+   "primary": "#97233F",
+   "secondary": "#000000"
+  },
+  "historicalNames": [
+   "Chicago Cardinals",
+   "St. Louis Cardinals",
+   "Phoenix Cardinals",
+   "Racine Cardinals"
+  ],
+  "aliases": [
+   "ARI",
+   "Arizona",
+   "Arizona Cardinals",
+   "Cardinals",
+   "Chicago Cardinals",
+   "Phoenix Cardinals",
+   "Racine Cardinals",
+   "St. Louis Cardinals"
+  ],
+  "sourceCodes": [
+   "ARI (1994–present)",
+   "ARZ (1994–present)",
+   "C-P (1944–1944)",
+   "CHC (1920–1959)",
+   "PHO (1988–1993)",
+   "STL (1960–1987)"
+  ]
+ },
+ {
+  "id": "ATL",
+  "city": "Atlanta",
+  "nickname": "Falcons",
+  "abbreviation": "ATL",
+  "colors": {
+   "primary": "#A71930",
+   "secondary": "#000000"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "ATL",
+   "Atlanta",
+   "Atlanta Falcons",
+   "Falcons"
+  ],
+  "sourceCodes": [
+   "ATL (1966–present)"
+  ]
+ },
+ {
+  "id": "BAL",
+  "city": "Baltimore",
+  "nickname": "Ravens",
+  "abbreviation": "BAL",
+  "colors": {
+   "primary": "#241773",
+   "secondary": "#9E7C0C"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "BAL",
+   "Baltimore",
+   "Baltimore Ravens",
+   "Ravens"
+  ],
+  "sourceCodes": [
+   "BAL (1996–present)",
+   "BLT (1996–present)"
+  ]
+ },
+ {
+  "id": "BUF",
+  "city": "Buffalo",
+  "nickname": "Bills",
+  "abbreviation": "BUF",
+  "colors": {
+   "primary": "#00338D",
+   "secondary": "#C60C30"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "BUF",
+   "Bills",
+   "Buffalo",
+   "Buffalo Bills"
+  ],
+  "sourceCodes": [
+   "BUF (1960–present)"
+  ]
+ },
+ {
+  "id": "CAR",
+  "city": "Carolina",
+  "nickname": "Panthers",
+  "abbreviation": "CAR",
+  "colors": {
+   "primary": "#0085CA",
+   "secondary": "#101820"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "CAR",
+   "Carolina",
+   "Carolina Panthers",
+   "Panthers"
+  ],
+  "sourceCodes": [
+   "CAR (1995–present)"
+  ]
+ },
+ {
+  "id": "CHI",
+  "city": "Chicago",
+  "nickname": "Bears",
+  "abbreviation": "CHI",
+  "colors": {
+   "primary": "#0B162A",
+   "secondary": "#C83803"
+  },
+  "historicalNames": [
+   "Decatur Staleys",
+   "Chicago Staleys"
+  ],
+  "aliases": [
+   "Bears",
+   "CHI",
+   "Chicago",
+   "Chicago Bears",
+   "Chicago Staleys",
+   "Decatur Staleys"
+  ],
+  "sourceCodes": [
+   "CHB (1922–1959)",
+   "CHI (1960–present)",
+   "CHS (1921–1921)",
+   "DEC (1920–1920)"
+  ]
+ },
+ {
+  "id": "CIN",
+  "city": "Cincinnati",
+  "nickname": "Bengals",
+  "abbreviation": "CIN",
+  "colors": {
+   "primary": "#FB4F14",
+   "secondary": "#000000"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Bengals",
+   "CIN",
+   "Cincinnati",
+   "Cincinnati Bengals"
+  ],
+  "sourceCodes": [
+   "CIN (1968–present)"
+  ]
+ },
+ {
+  "id": "CLE",
+  "city": "Cleveland",
+  "nickname": "Browns",
+  "abbreviation": "CLE",
+  "colors": {
+   "primary": "#311D00",
+   "secondary": "#FF3C00"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Browns",
+   "CLE",
+   "Cleveland",
+   "Cleveland Browns"
+  ],
+  "sourceCodes": [
+   "CLE (1946–present)",
+   "CLV (1999–present)"
+  ]
+ },
+ {
+  "id": "DAL",
+  "city": "Dallas",
+  "nickname": "Cowboys",
+  "abbreviation": "DAL",
+  "colors": {
+   "primary": "#003594",
+   "secondary": "#869397"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Cowboys",
+   "DAL",
+   "Dallas",
+   "Dallas Cowboys"
+  ],
+  "sourceCodes": [
+   "COW (1960–1962)",
+   "DAL (1960–present)"
+  ]
+ },
+ {
+  "id": "DEN",
+  "city": "Denver",
+  "nickname": "Broncos",
+  "abbreviation": "DEN",
+  "colors": {
+   "primary": "#FB4F14",
+   "secondary": "#002244"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Broncos",
+   "DEN",
+   "Denver",
+   "Denver Broncos"
+  ],
+  "sourceCodes": [
+   "DEN (1960–present)"
+  ]
+ },
+ {
+  "id": "DET",
+  "city": "Detroit",
+  "nickname": "Lions",
+  "abbreviation": "DET",
+  "colors": {
+   "primary": "#0076B6",
+   "secondary": "#B0B7BC"
+  },
+  "historicalNames": [
+   "Portsmouth Spartans"
+  ],
+  "aliases": [
+   "DET",
+   "Detroit",
+   "Detroit Lions",
+   "Lions",
+   "Portsmouth Spartans"
+  ],
+  "sourceCodes": [
+   "DET (1934–present)",
+   "POR (1930–1933)"
+  ]
+ },
+ {
+  "id": "GB",
+  "city": "Green Bay",
+  "nickname": "Packers",
+  "abbreviation": "GB",
+  "colors": {
+   "primary": "#203731",
+   "secondary": "#FFB612"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "GB",
+   "Green Bay",
+   "Green Bay Packers",
+   "Packers"
+  ],
+  "sourceCodes": [
+   "GB (1921–present)"
+  ]
+ },
+ {
+  "id": "HOU",
+  "city": "Houston",
+  "nickname": "Texans",
+  "abbreviation": "HOU",
+  "colors": {
+   "primary": "#03202F",
+   "secondary": "#A71930"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "HOU",
+   "Houston",
+   "Houston Texans",
+   "Texans"
+  ],
+  "sourceCodes": [
+   "HOU (2002–present)",
+   "HST (2002–present)"
+  ]
+ },
+ {
+  "id": "IND",
+  "city": "Indianapolis",
+  "nickname": "Colts",
+  "abbreviation": "IND",
+  "colors": {
+   "primary": "#002C5F",
+   "secondary": "#A2AAAD"
+  },
+  "historicalNames": [
+   "Baltimore Colts"
+  ],
+  "aliases": [
+   "Baltimore Colts",
+   "Colts",
+   "IND",
+   "Indianapolis",
+   "Indianapolis Colts"
+  ],
+  "sourceCodes": [
+   "BAL (1953–1983)",
+   "IND (1984–present)"
+  ]
+ },
+ {
+  "id": "JAX",
+  "city": "Jacksonville",
+  "nickname": "Jaguars",
+  "abbreviation": "JAX",
+  "colors": {
+   "primary": "#006778",
+   "secondary": "#D7A22A"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "JAX",
+   "Jacksonville",
+   "Jacksonville Jaguars",
+   "Jaguars"
+  ],
+  "sourceCodes": [
+   "JAX (1995–present)"
+  ]
+ },
+ {
+  "id": "KC",
+  "city": "Kansas City",
+  "nickname": "Chiefs",
+  "abbreviation": "KC",
+  "colors": {
+   "primary": "#E31837",
+   "secondary": "#FFB81C"
+  },
+  "historicalNames": [
+   "Dallas Texans"
+  ],
+  "aliases": [
+   "Chiefs",
+   "Dallas Texans",
+   "KC",
+   "Kansas City",
+   "Kansas City Chiefs"
+  ],
+  "sourceCodes": [
+   "KC (1963–present)",
+   "TEX (1960–1962)"
+  ]
+ },
+ {
+  "id": "LV",
+  "city": "Las Vegas",
+  "nickname": "Raiders",
+  "abbreviation": "LV",
+  "colors": {
+   "primary": "#000000",
+   "secondary": "#A5ACAF"
+  },
+  "historicalNames": [
+   "Oakland Raiders",
+   "Los Angeles Raiders"
+  ],
+  "aliases": [
+   "LV",
+   "Las Vegas",
+   "Las Vegas Raiders",
+   "Los Angeles Raiders",
+   "Oakland Raiders",
+   "Raiders"
+  ],
+  "sourceCodes": [
+   "LV (2020–present)",
+   "OAK (1960–2019)",
+   "RAI (1982–1994)"
+  ]
+ },
+ {
+  "id": "LAC",
+  "city": "Los Angeles",
+  "nickname": "Chargers",
+  "abbreviation": "LAC",
+  "colors": {
+   "primary": "#0080C6",
+   "secondary": "#FFC20E"
+  },
+  "historicalNames": [
+   "San Diego Chargers"
+  ],
+  "aliases": [
+   "Chargers",
+   "LAC",
+   "Los Angeles",
+   "Los Angeles Chargers",
+   "San Diego Chargers"
+  ],
+  "sourceCodes": [
+   "CHR (1960–1960)",
+   "LAC (2017–present)",
+   "SD (1961–2016)"
+  ]
+ },
+ {
+  "id": "LAR",
+  "city": "Los Angeles",
+  "nickname": "Rams",
+  "abbreviation": "LAR",
+  "colors": {
+   "primary": "#003594",
+   "secondary": "#FFA300"
+  },
+  "historicalNames": [
+   "Cleveland Rams",
+   "St. Louis Rams"
+  ],
+  "aliases": [
+   "Cleveland Rams",
+   "LAR",
+   "Los Angeles",
+   "Los Angeles Rams",
+   "Rams",
+   "St. Louis Rams"
+  ],
+  "sourceCodes": [
+   "CLE (1937–1945)",
+   "LA (1946–1994)",
+   "LA (2016–present)",
+   "RAM (1946–1994)",
+   "SL (1995–2015)",
+   "STL (1995–2015)"
+  ]
+ },
+ {
+  "id": "MIA",
+  "city": "Miami",
+  "nickname": "Dolphins",
+  "abbreviation": "MIA",
+  "colors": {
+   "primary": "#008E97",
+   "secondary": "#FC4C02"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Dolphins",
+   "MIA",
+   "Miami",
+   "Miami Dolphins"
+  ],
+  "sourceCodes": [
+   "MIA (1966–present)"
+  ]
+ },
+ {
+  "id": "MIN",
+  "city": "Minnesota",
+  "nickname": "Vikings",
+  "abbreviation": "MIN",
+  "colors": {
+   "primary": "#4F2683",
+   "secondary": "#FFC62F"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "MIN",
+   "Minnesota",
+   "Minnesota Vikings",
+   "Vikings"
+  ],
+  "sourceCodes": [
+   "MIN (1961–present)"
+  ]
+ },
+ {
+  "id": "NE",
+  "city": "New England",
+  "nickname": "Patriots",
+  "abbreviation": "NE",
+  "colors": {
+   "primary": "#002244",
+   "secondary": "#C60C30"
+  },
+  "historicalNames": [
+   "Boston Patriots"
+  ],
+  "aliases": [
+   "Boston Patriots",
+   "NE",
+   "New England",
+   "New England Patriots",
+   "Patriots"
+  ],
+  "sourceCodes": [
+   "BOS (1960–1970)",
+   "NE (1971–present)"
+  ]
+ },
+ {
+  "id": "NO",
+  "city": "New Orleans",
+  "nickname": "Saints",
+  "abbreviation": "NO",
+  "colors": {
+   "primary": "#D3BC8D",
+   "secondary": "#101820"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "NO",
+   "New Orleans",
+   "New Orleans Saints",
+   "Saints"
+  ],
+  "sourceCodes": [
+   "NO (1967–present)"
+  ]
+ },
+ {
+  "id": "NYG",
+  "city": "New York",
+  "nickname": "Giants",
+  "abbreviation": "NYG",
+  "colors": {
+   "primary": "#0B2265",
+   "secondary": "#A71930"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Giants",
+   "NYG",
+   "New York",
+   "New York Giants"
+  ],
+  "sourceCodes": [
+   "NY (1925–present)",
+   "NYG (1925–present)"
+  ]
+ },
+ {
+  "id": "NYJ",
+  "city": "New York",
+  "nickname": "Jets",
+  "abbreviation": "NYJ",
+  "colors": {
+   "primary": "#125740",
+   "secondary": "#FFFFFF"
+  },
+  "historicalNames": [
+   "New York Titans"
+  ],
+  "aliases": [
+   "Jets",
+   "NYJ",
+   "New York",
+   "New York Jets",
+   "New York Titans"
+  ],
+  "sourceCodes": [
+   "NYJ (1963–present)",
+   "NYT (1960–1962)"
+  ]
+ },
+ {
+  "id": "PHI",
+  "city": "Philadelphia",
+  "nickname": "Eagles",
+  "abbreviation": "PHI",
+  "colors": {
+   "primary": "#004C54",
+   "secondary": "#A5ACAF"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Eagles",
+   "PHI",
+   "Philadelphia",
+   "Philadelphia Eagles"
+  ],
+  "sourceCodes": [
+   "P-P (1943–1943)",
+   "PHI (1933–present)"
+  ]
+ },
+ {
+  "id": "PIT",
+  "city": "Pittsburgh",
+  "nickname": "Steelers",
+  "abbreviation": "PIT",
+  "colors": {
+   "primary": "#FFB612",
+   "secondary": "#101820"
+  },
+  "historicalNames": [
+   "Pittsburgh Pirates"
+  ],
+  "aliases": [
+   "PIT",
+   "Pittsburgh",
+   "Pittsburgh Pirates",
+   "Pittsburgh Steelers",
+   "Steelers"
+  ],
+  "sourceCodes": [
+   "C-P (1944–1944)",
+   "P-P (1943–1943)",
+   "PIT (1933–present)"
+  ]
+ },
+ {
+  "id": "SF",
+  "city": "San Francisco",
+  "nickname": "49ers",
+  "abbreviation": "SF",
+  "colors": {
+   "primary": "#AA0000",
+   "secondary": "#B3995D"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "49ers",
+   "SF",
+   "San Francisco",
+   "San Francisco 49ers"
+  ],
+  "sourceCodes": [
+   "SF (1946–present)"
+  ]
+ },
+ {
+  "id": "SEA",
+  "city": "Seattle",
+  "nickname": "Seahawks",
+  "abbreviation": "SEA",
+  "colors": {
+   "primary": "#002244",
+   "secondary": "#69BE28"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "SEA",
+   "Seahawks",
+   "Seattle",
+   "Seattle Seahawks"
+  ],
+  "sourceCodes": [
+   "SEA (1976–present)"
+  ]
+ },
+ {
+  "id": "TB",
+  "city": "Tampa Bay",
+  "nickname": "Buccaneers",
+  "abbreviation": "TB",
+  "colors": {
+   "primary": "#D50A0A",
+   "secondary": "#34302B"
+  },
+  "historicalNames": [],
+  "aliases": [
+   "Buccaneers",
+   "TB",
+   "Tampa Bay",
+   "Tampa Bay Buccaneers"
+  ],
+  "sourceCodes": [
+   "TB (1976–present)"
+  ]
+ },
+ {
+  "id": "TEN",
+  "city": "Tennessee",
+  "nickname": "Titans",
+  "abbreviation": "TEN",
+  "colors": {
+   "primary": "#0C2340",
+   "secondary": "#4B92DB"
+  },
+  "historicalNames": [
+   "Houston Oilers",
+   "Tennessee Oilers"
+  ],
+  "aliases": [
+   "Houston Oilers",
+   "TEN",
+   "Tennessee",
+   "Tennessee Oilers",
+   "Tennessee Titans",
+   "Titans"
+  ],
+  "sourceCodes": [
+   "HOU (1960–1996)",
+   "TEN (1997–present)"
+  ]
+ },
+ {
+  "id": "WAS",
+  "city": "Washington",
+  "nickname": "Commanders",
+  "abbreviation": "WAS",
+  "colors": {
+   "primary": "#5A1414",
+   "secondary": "#FFB612"
+  },
+  "historicalNames": [
+   "Washington Redskins",
+   "Washington Football Team",
+   "Boston Redskins",
+   "Boston Braves"
+  ],
+  "aliases": [
+   "Boston Braves",
+   "Boston Redskins",
+   "Commanders",
+   "WAS",
+   "Washington",
+   "Washington Commanders",
+   "Washington Football Team",
+   "Washington Redskins"
+  ],
+  "sourceCodes": [
+   "BOS (1932–1936)",
+   "WAS (1937–present)"
+  ]
+ }
+]
