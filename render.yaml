@@ -1,0 +1,12 @@
+# Render Blueprint: one Node web service serving the frontend + Socket.IO.
+services:
+  - type: web
+    name: nfl-connection-chain
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
