@@ -303,5 +303,13 @@ label.check input { width: 18px; height: 18px; accent-color: var(--accent); }
   *, .wheel { animation: none !important; transition-duration: 0ms !important; }
 }
 
+/* join by code */
+.divider { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.14em; }
+.divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.join-code { display: flex; flex-direction: column; gap: 8px; }
+.code-input { font-family: var(--display); font-size: 24px; letter-spacing: 0.18em; text-transform: uppercase; padding: 8px 14px; }
+.code-input::placeholder { font-family: Inter, system-ui, sans-serif; font-size: 15px; letter-spacing: 0; text-transform: none; }
+.join-code .btn { flex: none; }
+
 .credit { margin-top: 22px; font-size: 13px; color: var(--muted); letter-spacing: 0.04em; }
 .credit b { color: var(--accent); font-weight: 800; }

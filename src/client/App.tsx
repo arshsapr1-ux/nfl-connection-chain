@@ -8,7 +8,19 @@ import { DISCONNECT_CLAIM_MS, type ClientToServer, type Intent, type RoomView, t
 import { loadData, useData, useNow } from "./data.ts";
 import { GameView } from "./GameView.tsx";
 
-type Route = { page: "home" } | { page: "local"; names: [string, string]; settings: Settings } | { page: "online"; code: string };
+type Route =
+  | { page: "home" }
+  | { page: "local"; names: [string, string]; settings: Settings }
+  /** joinName: set when the player typed a code on the home page, so we join right away */
+  | { page: "online"; code: string; joinName?: string };
+
+const CODE_LENGTH = 6;
+
+/** Accepts "x7k2qd", " X7K-2QD ", or a pasted link ".../game/X7K2QD". */
+function parseCode(input: string): string {
+  const fromLink = input.match(/\/game\/([A-Za-z0-9]+)/);
+  return (fromLink ? fromLink[1] : input).toUpperCase().replace(/[^A-Z0-9]/g, "");
+}
 
 function parseRoute(): Route {
   const m = location.pathname.match(/^\/game\/([A-Za-z0-9]{4,8})\/?$/);
@@ -34,9 +46,14 @@ export function App() {
         <ThemeToggle />
       </header>
       <main>
-        {route.page === "home" && <Home onLocal={(names, settings) => go({ page: "local", names, settings })} onOnline={(code) => go({ page: "online", code }, `/game/${code}`)} />}
+        {route.page === "home" && (
+          <Home
+            onLocal={(names, settings) => go({ page: "local", names, settings })}
+            onOnline={(code, joinName) => go({ page: "online", code, joinName }, `/game/${code}`)}
+          />
+        )}
         {route.page === "local" && <LocalGame names={route.names} settings={route.settings} onExit={() => go({ page: "home" })} />}
-        {route.page === "online" && <OnlineGame code={route.code} onExit={() => go({ page: "home" })} />}
+        {route.page === "online" && <OnlineGame key={route.code} code={route.code} joinName={route.joinName} onExit={() => go({ page: "home" })} />}
       </main>
     </div>
   );
@@ -83,13 +100,26 @@ function SettingsForm({ settings, onChange }: { settings: Settings; onChange: (s
   );
 }
 
-function Home({ onLocal, onOnline }: { onLocal: (n: [string, string], s: Settings) => void; onOnline: (code: string) => void }) {
+function Home({ onLocal, onOnline }: {
+  onLocal: (n: [string, string], s: Settings) => void;
+  onOnline: (code: string, joinName?: string) => void;
+}) {
   const [mode, setMode] = useState<"local" | "online">("local");
   const [p1, setP1] = useState(() => { try { return localStorage.getItem("name") ?? ""; } catch { return ""; } });
   const [p2, setP2] = useState("");
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [error, setError] = useState<string | null>(null);
   const [creating, setCreating] = useState(false);
+  const [codeInput, setCodeInput] = useState("");
+  const [codeError, setCodeError] = useState<string | null>(null);
+
+  const joinWithCode = () => {
+    const code = parseCode(codeInput);
+    if (code.length !== CODE_LENGTH) return setCodeError(`Game codes are ${CODE_LENGTH} characters, like X7K2QD.`);
+    const name = p1.trim() || "Player 2";
+    saveName(name);
+    onOnline(code, name);
+  };
 
   const saveName = (n: string) => { try { localStorage.setItem("name", n); } catch { /* ignore */ } };
 
@@ -138,7 +168,29 @@ function Home({ onLocal, onOnline }: { onLocal: (n: [string, string], s: Setting
             Start game
           </button>
         ) : (
-          <button className="btn primary big" disabled={creating} onClick={create}>{creating ? "Creating…" : "Create online game"}</button>
+          <>
+            <button className="btn primary big" disabled={creating} onClick={create}>{creating ? "Creating…" : "Create online game"}</button>
+            <div className="divider"><span>or</span></div>
+            <div className="join-code">
+              <label htmlFor="game-code">Have a game code?</label>
+              <div className="share">
+                <input
+                  id="game-code"
+                  className="input code-input"
+                  value={codeInput}
+                  placeholder="Input game code"
+                  maxLength={64}
+                  autoCapitalize="characters"
+                  autoComplete="off"
+                  spellCheck={false}
+                  onChange={(e) => { setCodeInput(e.target.value); setCodeError(null); }}
+                  onKeyDown={(e) => e.key === "Enter" && joinWithCode()}
+                />
+                <button className="btn" disabled={!codeInput.trim()} onClick={joinWithCode}>Join game</button>
+              </div>
+              {codeError && <div className="error">{codeError}</div>}
+            </div>
+          </>
         )}
       </section>
     </div>
@@ -207,7 +259,7 @@ function LocalGame({ names, settings, onExit }: { names: [string, string]; setti
 
 // ---------- online ----------
 
-function OnlineGame({ code, onExit }: { code: string; onExit: () => void }) {
+function OnlineGame({ code, joinName, onExit }: { code: string; joinName?: string; onExit: () => void }) {
   const data = useData();
   const socketRef = useRef<Socket<ServerToClient, ClientToServer> | null>(null);
   const [room, setRoom] = useState<RoomView | null>(null);
@@ -240,6 +292,7 @@ function OnlineGame({ code, onExit }: { code: string; onExit: () => void }) {
   }, [code, tokenKey]);
 
   const join = (name: string) => {
+    setError(null);
     try { localStorage.setItem("name", name); } catch { /* ignore */ }
     socketRef.current?.emit("join", { code, name }, (res) => {
       if (!res.ok) return setError(res.error);
@@ -251,7 +304,18 @@ function OnlineGame({ code, onExit }: { code: string; onExit: () => void }) {
     socketRef.current?.emit("move", intent, (res) => resolve(res.ok ? null : res.error));
   }), []);
 
+  // Came from "Input game code" on the home page: join immediately with that name.
+  // If it fails (bad code, game full), fall back to the join form showing the error.
+  const autoJoined = useRef(false);
+  useEffect(() => {
+    if (needsJoin && joinName && !autoJoined.current) {
+      autoJoined.current = true;
+      join(joinName);
+    }
+  }, [needsJoin, joinName]);
+
   if (!data) return <Loading />;
+  if (needsJoin && joinName && !error) return <Loading text="Joining game" />;
   if (needsJoin) return <JoinForm code={code} error={error} onJoin={join} onExit={onExit} />;
   if (!room) return <Loading text={connected ? "Connecting to game…" : "Reconnecting…"} />;
 
@@ -317,8 +381,8 @@ function WaitingRoom({ code }: { code: string }) {
   return (
     <section className="panel narrow center">
       <h2>Waiting for your opponent…</h2>
-      <p className="muted">Send them this link. The game starts as soon as they join.</p>
-      <div className="code big">{code}</div>
+      <p className="muted">Send them the link, or have them tap <b>Play online</b> and enter this code. The game starts as soon as they join.</p>
+      <div className="code big" aria-label={`Game code ${code.split("").join(" ")}`}>{code}</div>
       <div className="share">
         <input className="input" readOnly value={url} onFocus={(e) => e.target.select()} />
         <button className="btn primary" onClick={copy}>{copied ? "Copied!" : "Copy link"}</button>
