@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { io, type Socket } from "socket.io-client";
 import {
-  applyMove, DEFAULT_SETTINGS, newGame, other, randomTeam, startRound, TURN_OPTIONS,
+  applyMove, DEFAULT_SETTINGS, MAX_PLAYERS, MIN_PLAYERS, newGame, randomTeam, startRound, TURN_OPTIONS,
   type GameState, type Move, type Seat, type Settings,
 } from "../engine/engine.ts";
 import { DISCONNECT_CLAIM_MS, type ClientToServer, type Intent, type RoomView, type ServerToClient } from "../shared/protocol.ts";
@@ -10,7 +10,7 @@ import { GameView } from "./GameView.tsx";
 
 type Route =
   | { page: "home" }
-  | { page: "local"; names: [string, string]; settings: Settings }
+  | { page: "local"; names: string[]; settings: Settings }
   /** joinName: set when the player typed a code on the home page, so we join right away */
   | { page: "online"; code: string; joinName?: string };
 
@@ -101,12 +101,13 @@ function SettingsForm({ settings, onChange }: { settings: Settings; onChange: (s
 }
 
 function Home({ onLocal, onOnline }: {
-  onLocal: (n: [string, string], s: Settings) => void;
+  onLocal: (n: string[], s: Settings) => void;
   onOnline: (code: string, joinName?: string) => void;
 }) {
   const [mode, setMode] = useState<"local" | "online">("local");
   const [p1, setP1] = useState(() => { try { return localStorage.getItem("name") ?? ""; } catch { return ""; } });
-  const [p2, setP2] = useState("");
+  // pass & play: everyone after player 1
+  const [others, setOthers] = useState<string[]>([""]);
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [error, setError] = useState<string | null>(null);
   const [creating, setCreating] = useState(false);
@@ -140,7 +141,7 @@ function Home({ onLocal, onOnline }: {
   return (
     <div className="home">
       <section className="hero">
-        <div className="eyebrow">Two-player NFL trivia</div>
+        <div className="eyebrow">NFL trivia for 2–6 players</div>
         <h1>Build the chain.<br /><span className="hl">Don't break it.</span></h1>
         <p>Players and connections take turns. Connections are only colleges, jersey numbers, and NFL teams. No repeats. First invalid move, timeout, or give-up loses the round.</p>
         <p className="credit">Created by: <b>Arsh Sinha</b></p>
@@ -155,16 +156,29 @@ function Home({ onLocal, onOnline }: {
           <label>{mode === "local" ? "Player 1" : "Your name"}
             <input className="input" value={p1} maxLength={24} placeholder="Name" onChange={(e) => setP1(e.target.value)} />
           </label>
-          {mode === "local" && (
-            <label>Player 2
-              <input className="input" value={p2} maxLength={24} placeholder="Name" onChange={(e) => setP2(e.target.value)} />
+          {mode === "local" && others.map((n, i) => (
+            <label key={i}>Player {i + 2}
+              <div className="name-row">
+                <input className="input" value={n} maxLength={24} placeholder="Name"
+                  onChange={(e) => setOthers(others.map((o, j) => (j === i ? e.target.value : o)))} />
+                {others.length > MIN_PLAYERS - 1 && (
+                  <button className="btn ghost icon-x" aria-label={`Remove player ${i + 2}`}
+                    onClick={() => setOthers(others.filter((_, j) => j !== i))}>✕</button>
+                )}
+              </div>
             </label>
-          )}
+          ))}
         </div>
+        {mode === "local" && others.length + 1 < MAX_PLAYERS && (
+          <button className="btn small add-player" onClick={() => setOthers([...others, ""])}>+ Add player</button>
+        )}
+        {mode === "local" && others.length > 1 && (
+          <p className="muted small rule-note">Turns rotate in order. Break the chain and you're out — last one standing wins the round.</p>
+        )}
         <SettingsForm settings={settings} onChange={setSettings} />
         {error && <div className="error">{error}</div>}
         {mode === "local" ? (
-          <button className="btn primary big" onClick={() => { saveName(p1.trim()); onLocal([p1.trim() || "Player 1", p2.trim() || "Player 2"], settings); }}>
+          <button className="btn primary big" onClick={() => { saveName(p1.trim()); onLocal([p1, ...others].map((n, i) => n.trim() || `Player ${i + 1}`), settings); }}>
             Start game
           </button>
         ) : (
@@ -221,7 +235,7 @@ function Loading({ text = "Warming up the roster" }: { text?: string }) {
 
 // ---------- pass & play ----------
 
-function LocalGame({ names, settings, onExit }: { names: [string, string]; settings: Settings; onExit: () => void }) {
+function LocalGame({ names, settings, onExit }: { names: string[]; settings: Settings; onExit: () => void }) {
   const data = useData();
   const [game, setGame] = useState<GameState | null>(null);
   const now = useNow();
@@ -319,32 +333,35 @@ function OnlineGame({ code, joinName, onExit }: { code: string; joinName?: strin
   if (needsJoin) return <JoinForm code={code} error={error} onJoin={join} onExit={onExit} />;
   if (!room) return <Loading text={connected ? "Connecting to game…" : "Reconnecting…"} />;
 
-  const opp = room.seats[other(room.you)];
-  if (!opp) return <WaitingRoom code={code} />;
-
   const r = room.game.round;
-  const oppGoneFor = opp.disconnectedAt ? now - opp.disconnectedAt : 0;
-  const status = room.seats.map((s, i) => (
-    <span key={i} className={`dot ${s?.connected ? "on" : "off"}`} title={s?.connected ? "Connected" : "Disconnected"}>
+  if (!r) {
+    return <Lobby room={room} error={error} onStart={() => socketRef.current?.emit("start", (res) => setError(res.ok ? null : res.error))} />;
+  }
+
+  // players still in the round who dropped; the earliest one sets the claim countdown
+  const gone = room.seats.filter((s, i) => !s.connected && s.disconnectedAt && r.alive[i] && i !== room.you);
+  const goneFor = gone.length ? now - Math.max(...gone.map((s) => s.disconnectedAt!)) : 0;
+  const solo = room.seats.length === 2;
+  const status: ReactNode[] = room.seats.map((s, i) => (
+    <span key={i} className={`dot ${s.connected ? "on" : "off"}`} title={s.connected ? "Connected" : "Disconnected"}>
       {i === room.you ? " (you)" : ""}
     </span>
-  )) as [ReactNode, ReactNode];
+  ));
 
   const notice = (
     <>
       {!connected && <div className="notice warn">Connection lost — reconnecting…</div>}
-      {!opp.connected && (
+      {gone.length > 0 && (
         <div className="notice warn">
-          {opp.name} disconnected.{" "}
-          {r?.status === "playing" && (oppGoneFor >= DISCONNECT_CLAIM_MS
-            ? <button className="btn small primary" onClick={() => socketRef.current?.emit("claimWin", () => {})}>Claim the win</button>
-            : <>You can claim the win in {Math.ceil((DISCONNECT_CLAIM_MS - oppGoneFor) / 1000)}s.</>)}
+          {gone.map((s) => s.name).join(", ")} disconnected.{" "}
+          {r.status === "playing" && (goneFor >= DISCONNECT_CLAIM_MS
+            ? <button className="btn small primary" onClick={() => socketRef.current?.emit("claimWin", () => {})}>{solo ? "Claim the win" : "Knock them out"}</button>
+            : <>You can {solo ? "claim the win" : "knock them out"} in {Math.ceil((DISCONNECT_CLAIM_MS - goneFor) / 1000)}s.</>)}
         </div>
       )}
     </>
   );
 
-  if (!r) return <Loading text="Starting…" />;
   return (
     <GameView
       data={data} game={room.game} mySeat={room.you} now={now} onMove={onMove} seatStatus={status} notice={notice}
@@ -372,22 +389,41 @@ function JoinForm({ code, error, onJoin, onExit }: { code: string; error: string
   );
 }
 
-function WaitingRoom({ code }: { code: string }) {
+function Lobby({ room, error, onStart }: { room: RoomView; error: string | null; onStart: () => void }) {
+  const { code } = room;
   const url = `${location.origin}/game/${code}`;
+  const host = room.you === 0;
+  const enough = room.seats.length >= MIN_PLAYERS;
   const [copied, setCopied] = useState(false);
   const copy = async () => {
     try { await navigator.clipboard.writeText(url); setCopied(true); setTimeout(() => setCopied(false), 1500); } catch { /* ignore */ }
   };
   return (
     <section className="panel narrow center">
-      <h2>Waiting for your opponent…</h2>
-      <p className="muted">Send them the link, or have them tap <b>Play online</b> and enter this code. The game starts as soon as they join.</p>
+      <h2>Game lobby</h2>
+      <p className="muted">Send friends the link, or have them tap <b>Play online</b> and enter this code. Up to {room.maxPlayers} players.</p>
       <div className="code big" aria-label={`Game code ${code.split("").join(" ")}`}>{code}</div>
       <div className="share">
         <input className="input" readOnly value={url} onFocus={(e) => e.target.select()} />
         <button className="btn primary" onClick={copy}>{copied ? "Copied!" : "Copy link"}</button>
       </div>
-      <div className="spinner" />
+      <ol className="lobby-list">
+        {room.seats.map((s, i) => (
+          <li key={i}>
+            <span>{s.name}{i === room.you ? " (you)" : ""}</span>
+            <span className="muted small">{i === 0 ? "Host" : ""}<span className={`dot ${s.connected ? "on" : "off"}`} /></span>
+          </li>
+        ))}
+      </ol>
+      {error && <div className="error">{error}</div>}
+      {host ? (
+        <button className="btn primary big" disabled={!enough} onClick={onStart}>
+          {enough ? `Start game · ${room.seats.length} players` : "Waiting for players…"}
+        </button>
+      ) : (
+        <p className="muted">Waiting for <b>{room.seats[0].name}</b> to start the game…</p>
+      )}
+      {!enough && <div className="spinner" />}
     </section>
   );
 }

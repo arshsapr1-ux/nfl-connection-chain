@@ -14,7 +14,7 @@ export interface SeatRecord {
 export interface Room {
   code: string;
   settings: Settings;
-  seats: [SeatRecord | null, SeatRecord | null];
+  seats: SeatRecord[];
   game: GameState;
   lastActivity: number;
 }
@@ -50,8 +50,8 @@ export function createRoom(store: RoomStore, name: string, settings: Settings, n
   const room: Room = {
     code: newCode(store),
     settings,
-    seats: [{ token, name, connected: true, disconnectedAt: null }, null],
-    game: newGame([name, ""], settings),
+    seats: [{ token, name, connected: true, disconnectedAt: null }],
+    game: newGame([name], settings),
     lastActivity: now,
   };
   store.set(room);

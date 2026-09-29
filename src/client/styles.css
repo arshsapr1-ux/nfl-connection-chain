@@ -244,13 +244,49 @@ label.check input { width: 18px; height: 18px; accent-color: var(--accent); }
 .wheel-result { font-family: var(--display); font-size: 30px; letter-spacing: 0.04em; min-height: 36px; color: var(--muted); }
 .wheel-result.show { color: var(--text); animation: pop 0.45s cubic-bezier(0.2, 1.4, 0.4, 1); }
 
-/* end */
-.end { text-align: center; display: flex; flex-direction: column; gap: 8px; align-items: stretch; }
-.end-trophy { font-size: 56px; animation: pop 0.6s cubic-bezier(0.2, 1.6, 0.4, 1); filter: drop-shadow(0 6px 12px rgba(255, 176, 32, 0.4)); }
-.end h2 { font-size: 44px; }
-.end-reason { font-size: 17px; font-weight: 700; color: var(--bad); margin: 0; }
-.end .chain { text-align: left; }
-.end-actions { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-top: 6px; }
+/* end: one narrow vertical card */
+.end { max-width: 440px; margin: 12px auto 0; text-align: center; display: flex; flex-direction: column; gap: 14px; align-items: stretch; }
+.end-trophy { font-size: 52px; line-height: 1; animation: pop 0.6s cubic-bezier(0.2, 1.6, 0.4, 1); filter: drop-shadow(0 6px 12px rgba(255, 176, 32, 0.4)); }
+.end-round { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent-2); margin-bottom: -10px; }
+.end h2 { font-size: 46px; margin: 0; }
+.end-reason { font-size: 15px; font-weight: 700; color: var(--bad); margin: -6px 0 0; }
+.end-stats { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--card-2); border: 1px solid var(--border); border-radius: 14px; padding: 10px 4px; }
+.end-stats div { display: flex; flex-direction: column; }
+.end-stats div + div { border-left: 1px solid var(--border); }
+.end-stats b { font-family: var(--display); font-weight: 400; font-size: 30px; line-height: 1; }
+.end-stats span { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.standings, .lobby-list, .chain-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; text-align: left; width: 100%; }
+.standings li, .lobby-list li {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 14px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px; font-weight: 700;
+}
+.standings li.win { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.standings li.win .standings-name::after { content: " 🏆"; }
+.standings-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.standings-score { font-family: var(--display); font-weight: 400; font-size: 24px; line-height: 1; }
+.standings li.win .standings-score { color: var(--accent); }
+.end-actions { display: flex; flex-direction: column; gap: 8px; }
+.end > .btn.ghost { align-self: center; }
+.chain-list { gap: 0; max-height: 360px; overflow-y: auto; padding: 4px 2px; }
+.chain-list li { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 7px 4px 7px 22px; position: relative; animation: pop 0.25s ease-out; }
+.chain-list li::before { content: ""; position: absolute; left: 7px; top: 0; bottom: 0; width: 2px; background: var(--border); }
+.chain-list li::after { content: ""; position: absolute; left: 3px; top: 50%; width: 10px; height: 10px; margin-top: -5px; border-radius: 50%; background: var(--accent); }
+.chain-list li:first-child::before { top: 50%; }
+.chain-list li:last-child::before { bottom: 50%; }
+.chain-player { font-weight: 800; }
+.chain-by { font-size: 12px; color: var(--muted); white-space: nowrap; }
+
+/* multiplayer */
+.scoreboard.multi { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.scoreboard.multi .score::before { inset: 0 auto 0 0; }
+.score.out { opacity: 0.45; }
+.score.out .score-name { text-decoration: line-through; }
+.out-note { font-size: 13px; font-weight: 700; color: var(--bad); margin-top: 4px; }
+.name-row { display: flex; gap: 6px; }
+.icon-x { flex: none; padding: 0 10px; }
+.add-player { align-self: flex-start; margin-top: -8px; }
+.rule-note { margin: -8px 0 0; }
+.lobby-list .dot::before { margin-left: 8px; }
 
 /* online */
 .code { font-family: var(--display); letter-spacing: 0.14em; color: var(--accent); }

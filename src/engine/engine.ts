@@ -1,7 +1,11 @@
 // Pure game logic: no UI, no network, no clock (callers pass `now`).
 import type { ConnectionKind, Dataset } from "./dataset.ts";
 
-export type Seat = 0 | 1;
+/** index into GameState.names (0-based turn order) */
+export type Seat = number;
+
+export const MIN_PLAYERS = 2;
+export const MAX_PLAYERS = 6;
 
 export interface Settings {
   /** seconds per turn, or null for no timer */
@@ -36,7 +40,7 @@ export interface Round {
   number: number;
   status: "playing" | "over";
   wheelTeam: string;
-  /** seat that names players this round (the other names connections) */
+  /** seat that opens the round by naming a player; turns then rotate through the seats */
   playerNamer: Seat;
   turn: Seat;
   expecting: "player" | "connection";
@@ -44,7 +48,11 @@ export interface Round {
   /** "kind:value" keys */
   usedConnections: string[];
   usedPlayers: string[];
-  strikesLeft: [number, number];
+  strikesLeft: number[];
+  /** seats still in this round; a broken move knocks a seat out */
+  alive: boolean[];
+  /** eliminations in order */
+  outs: { seat: Seat; reason: string }[];
   /** epoch ms when the current turn times out, or null if untimed */
   deadline: number | null;
   /** ms epoch when the wheel animation ends */
@@ -56,25 +64,34 @@ export interface Round {
 }
 
 export interface GameState {
-  names: [string, string];
+  names: string[];
   settings: Settings;
-  scores: [number, number];
+  scores: number[];
   round: Round | null;
 }
 
 export type MoveResult = { ok: true; state: GameState } | { ok: false; error: string; state: GameState };
 
 export const connKey = (kind: ConnectionKind, value: string) => `${kind}:${value}`;
-export const other = (s: Seat): Seat => (s === 0 ? 1 : 0);
+/** The next seat still in the round after `s`, in turn order. */
+export function nextAlive(alive: boolean[], s: Seat): Seat {
+  for (let i = 1; i <= alive.length; i++) {
+    const n = (s + i) % alive.length;
+    if (alive[n]) return n;
+  }
+  return s;
+}
 
-export function newGame(names: [string, string], settings: Settings = DEFAULT_SETTINGS): GameState {
-  return { names, settings: { ...settings }, scores: [0, 0], round: null };
+export function newGame(names: string[], settings: Settings = DEFAULT_SETTINGS): GameState {
+  return { names, settings: { ...settings }, scores: names.map(() => 0), round: null };
 }
 
 /** Start the next round. `wheelTeam` is chosen by the caller (server or local RNG). */
 export function startRound(state: GameState, wheelTeam: string, now: number): GameState {
   const number = (state.round?.number ?? 0) + 1;
-  const playerNamer: Seat = state.settings.swapRoles && number % 2 === 0 ? 1 : 0;
+  const n = state.names.length;
+  // rotating the opener each round also swaps who names players vs. connections
+  const playerNamer: Seat = state.settings.swapRoles ? (number - 1) % n : 0;
   const spinUntil = now + SPIN_MS;
   const s = Math.max(1, state.settings.strikes);
   return {
@@ -82,7 +99,8 @@ export function startRound(state: GameState, wheelTeam: string, now: number): Ga
     round: {
       number, status: "playing", wheelTeam, playerNamer, turn: playerNamer, expecting: "player",
       chain: [{ type: "connection", kind: "team", value: wheelTeam, seat: null }],
-      usedConnections: [connKey("team", wheelTeam)], usedPlayers: [], strikesLeft: [s, s],
+      usedConnections: [connKey("team", wheelTeam)], usedPlayers: [], strikesLeft: Array(n).fill(s),
+      alive: Array(n).fill(true), outs: [],
       deadline: deadlineFrom(state.settings, spinUntil), spinUntil,
       lastError: null, winner: null, loseReason: null,
     },
@@ -97,13 +115,27 @@ function deadlineFrom(settings: Settings, from: number): number | null {
   return settings.turnSeconds ? from + settings.turnSeconds * 1000 : null;
 }
 
-function endRound(state: GameState, loser: Seat, reason: string): GameState {
+/**
+ * Knock `loser` out. With one seat left, it wins the round; otherwise play passes to the
+ * next seat still in, which must answer the same prompt with a fresh clock.
+ */
+function eliminate(state: GameState, loser: Seat, reason: string, now: number): GameState {
   const r = state.round!;
-  const winner = other(loser);
-  const scores: [number, number] = [...state.scores];
-  scores[winner] += 1;
-  return { ...state, scores, round: { ...r, status: "over", winner, loseReason: reason, deadline: null, lastError: null } };
+  if (!r.alive[loser]) return state;
+  const alive = r.alive.map((a, i) => a && i !== loser);
+  const outs = [...r.outs, { seat: loser, reason }];
+  const left = alive.flatMap((a, i) => (a ? [i] : []));
+  if (left.length <= 1) {
+    const winner = left[0];
+    const scores = [...state.scores];
+    scores[winner] += 1;
+    return { ...state, scores, round: { ...r, alive, outs, status: "over", winner, loseReason: reason, deadline: null, lastError: null } };
+  }
+  const turn = r.turn === loser ? nextAlive(alive, loser) : r.turn;
+  const deadline = r.turn === loser ? deadlineFrom(state.settings, Math.max(now, r.spinUntil)) : r.deadline;
+  return { ...state, round: { ...r, alive, outs, turn, deadline, lastError: { seat: loser, message: reason } } };
 }
+
 
 /** The previous link the current move must connect to. */
 function lastLink(r: Round): ChainLink {
@@ -152,17 +184,18 @@ export function applyMove(state: GameState, move: Move, data: Dataset, now: numb
   const r = state.round;
   if (!r || r.status !== "playing") return { ok: false, error: "No round in progress.", state };
 
-  if (move.type === "forfeit") return { ok: true, state: endRound(state, move.seat, move.reason) };
-  if (move.type === "giveUp") return { ok: true, state: endRound(state, move.seat, `${state.names[move.seat]} gave up.`) };
+  if (!r.alive[move.seat]) return { ok: false, error: "You're out this round.", state };
+  if (move.type === "forfeit") return { ok: true, state: eliminate(state, move.seat, move.reason, now) };
+  if (move.type === "giveUp") return { ok: true, state: eliminate(state, move.seat, `${state.names[move.seat]} gave up.`, now) };
 
   if (move.seat !== r.turn) return { ok: false, error: "It's not your turn.", state };
 
   if (move.type === "timeout") {
     if (r.deadline === null || now < r.deadline) return { ok: false, error: "Time isn't up yet.", state };
-    return { ok: true, state: endRound(state, move.seat, `${state.names[move.seat]} ran out of time.`) };
+    return { ok: true, state: eliminate(state, move.seat, `${state.names[move.seat]} ran out of time.`, now) };
   }
   if (r.deadline !== null && now >= r.deadline) {
-    return { ok: true, state: endRound(state, move.seat, `${state.names[move.seat]} ran out of time.`) };
+    return { ok: true, state: eliminate(state, move.seat, `${state.names[move.seat]} ran out of time.`, now) };
   }
   if (move.type !== r.expecting) {
     return { ok: false, error: r.expecting === "player" ? "Name a player." : "Name a connection.", state };
@@ -170,16 +203,16 @@ export function applyMove(state: GameState, move: Move, data: Dataset, now: numb
 
   const error = validate(state, move, data);
   if (error) {
-    const strikesLeft: [number, number] = [...r.strikesLeft];
+    const strikesLeft = [...r.strikesLeft];
     strikesLeft[move.seat] -= 1;
     if (strikesLeft[move.seat] <= 0) {
-      return { ok: false, error, state: endRound(state, move.seat, error) };
+      return { ok: false, error, state: eliminate(state, move.seat, error, now) };
     }
     // strike: same player tries again, timer keeps running
     return { ok: false, error, state: { ...state, round: { ...r, strikesLeft, lastError: { seat: move.seat, message: error } } } };
   }
 
-  const next = other(move.seat);
+  const next = nextAlive(r.alive, move.seat);
   const round: Round = {
     ...r,
     turn: next,

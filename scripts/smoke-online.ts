@@ -8,7 +8,8 @@ const created = await call(a, "create", { name: "Arsh", settings: { turnSeconds:
 console.log("create", created.ok, created.code);
 const bState = nextState(b);
 const joined = await call(b, "join", { code: created.code, name: "Sam" });
-const st = await bState;
+await bState;
+const st = await new Promise<any>((r) => { b.once("state", r); a.emit("start", () => {}); });
 const r = st.game.round;
 console.log("join", joined.ok, "| wheel:", r.wheelTeam, "| turn seat", r.turn, "| names", st.game.names);
 await new Promise((res) => setTimeout(res, 5100)); // wait out the wheel spin

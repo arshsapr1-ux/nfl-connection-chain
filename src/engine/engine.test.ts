@@ -15,8 +15,8 @@ const MOSS = "MossRa00", AB = "BrowAn04", RUSH = "RushCo00", TURPIN = "TurpKa00"
 function game(wheel: string, settings = {}) {
   return startRound(newGame(["Arsh", "Sam"], { turnSeconds: 45, strikes: 1, swapRoles: true, ...settings }), wheel, T0);
 }
-const P = (seat: 0 | 1, playerId: string): Move => ({ type: "player", seat, playerId });
-const C = (seat: 0 | 1, kind: "college" | "number" | "team", value: string): Move => ({ type: "connection", seat, kind, value });
+const P = (seat: number, playerId: string): Move => ({ type: "player", seat, playerId });
+const C = (seat: number, kind: "college" | "number" | "team", value: string): Move => ({ type: "connection", seat, kind, value });
 
 /** apply moves in order, 1s apart; returns the final result */
 function play(state: GameState, moves: Move[]) {
@@ -131,6 +131,27 @@ describe("engine", () => {
     expect(r2.round!.number).toBe(2);
     expect(r2.round!.playerNamer).toBe(1);
     expect(r2.round!.turn).toBe(1);
+  });
+
+  it("rotates turns through 3 players and eliminates whoever breaks the chain", () => {
+    const g = startRound(newGame(["A", "B", "C"], { turnSeconds: 45, strikes: 1, swapRoles: true }), "MIN", T0);
+    // A: player, B: connection, C: player, A: connection
+    const r = play(g, [P(0, MOSS), C(1, "number", "84"), P(2, AB), C(0, "college", "central-michigan")]);
+    expect(r.error).toBeUndefined();
+    expect(r.state.round!.turn).toBe(1);
+    // B names a bad player: B is out, C must answer the same prompt
+    const bad = play(r.state, [P(1, MILLER)]);
+    expect(bad.state.round!.status).toBe("playing");
+    expect(bad.state.round!.alive).toEqual([true, false, true]);
+    expect(bad.state.round!.turn).toBe(2);
+    expect(bad.state.round!.expecting).toBe("player");
+    // C answers, then A (next alive after C) gives up: C wins
+    const end = play(bad.state, [P(2, RUSH), { type: "giveUp", seat: 0 }]);
+    expect(end.state.round!.status).toBe("over");
+    expect(end.state.round!.winner).toBe(2);
+    expect(end.state.scores).toEqual([0, 0, 1]);
+    // round 2 opens with the next seat
+    expect(startRound(end.state, "DAL", T0 + 99_000).round!.turn).toBe(1);
   });
 });
 

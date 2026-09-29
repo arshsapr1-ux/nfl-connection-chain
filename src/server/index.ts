@@ -9,7 +9,7 @@ import express from "express";
 import { Server, type Socket } from "socket.io";
 import { Dataset } from "../engine/dataset.ts";
 import {
-  applyMove, DEFAULT_SETTINGS, other, randomTeam, startRound, TURN_OPTIONS, type Seat, type Settings,
+  applyMove, DEFAULT_SETTINGS, MAX_PLAYERS, MIN_PLAYERS, randomTeam, startRound, TURN_OPTIONS, type Seat, type Settings,
 } from "../engine/engine.ts";
 import { DISCONNECT_CLAIM_MS, type ClientToServer, type RoomView, type ServerToClient } from "../shared/protocol.ts";
 import { createRoom, MemoryRoomStore, newToken, type Room, type RoomStore } from "./rooms.ts";
@@ -40,8 +40,8 @@ const cleanName = (n: unknown) => String(n ?? "").trim().slice(0, 24) || "Player
 
 function view(room: Room, seat: Seat): RoomView {
   return {
-    code: room.code, you: seat, game: room.game, serverNow: Date.now(),
-    seats: room.seats.map((s) => s && { name: s.name, connected: s.connected, disconnectedAt: s.disconnectedAt }) as RoomView["seats"],
+    code: room.code, you: seat, game: room.game, serverNow: Date.now(), maxPlayers: MAX_PLAYERS,
+    seats: room.seats.map((s) => ({ name: s.name, connected: s.connected, disconnectedAt: s.disconnectedAt })),
   };
 }
 
@@ -75,7 +75,7 @@ function beginRound(room: Room) {
 function attach(socket: Socket, room: Room, seat: Seat) {
   socket.data = { code: room.code, seat };
   void socket.join(room.code);
-  const s = room.seats[seat]!;
+  const s = room.seats[seat];
   s.connected = true;
   s.disconnectedAt = null;
 }
@@ -97,13 +97,13 @@ io.on("connection", (socket) => {
   socket.on("join", (p, ack) => {
     const room = store.get(String(p?.code ?? "").toUpperCase());
     if (!room) return ack({ ok: false, error: "That game doesn't exist or has expired." });
-    if (room.seats[1]) return ack({ ok: false, error: "That game is already full." });
+    if (room.game.round) return ack({ ok: false, error: "That game has already started." });
+    if (room.seats.length >= MAX_PLAYERS) return ack({ ok: false, error: "That game is already full." });
     const token = newToken();
     const name = cleanName(p?.name);
-    room.seats[1] = { token, name, connected: true, disconnectedAt: null };
-    room.game = { ...room.game, names: [room.seats[0]!.name, name] };
-    attach(socket, room, 1);
-    beginRound(room);
+    room.seats.push({ token, name, connected: true, disconnectedAt: null });
+    room.game = { ...room.game, names: room.seats.map((s) => s.name), scores: room.seats.map(() => 0) };
+    attach(socket, room, room.seats.length - 1);
     ack({ ok: true, token });
     void broadcast(room);
   });
@@ -135,6 +135,17 @@ io.on("connection", (socket) => {
     void broadcast(room);
   });
 
+  socket.on("start", (ack) => {
+    const cur = current();
+    if (!cur) return ack({ ok: false, error: "Not in a game." });
+    if (cur.seat !== 0) return ack({ ok: false, error: "Only the host can start the game." });
+    if (cur.room.game.round) return ack({ ok: false, error: "The game has already started." });
+    if (cur.room.seats.length < MIN_PLAYERS) return ack({ ok: false, error: `Need at least ${MIN_PLAYERS} players.` });
+    beginRound(cur.room);
+    ack({ ok: true });
+    void broadcast(cur.room);
+  });
+
   socket.on("nextRound", () => {
     const cur = current();
     if (!cur || cur.room.game.round?.status !== "over") return;
@@ -145,7 +156,7 @@ io.on("connection", (socket) => {
   socket.on("newGame", () => {
     const cur = current();
     if (!cur || cur.room.game.round?.status !== "over") return;
-    cur.room.game = { ...cur.room.game, scores: [0, 0], round: null };
+    cur.room.game = { ...cur.room.game, scores: cur.room.game.names.map(() => 0), round: null };
     beginRound(cur.room);
     void broadcast(cur.room);
   });
@@ -153,14 +164,17 @@ io.on("connection", (socket) => {
   socket.on("claimWin", (ack) => {
     const cur = current();
     if (!cur) return ack({ ok: false, error: "Not in a game." });
-    const { room, seat } = cur;
-    const opp = room.seats[other(seat)];
-    if (!opp || opp.connected || !opp.disconnectedAt || Date.now() - opp.disconnectedAt < DISCONNECT_CLAIM_MS) {
-      return ack({ ok: false, error: "Your opponent is still here." });
+    const { room } = cur;
+    // knock out every player still in the round who has been gone long enough
+    const now = Date.now();
+    const gone = room.seats.flatMap((s, i) =>
+      !s.connected && s.disconnectedAt && now - s.disconnectedAt >= DISCONNECT_CLAIM_MS && room.game.round?.alive[i] ? [i] : []);
+    if (!gone.length) return ack({ ok: false, error: "Everyone is still here." });
+    for (const i of gone) {
+      const res = applyMove(room.game, { type: "forfeit", seat: i, reason: `${room.seats[i].name} disconnected.` }, data, now);
+      room.game = res.state;
     }
-    const res = applyMove(room.game, { type: "forfeit", seat: other(seat), reason: `${opp.name} disconnected.` }, data, Date.now());
-    room.game = res.state;
-    ack(res.ok ? { ok: true } : { ok: false, error: res.error });
+    ack({ ok: true });
     void broadcast(room);
   });
 
@@ -170,7 +184,7 @@ io.on("connection", (socket) => {
     // another tab/socket may still hold this seat
     const still = (await io.in(cur.room.code).fetchSockets()).some((s) => s.data.seat === cur.seat);
     if (still) return;
-    const s = cur.room.seats[cur.seat]!;
+    const s = cur.room.seats[cur.seat];
     s.connected = false;
     s.disconnectedAt = Date.now();
     void broadcast(cur.room);

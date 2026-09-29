@@ -78,12 +78,13 @@ function UsedPanel({ data, used }: { data: Dataset; used: string[] }) {
   );
 }
 
-export function Scoreboard({ game, highlight, status }: { game: GameState; highlight: Seat | null; status?: [ReactNode, ReactNode] }) {
+export function Scoreboard({ game, highlight, status }: { game: GameState; highlight: Seat | null; status?: ReactNode[] }) {
+  const alive = game.round?.status === "playing" ? game.round.alive : null;
   return (
-    <div className="scoreboard">
-      {([0, 1] as Seat[]).map((s) => (
-        <div key={s} className={`score ${highlight === s ? "on" : ""}`}>
-          <span className="score-name">{game.names[s] || "Waiting…"}{status?.[s]}</span>
+    <div className={`scoreboard ${game.names.length > 2 ? "multi" : ""}`}>
+      {game.names.map((name, s) => (
+        <div key={s} className={`score ${highlight === s ? "on" : ""} ${alive && !alive[s] ? "out" : ""}`}>
+          <span className="score-name">{name || "Waiting…"}{status?.[s]}</span>
           <span className="score-num">{game.scores[s]}</span>
         </div>
       ))}
@@ -100,7 +101,7 @@ export interface GameViewProps {
   onMove: (intent: Intent) => Promise<string | null>;
   onNextRound: () => void;
   onNewGame: () => void;
-  seatStatus?: [ReactNode, ReactNode];
+  seatStatus?: ReactNode[];
   notice?: ReactNode;
 }
 
@@ -115,6 +116,18 @@ export function GameView({ data, game, mySeat, now, onMove, onNextRound, onNewGa
   const myTurn = mySeat === null || mySeat === active;
   const secondsLeft = r.deadline === null ? null : Math.max(0, Math.ceil((r.deadline - now) / 1000));
   const shownError = error ?? (r.lastError && (mySeat === null || r.lastError.seat === mySeat) ? r.lastError.message : null);
+  const lastOut = r.outs[r.outs.length - 1];
+  const iAmOut = mySeat !== null && !r.alive[mySeat];
+  const over = r.status === "over";
+
+  if (over && !spinning) {
+    return (
+      <div className="game">
+        {notice}
+        <EndScreen data={data} game={game} mySeat={mySeat} onNextRound={onNextRound} onNewGame={onNewGame} />
+      </div>
+    );
+  }
 
   const send = async (intent: Intent) => {
     setBusy(true);
@@ -134,8 +147,6 @@ export function GameView({ data, game, mySeat, now, onMove, onNextRound, onNewGa
         <section className="panel main">
           {spinning ? (
             <Wheel teams={data.teams} result={r.wheelTeam} spinUntil={r.spinUntil} now={now} />
-          ) : r.status === "over" ? (
-            <EndScreen data={data} game={game} mySeat={mySeat} onNextRound={onNextRound} onNewGame={onNewGame} />
           ) : (
             <>
               <div className={`banner ${myTurn ? "mine" : ""}`}>
@@ -144,6 +155,10 @@ export function GameView({ data, game, mySeat, now, onMove, onNextRound, onNewGa
                   <div className="banner-who">
                     {myTurn ? <><b>{game.names[active]}</b> — {describePrompt(data, game)}</> : <>Waiting for <b>{game.names[active]}</b>…</>}
                   </div>
+                  {game.names.length > 2 && lastOut && (
+                    <div className="out-note">❌ {game.names[lastOut.seat]} is out — {lastOut.reason}</div>
+                  )}
+                  {iAmOut && <div className="out-note">You're out this round — watch the rest play it out.</div>}
                   {game.settings.strikes > 1 && (
                     <div className="strikes">Strikes left: {"●".repeat(r.strikesLeft[active])}{"○".repeat(game.settings.strikes - r.strikesLeft[active])}</div>
                   )}
@@ -170,19 +185,68 @@ function EndScreen({ data, game, mySeat, onNextRound, onNewGame }: {
 }) {
   const r = game.round!;
   const w = r.winner!;
+  const [showChain, setShowChain] = useState(false);
   const players = r.chain.filter((l) => l.type === "player").length;
-  const headline = mySeat === null ? `${game.names[w]} wins the round!` : mySeat === w ? "You win the round! 🎉" : `${game.names[w]} wins the round`;
+  const headline = mySeat === null ? `${game.names[w]} wins!` : mySeat === w ? "You win! 🎉" : `${game.names[w]} wins`;
+  const standings = game.names.map((name, seat) => ({ name, seat, score: game.scores[seat] })).sort((a, b) => b.score - a.score);
   return (
-    <div className="end">
+    <section className="panel end">
       <div className="end-trophy">🏆</div>
+      <div className="end-round">Round {r.number}</div>
       <h2>{headline}</h2>
       <p className="end-reason">{r.loseReason}</p>
-      <p className="muted">Chain length: <b>{players}</b> player{players === 1 ? "" : "s"}, {r.chain.length} links</p>
-      <ChainView data={data} chain={r.chain} />
+
+      <div className="end-stats">
+        <div><b>{players}</b><span>player{players === 1 ? "" : "s"}</span></div>
+        <div><b>{r.chain.length}</b><span>links</span></div>
+        <div><b>{r.usedConnections.length}</b><span>connections</span></div>
+      </div>
+
+      <ol className="standings">
+        {standings.map((s) => (
+          <li key={s.seat} className={s.seat === w ? "win" : ""}>
+            <span className="standings-name">{s.name}{s.seat === mySeat ? " (you)" : ""}</span>
+            <span className="standings-score">{s.score}</span>
+          </li>
+        ))}
+      </ol>
+
       <div className="end-actions">
         <button className="btn primary big" onClick={onNextRound}>Play again</button>
         <button className="btn" onClick={onNewGame}>New game</button>
       </div>
-    </div>
+
+      <button className="btn ghost small" aria-expanded={showChain} onClick={() => setShowChain((v) => !v)}>
+        {showChain ? "Hide chain ▲" : "View chain ▼"}
+      </button>
+      {showChain && <ChainList data={data} game={game} />}
+    </section>
+  );
+}
+
+/** The finished chain as a compact vertical list. */
+function ChainList({ data, game }: { data: Dataset; game: GameState }) {
+  const chain = game.round!.chain;
+  return (
+    <ol className="chain-list">
+      {chain.map((l, i) => {
+        const by = l.seat === null ? "Wheel" : game.names[l.seat];
+        if (l.type === "connection") {
+          return (
+            <li key={i}>
+              <span className={`chip small chip-${l.kind} ${l.seat === null ? "wheel-chip" : ""}`}>{connLabel(data, l.kind, l.value)}</span>
+              <span className="chain-by">{by}</span>
+            </li>
+          );
+        }
+        const p = data.player(l.playerId);
+        return (
+          <li key={i}>
+            <span className="chain-player">{p?.name ?? l.playerId}</span>
+            <span className="chain-by">{by}</span>
+          </li>
+        );
+      })}
+    </ol>
   );
 }

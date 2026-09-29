@@ -16,7 +16,9 @@ export interface SeatView {
 export interface RoomView {
   code: string;
   you: Seat;
-  seats: [SeatView | null, SeatView | null];
+  /** seat 0 is the host */
+  seats: SeatView[];
+  maxPlayers: number;
   game: GameState;
   serverNow: number;
 }
@@ -28,6 +30,8 @@ export interface ClientToServer {
   join: (p: { code: string; name: string }, ack: (r: Ack<{ token: string }>) => void) => void;
   resume: (p: { code: string; token: string }, ack: (r: Ack) => void) => void;
   move: (intent: Intent, ack: (r: Ack) => void) => void;
+  /** host only: leave the lobby and start round 1 */
+  start: (ack: (r: Ack) => void) => void;
   nextRound: () => void;
   newGame: () => void;
   claimWin: (ack: (r: Ack) => void) => void;
